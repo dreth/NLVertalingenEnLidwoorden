@@ -1,5 +1,5 @@
-# subtlex-nl-translations
-Taking subtlex-nl word frequency data, translating using google api and adding articles for nouns with the purpose of making an anki deck
+# NLVertalingenEnLidwoorden
+Taking subtlex-nl and wordlex word frequency data, translating using a translator api and adding articles for nouns with the purpose of making an anki deck
 
 I do not own or made subtlex-nl, the website is here:
 http://crr.ugent.be/programs-data/subtitle-frequencies/subtlex-nl
