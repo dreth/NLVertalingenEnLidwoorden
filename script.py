@@ -4,6 +4,10 @@ from google.cloud import translate
 from sklearn.preprocessing import MinMaxScaler
 from json import load
 import os
+import requests
+import urllib.request
+from bs4 import BeautifulSoup
+import googletrans
 
 # credentials
 apikey_path = 'api-key.json'
@@ -49,7 +53,6 @@ cols = {
 subtlexnl = subtlexnl[['Word','rel_freq_sl']].rename(columns=cols)
 wordlexnl = wordlexnl[['Word','BlogCDPc', 'TwitterCDPc', 'NewsCDPc']].rename(columns=cols)
 
-
 # normalizing cols and assigning weights to the frequencies
 weights = {
     'BlogCDPc':0.8,
@@ -73,4 +76,9 @@ data['rel_freq'] = data['rel_freq_sl'] + data['rel_freq_wl']
 data = data[['word','rel_freq']].sort_values('rel_freq', ascending=False)
 data = data.reset_index()[['word']]
 
-# 
+# scraping google translate site to know what type of word it is
+def google_translate_scraper(word, sl, tl):
+    url = f'https://translate.google.com/#view=home&op=translate&sl={sl}&tl={tl}&text={word}'
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    return soup
