@@ -117,12 +117,11 @@ words = {'word':[], 'translation':[], 'english_pos':[], 'pos':[]}
 word_list = nw_ww.Lemma.values
 pos_list = nw_ww['POS'].values
 for n, (word, pos) in enumerate(zip(word_list, pos_list)):
-    if word[-2:] == 'en':
-        words['word'].append(word)
-        translation = translate_txt(word, '1072058686454')
-        words['translation'].append(translation)
-        words['pos'].append(pos)
-        words['english_pos'].append([x.pos() for x in wn.synsets(translation)])
+    words['word'].append(word)
+    translation = translate_txt(word, '1072058686454')
+    words['translation'].append(translation)
+    words['pos'].append(pos)
+    words['english_pos'].append([x.pos() for x in wn.synsets(translation)])
     if n % 100 == 0:
         print((n/(len(word_list))))
 
