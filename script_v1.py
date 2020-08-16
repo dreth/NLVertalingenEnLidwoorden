@@ -4,6 +4,7 @@ from google.cloud import translate
 from sklearn.preprocessing import MinMaxScaler
 from json import load
 from os import environ
+from nltk.corpus import wordnet as wn
 
 
 # google cloud authentication and client connection
@@ -23,7 +24,7 @@ def translate_txt(text, project_id):
         target_language_code="en-US",
     )
     
-    return response
+    return response.translations[0].translated_text
 
 
 # importing data
@@ -76,19 +77,33 @@ classif2 = pd.read_csv('data/subtlex-nl-v1.3/SUBTLEX-NL.master.cd-above2.txt', s
 classif = pd.concat([classif1,classif2])[['Lemma','POS']]
 classif = classif[(classif['Lemma'] != '@') & (classif['Lemma'].isin(data['word']))].drop_duplicates()
 
-nouns_verbs = classif[classif['POS'].isin(['N','WW'])]
-nouns_verbs_vc = nouns_verbs['Lemma'].value_counts()
-nouns_verbs_main = nouns_verbs[nouns_verbs['Lemma'].isin(nouns_verbs_vc[nouns_verbs_vc == 1].index)]
+nw_ww = classif[classif['POS'].isin(['N','WW'])]
+nw_ww_VC = nw_ww['Lemma'].value_counts()
+nw_ww_main = nw_ww[nw_ww['Lemma'].isin(nw_ww_VC[nw_ww_VC == 1].index)]
 
 # extracting verbs only from previous filter
-irr_verbs = ['gaan', 'slaan', 'staan', 'zijn']
-verbs = []
+def extract_verbs(nw_ww_value_count, project_id):
+    irr_verbs = ['gaan', 'slaan', 'staan', 'zijn']
+    verbs = []
+    for word in nw_ww_value_count[nw_ww_value_count > 1].index:
+        # if the word includes an irregular verb from the irr verb list in their last 5 chars, add to verb list
+        cond = tuple((stem in word[-5:]) for stem in irr_verbs)
+        if any(cond):
+            verbs.append(word)
+        # if the word ends in 'en' like most dutch verbs
+        # but the word, when translated is not designated as a noun in english
+        # then add to verb list
+        elif word[-2:] == 'en':
+            verbs.append(word)
+
+# IMPORTANT SNIPPET
+verbs = {'verb':[], 'translation':[], 'english_pos':[]}
 for word in nouns_verbs_vc[nouns_verbs_vc > 1].index:
-    cond = tuple((stem in word[-5:]) for stem in irr_verbs)
-    if any(cond):
-        verbs.append(word)
-    elif word[-2:] == 'en':
-        verbs.append(word)
+    if word[-2:] == 'en':
+        verbs['verb'].append(word)
+        translation = translate_txt(word, '1072058686454')
+        verbs['translation'].append(translation)
+        verbs['english_pos'].append(wn.synsets(translation)[0].pos())
 
 # other = classif[~classif['Lemma'].isin(nouns['Lemma'])]
 # pos_count = other['Lemma'].value_counts()
