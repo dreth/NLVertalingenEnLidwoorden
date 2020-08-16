@@ -5,19 +5,15 @@ from sklearn.preprocessing import MinMaxScaler
 from json import load
 from os import environ
 
-# credentials
-apikey_path = 'api-key.json'
-with open(apikey_path) as apikey: 
-    apikey = load(apikey)
 
 # google cloud authentication and client connection
-environ['GOOGLE_APPLICATION_CREDENTIALS'] = apikey_path
-client = translate.TranslationServiceClient()
-
+environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'api-key.json'
 
 # using google api
 def translate_txt(text, project_id):
     """Translating Text using google API"""
+
+    client = translate.TranslationServiceClient()
 
     response = client.translate_text(
         parent=f'projects/{project_id}',
@@ -68,7 +64,7 @@ for n, (col, mult) in enumerate(weights.items()):
 wordlexnl['rel_freq_wl'] = wordlexnl[list(weights.keys())].sum(axis=1)
 wordlexnl = wordlexnl[['word', 'rel_freq_wl']]
 
-# merging only common word entries
+# merging only common word entries between subtlex and wordlex
 data = pd.merge(subtlexnl, wordlexnl, how='inner', on='word')
 data['rel_freq'] = data['rel_freq_sl'] + data['rel_freq_wl']
 data = data[['word','rel_freq']].sort_values('rel_freq', ascending=False)
@@ -77,6 +73,25 @@ data = data.reset_index()[['word']]
 # adding tag to determine type of word in order to add articles to nouns
 classif1 = pd.read_csv('data/subtlex-nl-v1.3/SUBTLEX-NL.master.txt', sep='\t')
 classif2 = pd.read_csv('data/subtlex-nl-v1.3/SUBTLEX-NL.master.cd-above2.txt', sep='\t')
-classif = pd.concat([classif1,classif2])
-classif = classif[classif.Lemma.isin(data.word)]
+classif = pd.concat([classif1,classif2])[['Lemma','POS']]
+classif = classif[(classif['Lemma'] != '@') & (classif['Lemma'].isin(data['word']))].drop_duplicates()
 
+nouns_verbs = classif[classif['POS'].isin(['N','WW'])]
+nouns_verbs_vc = nouns_verbs['Lemma'].value_counts()
+nouns_verbs_main = nouns_verbs[nouns_verbs['Lemma'].isin(nouns_verbs_vc[nouns_verbs_vc == 1].index)]
+
+# extracting verbs only from previous filter
+irr_verbs = ['gaan', 'slaan', 'staan', 'zijn']
+verbs = []
+for word in nouns_verbs_vc[nouns_verbs_vc > 1].index:
+    cond = tuple((stem in word[-5:]) for stem in irr_verbs)
+    if any(cond):
+        verbs.append(word)
+    elif word[-2:] == 'en':
+        verbs.append(word)
+
+# other = classif[~classif['Lemma'].isin(nouns['Lemma'])]
+# pos_count = other['Lemma'].value_counts()
+
+# one_count = other[other['Lemma'].isin(pos_count[pos_count == 1].index)]
+# main = nouns.append(one_count)
