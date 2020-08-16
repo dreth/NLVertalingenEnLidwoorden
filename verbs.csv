@@ -1,0 +1,3482 @@
+,verb,translation,english_pos
+0,doortellen,continue counting,[]
+1,manen,mane,"['n', 'n']"
+2,knevelen,gag,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3,misbruiken,abuse,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+4,elimineren,to eliminate,[]
+5,beëindigen,to end,[]
+6,legen,empty,"['n', 'v', 'v', 'v', 'v', 'v', 'a', 's', 's', 's']"
+7,uitsterven,become extinct,[]
+8,onderbroken,interrupted,"['v', 'v', 'v', 'v', 's', 's']"
+9,ontevreden,dissatisfied,"['v', 's']"
+10,jatten,swipe,"['n', 'v', 'v']"
+11,giechelen,giggle,"['n', 'v']"
+12,verbluffen,astonish,['v']
+13,waarnemen,perceive,"['v', 'v']"
+14,voeden,to feed,[]
+15,opdelen,divide,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+16,ven,ven,[]
+17,salueren,salute,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+18,aanvullen,supplement,"['n', 'n', 'n', 'v', 'v', 'v']"
+19,twijfelen,doubt,"['n', 'n', 'v', 'v']"
+20,narennen,run after,[]
+21,durven,to dare,[]
+22,stranden,beaches,"['n', 'v']"
+23,ben,am,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+24,insluiten,Enclose,"['v', 'v', 'v', 'v']"
+25,schateren,Cackling,"['v', 'v', 'v']"
+26,uitsturen,send out,[]
+27,gezichtsvermogen,eyesight,['n']
+28,samenwonen,live together,[]
+29,uitwisselen,to exchange,[]
+30,elektricien,electrician,['n']
+31,huichelen,hypocrite,['n']
+32,ondersteboven,upside down,[]
+33,terugtrekken,to withdraw,[]
+34,bepakken,packing,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+35,opdienen,serve,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+36,doorzien,see through,[]
+37,binnenbrengen,bring in,[]
+38,pennen,pens,"['n', 'n', 'n', 'n', 'n', 'v']"
+39,spieken,cheating,"['n', 'v', 'v', 'v', 'v', 's', 's']"
+40,aanbrengen,apply,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+41,stukgooien,smash to pieces,[]
+42,spuwen,spit,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+43,waarderen,appreciate,"['v', 'v', 'v', 'v', 'v']"
+44,schoen,shoe,"['n', 'n', 'n', 'n', 'v']"
+45,vastbinden,to tie,[]
+46,opbakken,fry up,[]
+47,goedmorgen,good morning,[]
+48,afmeren,mooring,"['n', 'n', 'v', 'v', 'v']"
+49,oppiepen,paging,"['n', 'n', 'v', 'v', 'v']"
+50,prijsschieten,prize shooting,[]
+51,zwemkampioen,swimming champion,[]
+52,opgeven,give up,[]
+53,vergisten,ferment,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+54,evergreen,evergreen,"['n', 'a']"
+55,verslepen,drag,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+56,ontheiligen,desecrate,"['v', 'v']"
+57,terughebben,have back,[]
+58,hinderen,hinder,"['v', 'v', 'v', 's', 's']"
+59,krabbelen,scribble,"['n', 'n', 'v', 'v']"
+60,rechttrekken,straightening,"['v', 'v', 'v', 'v', 'v', 'v']"
+61,herenigen,reunite,"['v', 'v']"
+62,bijkomen,recover,"['v', 'v', 'v', 'v', 'v', 'v']"
+63,naspelen,reenact,"['v', 'v', 'v']"
+64,achterhouden,withhold,"['v', 'v']"
+65,perforeren,perforating,"['v', 'v']"
+66,uitkiezen,choose,"['v', 'v', 'v']"
+67,kwijlen,drooling,"['v', 'v']"
+68,weghalen,take away,[]
+69,labelen,tagging,"['v', 'v', 'v', 'v', 'v']"
+70,wroeten,rooting,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+71,kluisteren,chain,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+72,snoeven,boast,"['n', 'v', 'v']"
+73,vrachtwagen,truck,"['n', 'n', 'v']"
+74,kruisen,crosses,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+75,afknappen,turn off,[]
+76,bubbelen,bubbling,"['v', 'v', 'v', 'v', 'v', 's', 's']"
+77,klaveren,clubs,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+78,overdrijven,exaggerate,"['v', 'v']"
+79,wegkijken,look away,[]
+80,sluiten,Close,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 'a', 'a', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 'r', 'r']"
+81,loslopen,run loose,[]
+82,ontmaskeren,unmask,"['v', 'v']"
+83,uitdenken,think out,[]
+84,uittrekken,pull out,[]
+85,symboliseren,symbolize,"['v', 'v']"
+86,devalueren,devalue,"['v', 'v', 'v']"
+87,schepen,ships,"['n', 'v', 'v', 'v', 'v', 'v']"
+88,vervolgen,continue,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+89,kindsbeen,childhood,"['n', 'n']"
+90,draagvermogen,load capacity,[]
+91,kwaken,croak,"['n', 'v', 'v', 'v']"
+92,drinken,drink,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+93,hertrouwen,remarriage,['n']
+94,trouwen,Marry,"['v', 'v']"
+95,pureren,puree,"['n', 'v']"
+96,zwemmen,swimming,"['n', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+97,bijdraaien,turn around,[]
+98,viseren,target,"['n', 'n', 'n', 'n', 'n', 'v']"
+99,heruitvinden,reinventing,"['v', 'v']"
+100,vervoegen,conjugate,"['n', 'v', 'v', 'v', 's', 's', 's', 's']"
+101,kiften,wrangle,"['n', 'n', 'v', 'v']"
+102,circuleren,circulate,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+103,ondersteunen,support,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+104,geheugen,memory,"['n', 'n', 'n', 'n', 'n']"
+105,roken,to smoke,[]
+106,optutten,dress up,[]
+107,inhuren,hire,"['n', 'n', 'v', 'v', 'v']"
+108,verergeren,worsen,"['v', 'v']"
+109,kleven,stick,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+110,boezemen,to inspire,[]
+111,verwoesten,devastate,"['v', 'v']"
+112,ingevroren,frozen,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 's', 's', 's', 's', 's', 's']"
+113,litteken,scar,"['n', 'n', 'v']"
+114,bevelen,command,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+115,frunniken,fiddling,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+116,langslopen,to walk by,[]
+117,overblijven,remain,"['v', 'v', 'v', 'v']"
+118,deinzen,flinch,"['n', 'v']"
+119,roepen,call,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+120,schreeuwen,shout,"['n', 'v', 'v', 'v', 'v']"
+121,omgeven,surrounded,"['v', 'v', 'v', 'v', 's']"
+122,bezitten,to own,[]
+123,inblikken,canning,"['v', 'v']"
+124,treden,steps,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+125,districtskampioen,district champion,[]
+126,berichten,messages,"['n', 'n', 'v', 'v', 'v']"
+127,goochelen,juggling,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+128,verstellen,adjust,"['v', 'v', 'v', 'v', 'v']"
+129,stippen,dots,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+130,gewennen,get used to,[]
+131,ontwarren,untangle,"['v', 'v']"
+132,krabben,scratch,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+133,overtreden,violate,"['v', 'v', 'v', 'v', 'v', 'v']"
+134,panikeren,panic,"['n', 'n', 'v', 'v']"
+135,uitlachen,laugh at,[]
+136,leegmaken,to empty,[]
+137,postjongen,mailboy,[]
+138,visualiseren,visualize,"['v', 'v', 'v', 'v']"
+139,noorden,north,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'a', 'r']"
+140,haren,hair,"['n', 'n', 'n', 'n', 'n', 'n']"
+141,coveren,cover,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+142,opkuisen,clean up,[]
+143,kelen,throats,"['n', 'n', 'n', 'n']"
+144,pauzeren,pause,"['n', 'n', 'v', 'v']"
+145,hallucineren,hallucinate,['v']
+146,aanvliegen,fly in,[]
+147,weergeven,view,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+148,begiftigen,endow,"['v', 'v']"
+149,vestigen,settle,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+150,vieren,to celebrate,[]
+151,afgrendelen,lock off,[]
+152,navolgen,follow,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+153,watertanden,salivating,"['v', 'v']"
+154,afwikkelen,unwind,"['v', 'v', 'v', 'v']"
+155,wegdrijven,drift away,[]
+156,vergezellen,to accompany,[]
+157,goedmaken,make up,[]
+158,ontgroenen,hazing,"['v', 'v']"
+159,erbuiten,outside it,[]
+160,ophogen,increase,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+161,laxeren,laxative,"['n', 'a']"
+162,heenkomen,get away,[]
+163,opbranden,burn out,[]
+164,dempen,mute,"['n', 'n', 'v', 's', 's']"
+165,kerven,to carve,[]
+166,camoufleren,camouflage,"['n', 'n', 'n', 'n', 'v']"
+167,afvaren,set sail,[]
+168,beetpakken,grabbing,"['v', 'v', 'v', 'v', 'v', 'v']"
+169,overspelen,replay,"['n', 'n', 'v', 'v', 'v', 'v']"
+170,kantooruren,office hours,[]
+171,openrijten,rip open,[]
+172,bijschaven,refining,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+173,schoonhouden,keep clean,[]
+174,afspelen,play,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+175,scannen,scan,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+176,godvergeten,godforsaken,['s']
+177,benoemen,appoint,"['v', 'v', 'v']"
+178,afhandelen,handle,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+179,afzweren,renounce,"['v', 'v', 'v', 'v']"
+180,baden,to bathe,[]
+181,klaarspelen,get ready,[]
+182,meevragen,ask along,[]
+183,inspringen,indent,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+184,herroepen,revoked,"['v', 'v']"
+185,desinfecteren,disinfect,['v']
+186,vredesteken,peace sign,[]
+187,omzien,look back,[]
+188,platleggen,lay flat,[]
+189,ronddraaien,spinning around,[]
+190,beven,tremble,"['n', 'v']"
+191,halen,fetch,"['n', 'v', 'v', 'v']"
+192,terugkijken,Looking back,[]
+193,aflossen,repay,"['v', 'v', 'v', 'v']"
+194,zuidoosten,southeast,"['n', 'n', 'n', 'n', 's', 's', 'r']"
+195,misbegrepen,misunderstood,"['v', 's']"
+196,voorspellen,to predict,[]
+197,belichten,illuminate,"['v', 'v', 'v']"
+198,platlopen,run flat,[]
+199,speuren,search,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+200,ontgrendelen,unlock,"['v', 'v', 'v']"
+201,opbellen,call up,[]
+202,trien,trien,[]
+203,sudderen,simmer,"['n', 'v']"
+204,pitten,pips,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+205,doceren,teaching,"['n', 'n', 'n', 'v', 'v']"
+206,rondtoeren,touring around,[]
+207,doorbuigen,bend,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+208,vergen,require,"['v', 'v', 'v', 'v']"
+209,aandrukken,press down,[]
+210,benauwen,oppress,"['v', 'v']"
+211,uithuwelijken,arranged marriages,[]
+212,wegbranden,burn away,[]
+213,intrekken,move in,[]
+214,verwennen,pamper,['v']
+215,teweegbrengen,bring about,[]
+216,kickboksen,kickboxing,[]
+217,huppelen,hopping,"['v', 'v', 'v', 'v', 'v', 'v']"
+218,opvrolijken,brighten,"['v', 'v']"
+219,jeuken,itching,"['n', 'v', 'v', 'v', 'v']"
+220,gelijken,equals,"['n', 'v', 'v', 'v']"
+221,verlammen,paralyze,"['v', 'v']"
+222,toesturen,send,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+223,schijnen,shine,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+224,overreden,ran over,[]
+225,openstellen,opening up,[]
+226,intimideren,intimidate,"['v', 'v']"
+227,oen,oen,[]
+228,bevallen,to give birth,[]
+229,overleden,passed away,[]
+230,bestrooien,sprinkle,"['n', 'n', 'v', 'v', 'v', 'v']"
+231,verheven,exalted,"['v', 'v', 'v', 'v', 's']"
+232,ervaren,to experience,[]
+233,bijeenkomen,get together,[]
+234,binnenglippen,sneak in,[]
+235,kruipen,to crawl,[]
+236,peuteren,pick,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+237,overhellen,tilt,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+238,zeven,seven,"['n', 'n', 's']"
+239,volstromen,flooding,"['n', 'v', 'v', 'v', 'v']"
+240,schrijden,stride,"['n', 'n', 'n', 'v', 'v']"
+241,dwarsliggen,to hinder,[]
+242,beitelen,chiselling,"['v', 'v', 'v']"
+243,switchen,switch,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+244,verfrommelen,crumple,"['v', 'v', 'v', 'v']"
+245,aankunnen,to manage,[]
+246,wegslepen,tow away,[]
+247,morrelen,fumble,"['n', 'v', 'v', 'v', 'v', 'v']"
+248,gehoorzamen,to obey,[]
+249,stuiven,dusting,"['v', 'v', 'v', 'v']"
+250,navigeren,navigate,"['v', 'v', 'v']"
+251,heroverwegen,reconsider,"['v', 'v']"
+252,aanpakken,tackle,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+253,suggereren,suggest,"['v', 'v', 'v', 'v', 'v']"
+254,intuinen,in the garden,[]
+255,smeren,lubricate,"['v', 'v', 'v']"
+256,terugtreden,step down,[]
+257,zogen,suckle,"['v', 'v']"
+258,losschroeven,unscrew,"['v', 'v']"
+259,gallen,galls,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+260,afsturen,send off,[]
+261,tegenvallen,disappointing,"['v', 's']"
+262,spiesen,skewers,"['n', 'v']"
+263,terugkeren,return,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+264,handschoen,glove,"['n', 'n', 'n']"
+265,voortborduren,elaborate,"['v', 'v', 'v', 'v', 's', 's']"
+266,klimmen,to climb,[]
+267,vergroten,to enlarge,[]
+268,voortplanten,reproduce,"['v', 'v', 'v', 'v']"
+269,toezenden,send,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+270,wegsluiten,lock away,[]
+271,uitzwaaien,wave goodbye,[]
+272,tergen,provoke,"['v', 'v', 'v', 'v']"
+273,afdrijven,drift off,[]
+274,herladen,reload,"['v', 'v']"
+275,rondleiden,show around,[]
+276,beletten,prevent,"['v', 'v']"
+277,printen,to print,[]
+278,verstuiven,spray,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+279,herformuleren,reformulate,['v']
+280,vereren,venerate,['v']
+281,sjacheren,haggle,"['n', 'v']"
+282,ontsnappen,escape,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+283,casten,cast,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+284,warren,warren,"['n', 'n', 'n', 'n', 'n']"
+285,welvaren,prosperity,"['n', 'n']"
+286,teren,tar,"['n', 'n', 'v']"
+287,verhongeren,starve,"['v', 'v', 'v', 'v', 'v']"
+288,degenereren,degenerate,"['n', 'v', 's']"
+289,rolschaatsen,roller skating,[]
+290,bekladden,daub,"['n', 'n', 'n', 'v', 'v', 'v']"
+291,samenlopen,coincide,"['v', 'v', 'v']"
+292,domineren,dominate,"['v', 'v', 'v', 'v', 'v']"
+293,brabbelen,babble,"['n', 'v', 'v', 'v', 'v']"
+294,aanbevelen,recommend,"['v', 'v', 'v']"
+295,plengen,shed,"['n', 'v', 'v', 'v', 'v', 'a']"
+296,bevuilen,dirty,"['v', 'a', 'a', 's', 'a', 's', 's', 's', 's', 's', 's', 's', 's']"
+297,ejaculeren,ejaculate,"['n', 'v', 'v']"
+298,opperwezen,supreme being,[]
+299,insteken,plug in,[]
+300,inwrijven,rub in,[]
+301,herlezen,reread,['v']
+302,tegenzitten,set against,[]
+303,verwisselen,exchange,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+304,ontwerpen,to design,[]
+305,verdragen,endure,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+306,profeteren,prophesy,"['v', 'v']"
+307,doordraaien,keep turning,[]
+308,overheen,across,"['r', 'r']"
+309,gelukwensen,congratulations,"['n', 'n', 'n']"
+310,schaamlippen,labia,['n']
+311,opstarten,Startup,"['n', 'n']"
+312,onderhandelen,negotiate,"['v', 'v']"
+313,doorstrepen,strikethrough,[]
+314,invetten,grease,"['n', 'n', 'v']"
+315,weghangen,hang out,[]
+316,verbieden,prohibit,['v']
+317,verstrooien,scatter,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+318,bekoren,charm,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+319,concluderen,to conclude,[]
+320,organiseren,to organize,[]
+321,chaufferen,driving,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+322,dragen,to wear,[]
+323,besmeuren,smear,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+324,zetten,put,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+325,turnen,gymnastics,['n']
+326,plegen,commit,"['v', 'v', 'v', 'v', 'v', 'v']"
+327,voorbijvliegen,fly past,[]
+328,regenereren,regenerate,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a']"
+329,berechten,to judge,[]
+330,omkomen,perish,['v']
+331,stalken,to stalk,[]
+332,observatietoren,observation tower,[]
+333,bestelen,to steal,[]
+334,verbinden,to connect,[]
+335,wegsturen,to dismiss,[]
+336,weiden,pastures,"['n', 'n', 'v', 'v']"
+337,aanjagen,boost,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+338,uitwringen,wring out,[]
+339,doorzeuren,forward,"['n', 'n', 'v', 'a', 'a', 'a', 's', 'r', 'r', 'r', 'r', 'r']"
+340,aanzitten,to sit,[]
+341,inspecteren,inspect,"['v', 'v', 'v']"
+342,galsteen,gallstone,['n']
+343,afwachten,wait,"['n', 'n', 'v', 'v', 'v', 'v']"
+344,kronen,crowns,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+345,verknoeien,mess up,[]
+346,razen,rage,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+347,doorladen,loading,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+348,beduvelen,trick,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v']"
+349,stormseizoen,storm season,[]
+350,entertainen,entertain,"['v', 'v', 'v']"
+351,dalen,descend,"['v', 'v', 'v', 'v']"
+352,terugkrabbelen,back out,[]
+353,brandstichten,start a fire,[]
+354,nadoen,imitate,"['v', 'v', 'v']"
+355,terugduwen,push back,[]
+356,woelen,tossing and turning,[]
+357,schuifelen,shuffling,"['n', 'n', 'v', 'v', 'v']"
+358,ingewanden,intestines,['n']
+359,toewijden,dedicate,"['v', 'v', 'v', 'v']"
+360,ontdooien,thawing,"['n', 'n', 'v']"
+361,uitdoven,extinguish,"['v', 'v', 'v', 'v', 'v']"
+362,gevangenzetten,imprison,"['v', 'v']"
+363,onbewezen,unproven,['a']
+364,kwijtspelen,lose,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+365,beteren,mend,"['n', 'n', 'v', 'v']"
+366,hervatten,to resume,[]
+367,uitdagen,to challenge,[]
+368,beheersen,to control,[]
+369,vermogen,power,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v']"
+370,besodemieteren,bugger,"['n', 'v']"
+371,bumperkleven,Tailgating,['v']
+372,negeren,ignore,"['v', 'v', 'v', 'v', 'v']"
+373,vermommen,disguise,"['n', 'n', 'n', 'v']"
+374,meedingen,compete,['v']
+375,aanschouwen,behold,['v']
+376,binnensmokkelen,smuggle in,[]
+377,ongewroken,unsmoked,[]
+378,gereedmaken,preparing,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+379,vermorzelen,bruise,"['n', 'v', 'v', 'v', 'v']"
+380,aanwakkeren,stir up,[]
+381,pitchen,pitching,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+382,benadrukken,emphasize,"['v', 'v']"
+383,verlenen,grant,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+384,olijfgroen,olive,"['n', 'n', 'n', 'n', 'n', 's']"
+385,gevangennemen,capture,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+386,schorsen,suspend,"['v', 'v', 'v', 'v', 'v', 'v']"
+387,opzadelen,saddle up,[]
+388,aankondigen,to announce,[]
+389,banden,tires,"['n', 'v', 'v', 'v', 'v']"
+390,hydrateren,moisturize,['v']
+391,opstapelen,pile up,[]
+392,mennen,driving,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+393,invriezen,freezing,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+394,doneren,to donate,[]
+395,bijdragen,contribute,"['v', 'v', 'v', 'v']"
+396,jongen,boy,"['n', 'n', 'n', 'n']"
+397,pootjebaden,paddling,"['v', 'v', 'v', 'v', 'v', 'v']"
+398,aankleden,to dress up,[]
+399,transformeren,transform,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+400,overleggen,Discuss,"['n', 'n', 'v', 'v']"
+401,doodschieten,shoot dead,[]
+402,stoppen,stop,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+403,wezen,being,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+404,synchroniseren,sync,['v']
+405,misdoen,wrong,"['n', 'n', 'v', 'a', 'a', 's', 's', 'a', 's', 's', 's', 's', 'r']"
+406,handhaven,maintain,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+407,bevestigen,to confirm,[]
+408,experimenteren,to experiment,[]
+409,onderhouden,to maintain,[]
+410,bijvullen,refill,"['n', 'n', 'v']"
+411,aanspoelen,wash up,[]
+412,rondkruipen,crawling around,[]
+413,drijven,float,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+414,inwerken,act,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+415,repareren,repair,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+416,debriefen,debriefs,['v']
+417,bekeuren,fining,"['v', 'v', 'v', 'v']"
+418,snakken,long,"['v', 'a', 'a', 's', 'a', 'a', 'a', 's', 's', 's', 'r', 'r']"
+419,onttrekken,withdraw,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+420,pogen,attempt,"['n', 'n', 'v', 'v']"
+421,pianospelen,to play the piano,[]
+422,negen,nine,"['n', 'n', 'n', 's']"
+423,impliceren,imply,"['v', 'v', 'v', 'v', 'v']"
+424,chanteren,blackmailing,"['v', 'v']"
+425,assisteren,assist,"['n', 'n', 'v', 'v', 'v']"
+426,liggen,lie,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+427,gluten,gluten,['n']
+428,trossen,bunches,"['n', 'n', 'n', 'n', 'v', 'v']"
+429,terugspoelen,rewind,[]
+430,wonderjongen,wonder boy,[]
+431,houwen,hack,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+432,bijhouden,Keep up,[]
+433,doorsluizen,piping,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'r']"
+434,bloedvergieten,bloodshed,"['n', 'n']"
+435,afgesloten,locked,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+436,pingelen,pinging,"['v', 'v', 'v', 'v', 'v']"
+437,bekenden,acquaintances,"['n', 'n', 'n']"
+438,waarnemingsvermogen,perception,"['n', 'n', 'n', 'n', 'n']"
+439,uitwissen,erase,"['v', 'v', 'v']"
+440,peppen,pepping,[]
+441,begrijpen,to understand,[]
+442,indraaien,screw in,[]
+443,vullen,to fill,[]
+444,stilliggen,to lie still,[]
+445,sjoelen,shuffleboard,['n']
+446,bijeenroepen,convene,"['v', 'v']"
+447,zonnen,Sun tanning,[]
+448,ontglippen,slip away,[]
+449,zinken,sink,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+450,neigen,to tend,[]
+451,binnenbreken,break in,[]
+452,tonen,show,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+453,bijklussen,side jobs,[]
+454,benutten,utilize,"['v', 'v']"
+455,streven,to strive,[]
+456,overwegen,to consider,[]
+457,nemen,take,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+458,kijven,argue,"['v', 'v', 'v']"
+459,zien,see,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+460,verifiëren,Verify,"['v', 'v', 'v', 'v']"
+461,overtreffen,surpass,"['v', 'v', 'v', 'v']"
+462,waren,goods,"['n', 'n', 'n', 'n']"
+463,regisseren,directing,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+464,benijden,envy,"['n', 'n', 'v', 'v']"
+465,uitzonden,broadcast,"['n', 'n', 'v', 'v', 'v']"
+466,liefhebben,to love,[]
+467,knielen,kneel down,[]
+468,omvallen,topple,"['v', 'v']"
+469,neerploffen,plop down,[]
+470,vliegen,fly,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+471,liquideren,liquidate,"['v', 'v', 'v', 'v']"
+472,vastnagelen,nail down,[]
+473,verfijnen,refine,"['v', 'v', 'v', 'v', 'v', 'v']"
+474,rondrennen,running around,[]
+475,afbekken,cut off,[]
+476,goedkeuren,to approve,[]
+477,uittreden,resign,"['v', 'v', 'v', 'v']"
+478,zwijgen,keep silent,[]
+479,hordelopen,hurdles,"['n', 'n', 'n', 'n', 'v']"
+480,ren,run,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+481,gevangenisleven,prison life,[]
+482,onderscheppen,intercept,"['n', 'v', 'v']"
+483,verontrusten,worry,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+484,schoppen,kicking,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+485,vergoelijken,whitewash,"['n', 'n', 'n', 'v', 'v', 'v']"
+486,snikken,sobs,"['n', 'n', 'n', 'v']"
+487,regeren,to govern,[]
+488,gelijkspelen,tie,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+489,terugschrikken,shy away,[]
+490,afslanken,slimming,[]
+491,beetnemen,trick,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v']"
+492,wijzigen,modify,"['v', 'v', 'v']"
+493,binnenslepen,drag in,[]
+494,doorspoelen,flush,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's', 'r', 'r']"
+495,knoeien,to mess,[]
+496,trillen,vibrate,"['v', 'v', 'v', 'v', 'v']"
+497,verkiezen,prefer,"['v', 'v', 'v', 'v']"
+498,opleveren,yield,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+499,kleineren,belittling,"['n', 'n', 'v', 'v', 'v', 's']"
+500,gevoelen,feeling,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+501,verslechteren,deteriorate,"['v', 'v']"
+502,samenzweren,conspire,"['v', 'v']"
+503,traceren,trace,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+504,werken,to work,[]
+505,coachen,coaching,"['n', 'v', 'v']"
+506,lellen,wattles,"['n', 'n', 'n', 'v', 'v']"
+507,prevelen,mutter,"['n', 'n', 'v', 'v']"
+508,knuffelen,cuddle,"['n', 'v', 'v']"
+509,handenwringen,hands wringing,[]
+510,barricaderen,barricading,"['v', 'v', 'v']"
+511,ontspruiten,sprout,"['n', 'n', 'v', 'v']"
+512,ontdoen,discard,"['n', 'n', 'n', 'v']"
+513,uitschakelen,Switch off,[]
+514,aanmodderen,muddle through,[]
+515,kruisigen,crucify,"['v', 'v', 'v', 'v']"
+516,toedragen,bear,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+517,afsterven,die,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+518,opbrengen,yield,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+519,toewerpen,throw,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+520,terechtkunnen,can go right,[]
+521,signaleren,signaling,"['n', 'v', 'v']"
+522,vleeswaren,meats,"['n', 'n', 'n']"
+523,opdragen,command,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+524,twinkelen,twinkle,"['n', 'n', 'v', 'v']"
+525,opgraven,dig up,[]
+526,doodrijden,drive to death,[]
+527,opklimmen,climb up,[]
+528,boksen,boxing,"['n', 'n', 'v', 'v', 'v']"
+529,doorsturen,forward,"['n', 'n', 'v', 'a', 'a', 'a', 's', 'r', 'r', 'r', 'r', 'r']"
+530,aansporen,urge,"['n', 'n', 'v', 'v', 'v']"
+531,huwelijken,marriages,"['n', 'n', 'n', 'n']"
+532,verstrekken,provide,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+533,terugkaatsen,rebound,"['n', 'n', 'n', 'v', 'v']"
+534,ronddragen,carry around,[]
+535,pikken,pecking,"['v', 'v', 'v', 'v', 'v']"
+536,rondrijden,drive around,[]
+537,inpakken,packing up,[]
+538,bijten,to bite,[]
+539,verzwakken,weaken,"['v', 'v', 'v', 'v', 'v']"
+540,ontbieden,summon,"['v', 'v', 'v', 'v']"
+541,verlaten,leave,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+542,gedachtelezen,mind reading,[]
+543,uitpakken,unpack,['v']
+544,promoten,promote,"['v', 'v', 'v', 'v', 'v']"
+545,toezingen,sing to,[]
+546,bezwijken,succumb,"['v', 'v']"
+547,bemiddelen,mediate,"['v', 'v', 'a', 's']"
+548,klokken,clocks,"['n', 'n', 'v']"
+549,stomen,steaming,"['v', 'v', 'v', 'v', 'v', 'v', 's', 'r']"
+550,wegvloeien,draining,"['v', 'v', 'v', 'v', 's']"
+551,kalibreren,calibrate,"['v', 'v', 'v']"
+552,pushen,push,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+553,geleden,ago,"['s', 'r']"
+554,morsen,to spill,[]
+555,overspoelen,flood,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+556,platliggen,lay flat,[]
+557,wegnemen,take away,[]
+558,scheiden,divorce,"['n', 'v', 'v']"
+559,onderlopen,flooded,"['v', 'v', 'v', 'v', 's']"
+560,jammeren,whine,"['n', 'v', 'v', 'v', 'v']"
+561,aanblijven,stay on,[]
+562,tackelen,tackle,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+563,ronddansen,dance around,[]
+564,leegzuigen,vacuuming,['v']
+565,verdelgen,destroy,"['v', 'v', 'v', 'v']"
+566,thuisbrengen,bring home,[]
+567,vooruitdenken,think ahead,[]
+568,beminnen,love,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+569,binnenlaten,let in,[]
+570,schrijven,to write,[]
+571,vereffenen,settle,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+572,bedwelmen,intoxicate,"['v', 'v', 'v']"
+573,zweren,to swear,[]
+574,screenen,screening,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+575,schenden,violate,"['v', 'v', 'v', 'v', 'v', 'v']"
+576,krikken,jacks,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+577,ongelegen,inconvenient,"['a', 's']"
+578,oplichten,lighting up,[]
+579,mengen,to blend,[]
+580,ontnemen,take away,[]
+581,afknippen,cut off,[]
+582,vergooien,throw away,[]
+583,inspuiten,inject,"['v', 'v', 'v', 'v', 'v', 'v']"
+584,kirren,cooing,"['v', 'v']"
+585,commanderen,command,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+586,herboren,reborn,['s']
+587,heropvoeden,re-educate,[]
+588,walgen,disgusted,"['v', 'v', 's']"
+589,filosoferen,philosophize,['v']
+590,doorrijden,drive on,[]
+591,abdomen,abdomen,"['n', 'n']"
+592,harpoen,harpoon,"['n', 'v']"
+593,zigzaggen,zigzag,"['n', 'v', 's', 'r']"
+594,voorlezen,read aloud,[]
+595,purgeren,purge,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+596,bouwen,to build,[]
+597,lokaliseren,localize,"['v', 'v', 'v', 'v']"
+598,zwichten,give in,[]
+599,heren,Gentlemen,"['n', 'n']"
+600,voortbewegen,to move,[]
+601,ratelen,rattle,"['n', 'n', 'n', 'v', 'v']"
+602,opwinden,excite,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+603,exploiteren,exploit,"['n', 'v', 'v', 'v']"
+604,herleven,revive,"['v', 'v', 'v', 'v', 'v']"
+605,schoonlikken,lick it clean,[]
+606,belagen,beset,"['v', 'v', 'v']"
+607,opendraaien,turn open,[]
+608,afscheidszoen,goodbye kiss,[]
+609,inhalen,to catch up,[]
+610,jukbeen,cheekbone,['n']
+611,hakken,Heels,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+612,hokken,lofts,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+613,verlengen,extend,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+614,walsen,rolling,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+615,boren,drilling,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+616,beamen,To agree,[]
+617,gebruiken,use,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+618,boven,above,"['n', 's', 'r', 'r']"
+619,rebelleren,rebel,"['n', 'n', 'n', 'v', 'v']"
+620,doorstappen,keep going,[]
+621,kloppen,to knock,[]
+622,omvormen,transform,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+623,bungelen,dangling,"['n', 'v', 'v']"
+624,opschrokken,startled,"['v', 'v', 's']"
+625,falen,to fail,[]
+626,opleuken,embellish,"['v', 'v', 'v', 'v']"
+627,bezwijmen,to swoon,[]
+628,wegglijden,slipping,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+629,negenen,nine,"['n', 'n', 'n', 's']"
+630,hoven,courts,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+631,uitschrijven,unsubscribe,[]
+632,afknijpen,pinch off,[]
+633,accelereren,accelerate,"['v', 'v']"
+634,ontmantelen,dismantle,"['v', 'v', 'v']"
+635,uittellen,counting out,[]
+636,exerceren,drill,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+637,begeren,covet,['v']
+638,geheimhouden,keep secret,[]
+639,sputteren,sputter,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+640,doodvallen,fall to death,[]
+641,fladderen,flutter,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+642,afstraffen,punish,['v']
+643,bedelven,burial,"['n', 'n']"
+644,bollen,bulbs,"['n', 'n', 'n', 'n', 'n', 'n']"
+645,tokkelen,strumming,['v']
+646,garen,yarn,"['n', 'n', 'v']"
+647,bewandelen,walk,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+648,voelen,to feel,[]
+649,bijspringen,help out,[]
+650,verzieken,screw up,[]
+651,terugvinden,find back,[]
+652,leunen,to lean,[]
+653,pesten,bullying,"['n', 'v', 'v', 's']"
+654,peen,carrot,"['n', 'n', 'n', 'n']"
+655,afdekken,cover,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+656,vervloeken,to curse,[]
+657,inlijsten,framing,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+658,argumenteren,argue,"['v', 'v', 'v']"
+659,terugreizen,travel back,[]
+660,naaien,to sew,[]
+661,wegschoppen,kick away,[]
+662,royeren,expel,"['v', 'v', 'v', 'v']"
+663,delegeren,delegate,"['n', 'v', 'v']"
+664,samenscholen,gather together,[]
+665,ontbreken,lack,"['n', 'v']"
+666,schenken,donate,['v']
+667,citeren,quote,"['n', 'n', 'v', 'v', 'v', 'v']"
+668,garnizoen,garrison,"['n', 'n', 'n', 'v']"
+669,bewerken,edit,"['v', 'v', 'v', 'v']"
+670,oversnijden,overcutting,[]
+671,verhinderen,obstruct,"['v', 'v', 'v']"
+672,doordrinken,drink through,[]
+673,koekhappen,biscuits,"['n', 'n']"
+674,verwerven,acquire,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+675,platspuiten,flat spraying,[]
+676,afdoen,take off,[]
+677,ontwortelen,uproot,"['v', 'v', 'v']"
+678,proefdraaien,test run,[]
+679,vrolijken,cheer up,[]
+680,verkeerstoren,control tower,[]
+681,loskoppelen,detach,"['v', 'v', 'v']"
+682,verwonderen,to amaze,[]
+683,deuken,dents,"['n', 'n', 'n', 'v']"
+684,emailleren,enamel,"['n', 'n', 'n', 'n', 'v']"
+685,onkosten,expenses,"['n', 'n', 'n', 'v']"
+686,blunderen,blunder,"['n', 'v', 'v', 'v']"
+687,bespotten,mock,"['n', 'v', 'v', 's']"
+688,diepzeeduiken,scuba diving,[]
+689,inzoomen,zoom in,[]
+690,afplakken,masking,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+691,haperen,falter,"['n', 'v', 'v', 'v', 'v']"
+692,deporteren,deport,"['v', 'v', 'v']"
+693,ontmaagden,deflowering,"['v', 'v']"
+694,categoriseren,categorize,['v']
+695,overhoren,quiz,"['n', 'v']"
+696,elektrocuteren,electrocute,"['v', 'v']"
+697,bespioneren,spy,"['n', 'n', 'v', 'v', 'v', 'v']"
+698,bezweten,sweaty,[]
+699,begroeten,greet,"['v', 'v', 'v', 'v']"
+700,bedplassen,bedwetting,[]
+701,ontdekken,to discover,[]
+702,oprukken,advance,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+703,analyseren,analyze,"['v', 'v', 'v', 'v']"
+704,wegkrijgen,to get away,[]
+705,adoreren,adore,['v']
+706,bazuinen,trumpets,"['n', 'n', 'v', 'v', 'v']"
+707,toewijzen,assign,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+708,kwispelen,wagging the tail,[]
+709,ijshockeyen,ice hockey,[]
+710,taxeren,appraise,"['v', 'v']"
+711,kuieren,amble,"['n', 'v']"
+712,afweken,deviated,"['v', 'v', 'v']"
+713,zelden,rarely,['r']
+714,repatriëren,repatriate,"['n', 'v', 'v']"
+715,afwimpelen,brush off,[]
+716,bespuiten,spraying,"['n', 'n', 'n', 'v', 'v', 'v']"
+717,napluizen,rummage,"['n', 'n', 'v']"
+718,heen,away,"['s', 'a', 's', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r']"
+719,aftuigen,rigging,"['n', 'n', 'v', 'v', 'v', 'v']"
+720,stelpen,adjusting pin,[]
+721,den,Pine tree,[]
+722,begraven,to bury,[]
+723,activeren,activate,"['v', 'v', 'v', 'v', 'v']"
+724,reanimeren,resuscitate,"['v', 'v']"
+725,omleiden,redirect,['v']
+726,corrumperen,to corrupt,[]
+727,reformeren,reforming,"['v', 'v', 'v', 'v', 'v', 'v']"
+728,fusilleren,shoot,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+729,flapperen,flapping,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+730,stuiptrekken,convulsions,"['n', 'n', 'n', 'n']"
+731,lappen,lapping,"['n', 'v', 'v', 'v', 'v', 'v']"
+732,afkraken,abort,"['n', 'v', 'v', 'v']"
+733,zwoegen,toil,"['n', 'v']"
+734,miskleunen,goof,"['n', 'n', 'v']"
+735,lijden,suffering,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+736,schalen,bowls,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+737,vasthouden,to hold,[]
+738,tijdrekken,time wasting,[]
+739,kenteken,license Plate,[]
+740,ophoesten,cough up,[]
+741,baltsen,courtship,['n']
+742,improviseren,improvise,"['v', 'v']"
+743,dumpen,to dump,[]
+744,sterven,to die,[]
+745,terugsturen,return,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+746,wapen,weapon,"['n', 'n']"
+747,gelukken,get lucky,[]
+748,wieberen,wobble,"['n', 'v', 'v', 'v']"
+749,paren,couples,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+750,gelachen,laughed,['v']
+751,heenbrengen,to bring,[]
+752,opsluiten,lock up,[]
+753,begrenzen,limit,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+754,opblazen,to blow up,[]
+755,neerdalen,descend,"['v', 'v', 'v', 'v']"
+756,vergassen,gassing,"['n', 'n', 'v', 'v']"
+757,uitfoeteren,scold,"['n', 'v', 'v']"
+758,voltanken,refueling,"['n', 'v', 'v']"
+759,struinen,stroll,"['n', 'v']"
+760,voorzien,to provide,[]
+761,luchtkussen,air cushion,[]
+762,apporteren,to fetch,[]
+763,opvoeren,step up,[]
+764,mannen,men,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+765,afwijzen,reject,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+766,toegeven,to admit,[]
+767,beeldhouwen,sculpt,"['v', 'v']"
+768,badderen,bathing,"['n', 'n', 'v', 'v', 'v', 'v']"
+769,zwakken,weak,"['a', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's']"
+770,omheen,around it,[]
+771,herkiezen,re-elect,[]
+772,zamelen,collect,"['n', 'v', 'v', 'v', 'v', 'v', 's', 'r']"
+773,veiligstellen,secure,"['v', 'v', 'v', 'v', 'v', 'v', 'a', 'a', 'a', 's', 's']"
+774,parachutespringen,parachuting,"['n', 'v']"
+775,uitkammen,comb out,[]
+776,ontheffen,release,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+777,overgooien,throw over,[]
+778,afdichten,sealing,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+779,verprutsen,mess it up,[]
+780,bijwonen,to attend,[]
+781,ompraten,talk,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+782,beuren,happen,"['v', 'v', 'v', 'v', 'v']"
+783,verdringen,displace,"['v', 'v', 'v', 'v']"
+784,verlagen,to lower,[]
+785,herschikken,rearrange,['v']
+786,checken,check,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+787,geselen,flogging,"['n', 'v', 'v']"
+788,vastmaken,fasten,"['v', 'v', 'v', 'v']"
+789,circusleven,circus life,[]
+790,kennismaken,acquainted,"['v', 'v', 'v', 's']"
+791,nabootsen,mimic,"['n', 'v', 's']"
+792,aankopen,purchases,"['n', 'n', 'n', 'n', 'v']"
+793,drummen,play the drums,[]
+794,meesleuren,drag along,[]
+795,verzetten,to oppose,[]
+796,vertalen,translate,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+797,uitmoorden,murder,"['n', 'v', 'v']"
+798,doorduwen,push through,[]
+799,achteruitlopen,Walking backwards,[]
+800,deserteren,desert,"['n', 'v', 'v', 'v']"
+801,toelachen,smile,"['n', 'v', 'v']"
+802,veinzen,feign,"['v', 'v']"
+803,omschakelen,switching,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+804,opschuiven,move up,[]
+805,beschouwen,consider,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+806,uitzien,look,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+807,herplaatsen,relocate,"['v', 'v']"
+808,afstoffen,dust off,[]
+809,vagen,fade,"['n', 'n', 'v', 'v', 'v', 'v']"
+810,spijbelen,skip class,[]
+811,teen,toe,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+812,platwalsen,flattening,"['v', 'v', 'v']"
+813,melden,report,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+814,kaalplukken,plucking bald,[]
+815,aandraaien,tighten,"['v', 'v', 'v', 'v']"
+816,heersen,reign,"['n', 'n', 'n', 'v', 'v']"
+817,aannemen,take,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+818,uitrollen,unroll,"['v', 'v']"
+819,oplezen,read out,[]
+820,kaatsen,bounce,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+821,toedoen,doing,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+822,hinken,limping,"['n', 'v', 'v']"
+823,gniffelen,chuckle,"['n', 'v']"
+824,dwarsbomen,thwart,"['n', 'v']"
+825,opjutten,stir up,[]
+826,uitslepen,drag out,[]
+827,meelijden,sympathize,"['v', 'v', 'v']"
+828,doorsnijden,cut through,[]
+829,verwijden,dilate,"['v', 'v']"
+830,inbeuken,pounding in,[]
+831,wegsnijden,cut away,[]
+832,roven,rob,"['v', 'v']"
+833,winden,winds,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+834,klemrijden,underrun,[]
+835,groen,green,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 's', 'a', 'a', 's', 's']"
+836,opduiken,emerge,"['v', 'v', 'v', 'v', 'v']"
+837,touwtjespringen,jumping rope,[]
+838,teruggetrokken,withdrawn,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+839,filteren,filtering,"['v', 'v', 'v']"
+840,modderen,muddy,"['v', 'v', 'v', 's', 's', 's', 's']"
+841,voorkomen,appearance,"['n', 'n', 'n', 'n', 'n', 'n']"
+842,roeien,rowing,"['n', 'v']"
+843,stikken,choke,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+844,loeren,lurk,"['v', 'v', 'v']"
+845,grondvesten,foundations,"['n', 'n', 'n', 'n', 'n', 'n', 'n']"
+846,oefenen,to practise,[]
+847,opleiden,educate,"['v', 'v', 'v']"
+848,frummelen,fumble,"['n', 'v', 'v', 'v', 'v', 'v']"
+849,spenderen,to spend,[]
+850,bekendmaken,to announce,[]
+851,aankomen,arrive,"['v', 'v']"
+852,focussen,to focus,[]
+853,inroepen,invoke,"['v', 'v', 'v']"
+854,tandenknarsen,teeth grinding,[]
+855,loskrijgen,get loose,[]
+856,serveren,to serve,[]
+857,ondertekenen,sign,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+858,onthullen,to reveal,[]
+859,voltrekken,accomplish,"['v', 'v']"
+860,telefoneren,talk on the phone,[]
+861,hemelen,heavens,"['n', 'n', 'n']"
+862,zeulen,lugging,"['v', 'v']"
+863,gaarkoken,cooking,"['n', 'v', 'v', 'v', 'v', 'v']"
+864,streaken,streak,"['n', 'n', 'n', 'n', 'v', 'v', 'v']"
+865,uiteenrukken,tear apart,[]
+866,heropenen,reopen,['v']
+867,legaliseren,legalize,['v']
+868,voltooien,complete,"['v', 'v', 'v', 'v', 'v', 'a', 's', 's', 's', 's']"
+869,herschrijven,rewrite,"['n', 'v', 'v']"
+870,betrappen,to catch,[]
+871,toezien,watch,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+872,stuiteren,bounce,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+873,aftaaien,take off,[]
+874,terugwinnen,reclaim,"['v', 'v', 'v', 'v', 'v']"
+875,aansnijden,broach,"['n', 'v']"
+876,censureren,censor,"['n', 'n', 'v', 'v']"
+877,opzuipen,suck up,[]
+878,deugen,good,"['n', 'n', 'n', 'n', 'a', 's', 'a', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 'r', 'r']"
+879,kleppen,valves,"['n', 'n', 'n', 'n', 'n']"
+880,transporteren,transport,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+881,vastzetten,fix,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+882,aanzien,considered,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+883,gevreten,eaten,"['v', 'v', 'v', 'v', 'v', 'v']"
+884,aandringen,insist,"['v', 'v', 'v']"
+885,aanstaren,stare,"['n', 'v', 'v']"
+886,kaakbeen,jawbone,"['n', 'v']"
+887,oprennen,run up,[]
+888,vervagen,to fade,[]
+889,tegenhouden,hold back,[]
+890,doorkletsen,continue talking,[]
+891,samenbrengen,bring together,[]
+892,overvallen,robberies,"['n', 'n']"
+893,verklaren,to declare,[]
+894,piesen,peeing,"['n', 'v']"
+895,uitschieten,shoot out,[]
+896,terugdeinzen,recoil,"['n', 'n', 'v', 'v', 'v', 'v']"
+897,koelen,cooling,"['n', 'n', 'v', 'v', 'v']"
+898,inloggen,login,[]
+899,inwijden,initiate,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+900,stoven,stew,"['n', 'n', 'v', 'v', 'v']"
+901,spetteren,splash,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+902,koekeloeren,koekeloeren,[]
+903,vertrappen,trample,"['n', 'v', 'v', 'v']"
+904,perfectioneren,perfect,"['n', 'v', 'a', 's', 's']"
+905,ongeslagen,undefeated,['a']
+906,bekomen,obtain,"['v', 'v', 'v']"
+907,beslissen,decide,"['v', 'v', 'v', 'v']"
+908,collaboreren,collaboration,"['n', 'n']"
+909,klauwen,claws,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+910,overhebben,to have left,[]
+911,articuleren,articulate,"['v', 'v', 'v', 'v', 'v', 'a', 'a']"
+912,beschijnen,shine,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+913,verlichten,light up,[]
+914,picknicken,have a picnic,[]
+915,broeien,scalding,"['v', 'v', 'v', 'v']"
+916,zuiveren,purify,"['v', 'v', 'v']"
+917,boffen,lucky,"['s', 'a', 's']"
+918,wonderteken,miracle sign,[]
+919,laken,bed sheet,[]
+920,verkleden,dressing up,[]
+921,temmen,to tame,[]
+922,neerkomen,come down,[]
+923,aantrekken,attract,"['v', 'v', 'v']"
+924,bazelen,babble,"['n', 'v', 'v', 'v', 'v']"
+925,verbannen,banned,"['v', 'v', 'v', 'v', 's']"
+926,huppen,hopping,"['v', 'v', 'v', 'v', 'v', 'v']"
+927,fenomeen,phenomenon,"['n', 'n']"
+928,grinniken,chuckle,"['n', 'v']"
+929,kleiduivenschieten,skeet shooting,[]
+930,beheren,manage,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+931,likken,to lick,[]
+932,bemannen,man,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+933,omringen,surround,"['n', 'v', 'v', 'v', 'v']"
+934,afremmen,brake,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+935,tegenspreken,contradict,"['v', 'v', 'v', 'v']"
+936,instoppen,tuck in,[]
+937,stijven,stiffen,"['v', 'v', 'v']"
+938,rondkijken,looking around,[]
+939,mauwen,meow,"['n', 'v']"
+940,uitchecken,checking out,[]
+941,overnemen,to take over,[]
+942,drenken,watering,"['n', 'n', 'v', 'v', 'v', 'v']"
+943,purperen,purple,"['n', 'n', 'v', 'v', 's', 's', 's']"
+944,achtersteven,stern,"['n', 'n', 'n', 's', 's', 's', 's']"
+945,bevoordelen,benefit,"['n', 'n', 'n', 'v', 'v']"
+946,rapen,turnips,"['n', 'n']"
+947,herleiden,trace back,[]
+948,afrekenen,to pay,[]
+949,annuleren,Cancel,"['n', 'v', 'v', 'v', 'v', 'v']"
+950,sidderen,tremble,"['n', 'v']"
+951,skateboarden,skateboarding,"['n', 'v']"
+952,vastschroeven,screw tight,[]
+953,dammen,Checkers,"['n', 'n', 'n', 'n', 'v', 'v']"
+954,aanvechten,challenge,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+955,douchen,take a shower,[]
+956,opfrissen,freshen up,[]
+957,kibbelen,bicker,"['n', 'v']"
+958,omploegen,plow,"['n', 'v', 'v', 'v']"
+959,overzien,survey,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+960,rijden,to drive,[]
+961,rondlopen,walk around,[]
+962,aanvatten,begin,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+963,woeden,rage,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+964,vluchten,flee,['v']
+965,bezeren,hurt,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+966,teruggeven,return,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+967,konkelen,fiddle,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+968,gemakken,conveniences,"['n', 'n', 'n', 'n', 'n']"
+969,bevinden,located,"['v', 'v', 'v', 'v', 's']"
+970,vastketenen,chain,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+971,ruiken,to smell,[]
+972,uitknippen,cut out,[]
+973,afstoten,push off,[]
+974,brullen,roar,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+975,mededelen,to communicate,[]
+976,aanmonsteren,sign up,[]
+977,vlooien,fleas,['n']
+978,voortvluchtigen,fugitives,"['n', 'n']"
+979,waken,watch,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+980,bijblijven,keep up,[]
+981,schommelen,to swing,[]
+982,gooien,throw,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+983,buiten,Outside,"['n', 'n', 'a', 's', 's', 'a', 's', 's', 's', 's', 's', 's', 'r', 'r']"
+984,vragen,ask,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+985,toegelaten,allowed,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+986,betuttelen,to patronize,[]
+987,lonken,beckon,"['v', 'v', 'v']"
+988,korten,shorten,"['v', 'v', 'v', 'v', 'v']"
+989,rechtspreken,to judge,[]
+990,terugdrijven,drive back,[]
+991,luizen,lice,"['n', 'n', 'n', 'n']"
+992,stressen,to stress,[]
+993,hervinden,find again,[]
+994,poen,money,"['n', 'n', 'n']"
+995,leegroven,robbing,"['v', 'v']"
+996,vliegvissen,fly fishing,[]
+997,beschilderen,to paint,[]
+998,snuiven,sniff,"['n', 'v', 'v']"
+999,opzitten,sit up,[]
+1000,zelfmedelijden,self pity,[]
+1001,kotsen,puke,"['n', 'n', 'v']"
+1002,indoen,put in,[]
+1003,tussen,between,"['r', 'r']"
+1004,huwen,marry,"['v', 'v']"
+1005,moven,moven,[]
+1006,triomferen,triumph,"['n', 'n', 'v', 'v', 'v', 'v']"
+1007,masseren,massage,"['n', 'v', 'v']"
+1008,snaaien,snitch,"['n', 'v', 'v']"
+1009,opvaren,sail up,[]
+1010,tasten,grope,"['n', 'v', 'v', 'v']"
+1011,vervolmaken,perfect,"['n', 'v', 'a', 's', 's']"
+1012,strippen,stripping,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1013,doorpraten,continue talking,[]
+1014,bliksemen,lightnings,"['n', 'n']"
+1015,spreken,to speak,[]
+1016,poepen,defecate,['v']
+1017,bewonderen,to admire,[]
+1018,vervelen,to bore,[]
+1019,steunen,support,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1020,verwensen,curse,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1021,terugwerken,working backwards,[]
+1022,inpluggen,plug in,[]
+1023,doorspitten,dig through,[]
+1024,natellen,counting,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1025,opspringen,bounce,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1026,terugvliegen,fly back,[]
+1027,verblijven,stay,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1028,bieden,offer,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1029,zwikken,sprain,"['n', 'v']"
+1030,omverrijden,run over,[]
+1031,lijntrekken,line drawing,[]
+1032,fotograferen,photographing,"['v', 'v']"
+1033,doorbakken,well done,[]
+1034,droogleggen,draining,"['v', 'v', 'v', 'v', 's']"
+1035,vernoemen,mention,"['n', 'n', 'n', 'v', 'v', 'v']"
+1036,uitbuiten,exploit,"['n', 'v', 'v', 'v']"
+1037,beademen,ventilate,"['v', 'v', 'v', 'v', 'v']"
+1038,vervoerskosten,transportation costs,[]
+1039,verkwisten,squander,"['v', 'v']"
+1040,uitgillen,scream,"['n', 'n', 'n', 'v', 'v', 'v']"
+1041,overvloeien,overflow,"['n', 'n', 'v', 'v']"
+1042,kerstkalkoen,Christmas turkey,[]
+1043,achterhalen,track down,[]
+1044,aanraken,to touch,[]
+1045,vergenoegen,pleasure,"['n', 'n', 'n', 'n', 'n']"
+1046,verteren,digest,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1047,doormaken,go through,[]
+1048,verstikken,suffocate,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1049,delven,mining,"['n', 'n', 'v', 'v']"
+1050,tobben,worry,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1051,zoeken,Search,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1052,bekokstoven,cook up,[]
+1053,schilden,shields,"['n', 'n', 'n', 'v', 'v']"
+1054,zegen,blessing,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1055,vastgrijpen,grasp,"['n', 'n', 'n', 'n', 'v', 'v']"
+1056,stunten,stunts,"['n', 'n', 'v', 'v']"
+1057,koersen,quotes,"['n', 'n', 'v', 'v', 'v', 'v']"
+1058,infiltreren,infiltrate,"['v', 'v', 'v', 'v']"
+1059,achternazitten,to chase,[]
+1060,achteruitrijden,driving backwards,[]
+1061,charteren,chartering,"['v', 'v', 'v']"
+1062,kuisen,cleaning,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1063,rantsoeneren,rationing,"['n', 'v', 'v']"
+1064,fixeren,fixate,"['v', 'v', 'v', 'v']"
+1065,uitgooien,throw out,[]
+1066,manipuleren,manipulate,"['v', 'v', 'v', 'v', 'v', 'v']"
+1067,vermaken,entertain,"['v', 'v', 'v']"
+1068,opvragen,request,"['n', 'n', 'v', 'v', 'v']"
+1069,inklappen,collapse,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1070,doorrennen,run on,[]
+1071,draineren,drain,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1072,haven,port,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+1073,behandelen,to treat,[]
+1074,verspelen,to lose,[]
+1075,opvullen,filling up,[]
+1076,misschieten,miss out,[]
+1077,oprijden,drive up,[]
+1078,forceren,forcing,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1079,pruttelen,to simmer,[]
+1080,samendoen,to do together,[]
+1081,kapen,hijack,"['n', 'v', 'v']"
+1082,beseffen,realize,"['v', 'v', 'v', 'v', 'v', 'v']"
+1083,bevorderen,promote,"['v', 'v', 'v', 'v', 'v']"
+1084,onttronen,dethrone,['v']
+1085,wiebelen,wobble,"['n', 'v', 'v', 'v']"
+1086,juichen,cheer,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1087,irrigeren,irrigate,"['v', 'v']"
+1088,herprogrammeren,reprogramming,[]
+1089,verhandelen,to trade,[]
+1090,openbaren,to disclose,[]
+1091,kleinkrijgen,grandchildren,['n']
+1092,rondfladderen,flutter around,[]
+1093,overvleugelen,outflank,"['v', 'v']"
+1094,bespringen,pounce,"['n', 'v']"
+1095,doorspelen,play on,[]
+1096,bulken,bulge,"['n', 'v', 'v', 'v', 'v']"
+1097,proberen,to attempt,[]
+1098,vergrendelen,lock,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1099,nagelbijten,nail biting,[]
+1100,aanbotsen,collide,"['v', 'v', 'v']"
+1101,bekijken,see,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1102,wringen,wring,"['n', 'v', 'v', 'v', 'v']"
+1103,afwerpen,shedding,"['n', 'n', 'v', 'v', 'v', 'v']"
+1104,projecteren,project,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1105,genezen,to cure,[]
+1106,ballonvaren,ballooning,"['n', 'v', 'v']"
+1107,transponeren,transpose,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1108,verschuiven,shift,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1109,kuren,cures,"['n', 'v', 'v', 'v', 'v']"
+1110,betreuren,mourn,"['v', 'v']"
+1111,aanwijzen,point out,[]
+1112,afwegen,weigh up,[]
+1113,uitknijpen,squeeze,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1114,donderen,thunder,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1115,wegvluchten,flee,['v']
+1116,vioolspelen,to play the violin,[]
+1117,besprenkelen,sprinkle,"['n', 'n', 'v', 'v', 'v', 'v']"
+1118,bedienen,operate,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1119,openbarsten,burst open,[]
+1120,verhoeden,prevent,"['v', 'v']"
+1121,verdampen,evaporate,"['v', 'v', 'v', 'v']"
+1122,doorvertellen,tell on,[]
+1123,aftakelen,decline,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1124,behouden,preserve,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1125,shaken,shaking,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1126,lusten,desires,"['n', 'n', 'n', 'v', 'v', 'v']"
+1127,opblijven,stay up,[]
+1128,kwijtraken,lose,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1129,dansen,dancing,"['n', 'v', 'v', 'v']"
+1130,zelfvertrouwen,self confidence,[]
+1131,herscheppen,recreate,"['v', 'v', 'v', 'v']"
+1132,lynchen,lynching,"['n', 'v']"
+1133,bovenkomen,coming upstairs,[]
+1134,vreten,eating,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1135,aanmelden,Sign Up,[]
+1136,doorschrijven,forwarding,"['n', 'n', 'v']"
+1137,even,for a bit,[]
+1138,doodvriezen,freeze to death,[]
+1139,markeren,to mark,[]
+1140,daten,to date,[]
+1141,knallen,pop,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 'r']"
+1142,onbesneden,uncircumcised,[]
+1143,grondtroepen,ground forces,[]
+1144,tongzoen,French kiss,[]
+1145,overlopen,defect,"['n', 'n', 'n', 'n', 'v']"
+1146,optreden,performance,"['n', 'n', 'n', 'n', 'n']"
+1147,verschroeien,scorch,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1148,vermoeden,suspicion,"['n', 'n', 'n', 'n']"
+1149,verkloten,screwed up,[]
+1150,zwaaien,to wave,[]
+1151,bestormen,storm,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1152,uitwijzen,reveal,"['v', 'v', 'v']"
+1153,aankloppen,knock on the door,[]
+1154,wegvliegen,fly away,[]
+1155,verzoenen,reconcile,"['v', 'v', 'v', 'v']"
+1156,minachten,disdain,"['n', 'n', 'v', 'v']"
+1157,toestemmen,consent,"['n', 'v']"
+1158,smeden,forging,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1159,excommuniceren,excommunicate,"['v', 'v']"
+1160,verzwaren,weight down,[]
+1161,gehouden,kept,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a']"
+1162,stopzetten,stop,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1163,meeleven,sympathize,"['v', 'v', 'v']"
+1164,natspuiten,wet spraying,[]
+1165,uitvragen,ask out,[]
+1166,googelen,googling,['v']
+1167,blaten,bleat,"['n', 'v', 'v']"
+1168,hernemen,resume,"['n', 'n', 'v', 'v', 'v', 'v']"
+1169,pronken,show off,[]
+1170,knokken,fight,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1171,bossen,forests,"['n', 'n', 'v']"
+1172,hebben,to have,[]
+1173,bezoedelen,tarnish,"['n', 'v']"
+1174,kletteren,clatter,"['n', 'v']"
+1175,meebetalen,chip in,[]
+1176,scheen,shone,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1177,blootgeven,expose,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1178,omtoveren,transform,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1179,ineengedoken,huddled,"['v', 'v', 's']"
+1180,omspitten,dig up,[]
+1181,levensmiddelen,foodstuffs,"['n', 'n']"
+1182,omwikkelen,wrap around,[]
+1183,wensen,to wish,[]
+1184,mazelen,the measles,[]
+1185,wegblijven,stay away,[]
+1186,desintegreren,disintegrate,"['v', 'v', 'v']"
+1187,bekommeren,worry,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1188,terugeisen,reclaim,"['v', 'v', 'v', 'v', 'v']"
+1189,loszitten,loose,"['v', 'v', 'v', 'v', 'a', 's', 'a', 's', 's', 's', 'a', 's', 's', 's', 's', 's', 's', 'r']"
+1190,afgebroken,demolished,"['v', 'v', 'v', 's']"
+1191,onderworpen,subject,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 's', 's', 's']"
+1192,afdwalen,stray,"['n', 'v', 'v', 'v', 's', 's']"
+1193,overbieden,outbid,"['v', 'v']"
+1194,branden,to burn,[]
+1195,ontruimen,evacuate,"['v', 'v', 'v', 'v', 'v']"
+1196,veren,feathers,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1197,overschrijden,exceed,"['v', 'v', 'v']"
+1198,merrieveulen,filly,['n']
+1199,beoordelen,judge,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1200,opzuigen,suck up,[]
+1201,vliegeren,flying a kite,[]
+1202,uploaden,upload,['v']
+1203,vorderen,progress,"['n', 'n', 'n', 'v', 'v', 'v']"
+1204,heenlopen,walk away,[]
+1205,gladstrijken,smooth out,[]
+1206,omkeren,turning back,[]
+1207,floppen,flopping,"['v', 'v', 'v']"
+1208,belijden,confess,"['v', 'v', 'v']"
+1209,mogen,be allowed to,[]
+1210,uitweiden,elaborate,"['v', 'v', 'v', 'v', 's', 's']"
+1211,standhouden,hold on,[]
+1212,volschieten,shoot full,[]
+1213,overtroeven,trump,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1214,vertrouwen,trust,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1215,opletten,pay attention,[]
+1216,wegrotten,rot away,[]
+1217,afpakken,take away,[]
+1218,narekenen,calculate,"['v', 'v', 'v', 'v', 'v', 'v']"
+1219,zeehaven,seaport,['n']
+1220,ruïneren,ruin,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1221,doorklieven,cut through,[]
+1222,rondscharrelen,scurry around,[]
+1223,schuilen,take shelter,[]
+1224,verdwijnen,to disappear,[]
+1225,boeien,buoys,"['n', 'v', 'v', 'v']"
+1226,kieken,snap,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1227,afvijlen,filing,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1228,lebberen,rennets,['n']
+1229,bekruipen,creep up,[]
+1230,compromitteren,compromise,"['n', 'n', 'v', 'v', 'v']"
+1231,dichtdoen,close,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 'a', 'a', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 'r', 'r']"
+1232,geven,to give,[]
+1233,uitspreken,to pronounce,[]
+1234,besparen,save,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1235,stoepen,sidewalks,['n']
+1236,beloven,promise,"['n', 'n', 'v', 'v', 'v', 'v']"
+1237,vrijmaken,free up,[]
+1238,wegdromen,dream away,[]
+1239,flankeren,flank,"['n', 'n', 'n', 'n', 'v']"
+1240,mijden,avoid,"['v', 'v', 'v', 'v', 'v']"
+1241,indruisen,violate,"['v', 'v', 'v', 'v', 'v', 'v']"
+1242,afmaken,finish up,[]
+1243,terugdenken,think back,[]
+1244,terugbrengen,return,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1245,lanterfanten,lounging around,[]
+1246,uitladen,unload,"['v', 'v']"
+1247,vooroverbuigen,Bend over,[]
+1248,bombarderen,bomb,"['n', 'n', 'n', 'v', 'v']"
+1249,wisselen,exchange,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1250,uitspuwen,spit out,[]
+1251,schakelen,switch,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1252,citroen,lemon,"['n', 'n', 'n', 'n', 'n']"
+1253,gevangenzitten,to be imprisoned,[]
+1254,opsteken,light up,[]
+1255,meesturen,send along,[]
+1256,losschudden,shake off,[]
+1257,aansluiten,connect,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1258,bevaren,to sail,[]
+1259,aanvegen,wipe,"['n', 'v']"
+1260,aanstampen,tamp,"['n', 'v']"
+1261,reduceren,reduce,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1262,afrossen,truss,"['n', 'n', 'n', 'v', 'v', 'v']"
+1263,voorvallen,occurrences,"['n', 'n']"
+1264,kauwen,chew,"['n', 'n', 'v']"
+1265,buitensluiten,lock out,[]
+1266,trompetteren,trumpet,"['n', 'v', 'v', 'v']"
+1267,bijsluiten,enclosing,"['n', 'v', 'v', 'v', 'v']"
+1268,glibberen,slither,['v']
+1269,piepkuiken,spring chick,[]
+1270,afstompen,dull,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 'a', 's', 's', 's', 'a', 's', 's', 'a', 's', 's', 's']"
+1271,vergaren,gather,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1272,theedrinken,drink tea,[]
+1273,scheppen,create,"['v', 'v', 'v', 'v', 'v', 'v']"
+1274,bepleiten,advocate,"['n', 'n', 'v', 'v']"
+1275,glimmen,shine,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1276,uitflappen,flap out,[]
+1277,blozen,to blush,[]
+1278,selecteren,Selecting,['v']
+1279,tooien,adorn,"['v', 'v', 'v']"
+1280,kijken,look,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1281,leegpompen,pumping out,[]
+1282,vastleggen,capture,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1283,enteren,enter,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1284,beschimpen,taunt,"['n', 'v']"
+1285,vechten,fight,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1286,aftreden,step down,[]
+1287,bruisen,fizzing,"['v', 's']"
+1288,kwijten,discharge,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1289,afstappen,step off,[]
+1290,grienen,whining,"['v', 'v', 'v', 'v']"
+1291,afbluffen,bluff,"['n', 'n', 'n', 'v', 'v', 's', 's']"
+1292,doorvliegen,fly on,[]
+1293,open,Open,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 'a', 's', 's', 'a', 's', 's', 's', 's', 's', 'a', 's', 's', 's', 'a', 'a', 's', 's', 's', 's', 's']"
+1294,schroeven,screws,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1295,afzonderen,seclude,['v']
+1296,verdienen,to earn,[]
+1297,bewaken,to guard,[]
+1298,tennissen,playing tennis,[]
+1299,onteigenen,expropriate,['v']
+1300,vouwen,fold,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1301,treuren,mourn,"['v', 'v']"
+1302,opwachten,await,['v']
+1303,westen,West,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'a', 'r']"
+1304,vlechten,braid,"['n', 'n', 'v', 'v', 'v']"
+1305,samensmelten,merge,"['v', 'v', 'v']"
+1306,toveren,conjure,"['v', 'v', 'v']"
+1307,heden,present day,[]
+1308,inproppen,cram in,[]
+1309,prepareren,preparing,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1310,mannenkleren,men's clothes,[]
+1311,kortsluiten,short circuit,[]
+1312,verhoren,questioning,"['n', 'v', 'v', 'v', 'v', 'v', 's', 's', 's']"
+1313,verrotten,rot,"['n', 'n', 'n', 'v', 'v']"
+1314,nomineren,nominate,"['v', 'v', 'v', 'v']"
+1315,inbeelden,imagine,"['v', 'v']"
+1316,stapelen,stacking,"['v', 'v', 'v']"
+1317,uiteenspatten,burst,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1318,meenemen,take,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1319,rondslenteren,stroll around,[]
+1320,scalperen,scalping,"['v', 'v']"
+1321,terroriseren,terrorize,"['v', 'v']"
+1322,ontvoeren,kidnap,['v']
+1323,uitschudden,shake out,[]
+1324,poeieren,brushing,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1325,beïnvloeden,to influence,[]
+1326,permanenten,perms,"['n', 'n', 'v']"
+1327,deponeren,deposit,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+1328,kurken,corks,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+1329,dulden,tolerate,"['v', 'v', 'v', 'v']"
+1330,bevatten,contain,"['v', 'v', 'v', 'v', 'v', 'v']"
+1331,chatten,to chat,[]
+1332,hinkelen,hopscotch,['n']
+1333,leggen,lay,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+1334,losrukken,tear away,[]
+1335,injecteren,inject,"['v', 'v', 'v', 'v', 'v', 'v']"
+1336,neerschieten,shoot down,[]
+1337,berusten,acquiesce,['v']
+1338,confisqueren,confiscate,"['v', 's']"
+1339,samenpersen,compress,"['n', 'v', 'v']"
+1340,nazien,check,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1341,omgooien,overturn,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1342,inrichten,furnish,"['v', 'v']"
+1343,playbacken,miming,"['v', 'v']"
+1344,proesten,snort,"['n', 'n', 'v', 'v', 'v', 'v']"
+1345,bijkleuren,coloring,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1346,ontlopen,avoid,"['v', 'v', 'v', 'v', 'v']"
+1347,stofstormen,dust storms,[]
+1348,omruilen,exchange,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1349,gappen,gap,"['n', 'n', 'n', 'n', 'n', 'n', 'v']"
+1350,tuiten,spout,"['n', 'v', 'v']"
+1351,vingeren,fingering,"['n', 'n', 'v', 'v', 'v', 'v']"
+1352,smeltoven,melting furnace,[]
+1353,versperren,barricade,"['n', 'n', 'v', 'v', 'v']"
+1354,versmaden,spurn,['v']
+1355,ronken,throb,"['n', 'n', 'v', 'v', 'v']"
+1356,glanzen,shine,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1357,besnijden,circumcise,"['v', 'v']"
+1358,wegleggen,put away,[]
+1359,tolueen,toluene,['n']
+1360,ontwrichten,disrupt,"['v', 'v', 'v']"
+1361,medeleven,compassion,"['n', 'n']"
+1362,puzzelen,puzzling,"['v', 'v', 's', 's']"
+1363,overheadkosten,overhead expenses,[]
+1364,zuipen,to drink,[]
+1365,emigreren,emigrate,['v']
+1366,afleiden,distract,"['v', 'v']"
+1367,alleen,only,"['s', 's', 'r', 'r', 'r', 'r', 'r', 'r', 'r']"
+1368,winnen,to win,[]
+1369,besluiten,decide,"['v', 'v', 'v', 'v']"
+1370,klaarstomen,getting ready,[]
+1371,aanbidden,to worship,[]
+1372,uitleveren,deliver,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1373,rondbellen,call around,[]
+1374,actualiseren,update,"['n', 'v', 'v', 'v']"
+1375,toetsen,tests,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1376,registeren,register,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1377,zwellen,to swell,[]
+1378,een-op-een,one on one,[]
+1379,oppeppen,pep up,[]
+1380,afhakken,to chop off,[]
+1381,herinneren,remember,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1382,gluren,peep,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1383,weglopen,walk away,[]
+1384,verduisteren,darken,"['v', 'v', 'v']"
+1385,ontvluchten,flee,['v']
+1386,scharrelen,scrape,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1387,dooreten,keep eating,[]
+1388,koorddansen,tightrope walking,[]
+1389,boekbinden,bookbinding,['n']
+1390,ijzerwaren,hardware,"['n', 'n', 'n']"
+1391,omtrekken,outlines,"['n', 'n', 'n', 'v', 'v', 'v']"
+1392,misprijzen,disdain,"['n', 'n', 'v', 'v']"
+1393,kwetsen,hurt,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+1394,onderkotsen,puking,"['n', 'v']"
+1395,afbeulen,to wear out,[]
+1396,vrijpleiten,to exonerate,[]
+1397,uitvlakken,flatten,"['v', 'v', 'v']"
+1398,tegenkomen,come across,[]
+1399,sommeren,sum,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+1400,oproepen,calls,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1401,wegbrengen,take away,[]
+1402,letten,pay attention,[]
+1403,hijsen,hoisting,"['v', 'v', 'v']"
+1404,beliegen,lie,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1405,veronderstellen,suppose,"['v', 'v', 'v', 'v', 'v']"
+1406,afwezen,rejected,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+1407,hurken,squat,"['n', 'n', 'n', 'v', 'v', 'v', 's', 's']"
+1408,flikken,cops,"['n', 'v', 'v']"
+1409,terugkomen,coming back,[]
+1410,irriteren,irritate,"['v', 'v', 'v']"
+1411,plaatsnemen,take place,[]
+1412,voornemen,intention,"['n', 'n', 'n']"
+1413,aanhoren,hear,"['v', 'v', 'v', 'v', 'v']"
+1414,doorzettingsvermogen,perseverance,"['n', 'n']"
+1415,knappen,snap,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1416,deken,blanket,"['n', 'n', 'n', 'v', 'v', 's']"
+1417,tien,ten,"['n', 'n', 's']"
+1418,raadplegen,consult,"['v', 'v', 'v', 'v']"
+1419,vangen,to catch,[]
+1420,stilzetten,freeze,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1421,visioen,vision,"['n', 'n', 'n', 'n', 'n']"
+1422,aanklagen,to sue,[]
+1423,verdoen,waste,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+1424,afladen,unloading,"['n', 'v', 'v']"
+1425,breken,break,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1426,verdommen,damn it,[]
+1427,verhangen,hang,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1428,promoveren,to promote,[]
+1429,inlassen,insert,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1430,groeien,to grow,[]
+1431,afmatten,wear out,[]
+1432,verklikken,tell,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1433,leven,life,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+1434,opvangen,catch,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1435,navertellen,retelling,"['v', 'v', 'v']"
+1436,mislukken,fail,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1437,gen,gene,['n']
+1438,voortduren,continue,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1439,eindigen,end,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1440,afkeren,turn away,[]
+1441,bezichtigen,view,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+1442,paardrijden,horse riding,[]
+1443,schrobben,scrub,"['n', 'n', 'v', 'v', 'v', 's']"
+1444,roosteren,roasting,"['n', 'v', 'v']"
+1445,ogen,eyes,"['n', 'n', 'n', 'n', 'n', 'n', 'v']"
+1446,masturberen,masturbate,"['v', 'v']"
+1447,uitvinden,to invent,[]
+1448,marcheren,marching,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1449,aanstoten,nudge,"['n', 'v', 'v']"
+1450,rondzweven,floating around,[]
+1451,verslinden,devour,"['v', 'v', 'v', 'v']"
+1452,kreunen,moan,"['n', 'v']"
+1453,beloeren,spy,"['n', 'n', 'v', 'v', 'v', 'v']"
+1454,lijmen,glue,"['n', 'v', 'v']"
+1455,staakt-het-vuren,ceasefire,[]
+1456,thuishoren,belong,"['v', 'v', 'v', 'v', 'v', 'v']"
+1457,aanspelen,play on,[]
+1458,verleggen,move,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1459,doorkrijgen,pick up on,[]
+1460,bukken,stoop,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1461,toestoppen,to stop,[]
+1462,naderen,approaching,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 's']"
+1463,hacken,hacking,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1464,infecteren,infect,"['v', 'v', 'v', 'v']"
+1465,komen,come,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1466,afschrikken,scare,"['n', 'n', 'v', 'v']"
+1467,chargeren,charge,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1468,noren,noren,[]
+1469,ophoepelen,run away,[]
+1470,inwonen,live in,[]
+1471,zonderen,without,[]
+1472,stortregenen,pouring rain,[]
+1473,aanvangen,commence,"['v', 'v', 'v']"
+1474,verafschuwen,detest,['v']
+1475,opdringen,to impose,[]
+1476,weghouden,keep away,[]
+1477,cryogeen,cryogenic,['a']
+1478,neerkijken,looking down,[]
+1479,overspringen,skip,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1480,ensceneren,staging,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1481,dichtnaaien,sew up,[]
+1482,binnensluipen,sneak in,[]
+1483,samenhokken,coop together,[]
+1484,verafgoden,idolize,['v']
+1485,wennen,get used to,[]
+1486,wemelen,teem,"['v', 'v']"
+1487,hondeneten,dog food,[]
+1488,sorteren,to sort,[]
+1489,sjoemelen,cheating,"['n', 'v', 'v', 'v', 'v', 's', 's']"
+1490,managen,manage,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1491,baken,beacon,"['n', 'n', 'n', 'v', 'v']"
+1492,rondstrooien,scatter around,[]
+1493,familieleven,family life,[]
+1494,uitmaken,break up,[]
+1495,opdonderen,get lost,[]
+1496,uithoren,hear out,[]
+1497,snuffelen,sniff,"['n', 'v', 'v']"
+1498,droppen,drop,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1499,rondzwerven,roam around,[]
+1500,vuilmaken,get dirty,[]
+1501,binnenstormen,To rush in,[]
+1502,machtigen,authorize,"['v', 'v']"
+1503,bijtanken,refueling,"['n', 'v', 'v']"
+1504,ontwijken,avoid,"['v', 'v', 'v', 'v', 'v']"
+1505,oprapen,pick up,[]
+1506,doorschieten,shoot through,[]
+1507,toehappen,bite,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1508,bevoelen,feel,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1509,crashen,crash,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1510,ontbranden,ignite,"['v', 'v', 'v']"
+1511,meelopen,walk along,[]
+1512,bekeren,to convert,[]
+1513,flossen,flossing,['v']
+1514,luiden,chime,"['n', 'v']"
+1515,verkrampen,cramping,"['v', 'v', 'v', 'v']"
+1516,tippen,tipping,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1517,opdrinken,drink up,[]
+1518,bekritiseren,criticize,"['v', 'v']"
+1519,verjagen,dislodge,"['v', 'v', 'v']"
+1520,stilvallen,come to a standstill,[]
+1521,oplossen,to resolve,[]
+1522,aanpappen,pick up,[]
+1523,idealiseren,idealize,"['v', 'v']"
+1524,hierbuiten,out here,[]
+1525,linken,linking,"['v', 'v', 'v', 'v']"
+1526,mallen,molds,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1527,discussiëren,to discuss,[]
+1528,zoen,kiss,"['n', 'n', 'n', 'n', 'v', 'v']"
+1529,aanvalswapen,assault weapon,[]
+1530,rappen,rapping,"['v', 'v', 'v', 'v']"
+1531,nuttigen,consume,"['v', 'v', 'v', 'v', 'v', 'v']"
+1532,belonen,reward,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+1533,inrekenen,charge,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1534,downloaden,to download,[]
+1535,brengen,bring,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1536,bren,bring,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1537,zoenen,kiss,"['n', 'n', 'n', 'n', 'v', 'v']"
+1538,stilhouden,keep quiet,[]
+1539,inrukken,push in,[]
+1540,handlezen,palm reading,[]
+1541,innen,collect,"['n', 'v', 'v', 'v', 'v', 'v', 's', 'r']"
+1542,schoonwassen,wash clean,[]
+1543,beschuldigen,to blame,[]
+1544,kinderjaren,childhood,"['n', 'n']"
+1545,vervalsen,falsify,"['v', 'v', 'v', 'v', 'v']"
+1546,dankzeggen,say thanks,[]
+1547,inhaleren,inhale,"['v', 'v']"
+1548,indringen,penetrate,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1549,seponeren,dismiss,"['v', 'v', 'v', 'v', 'v', 'v']"
+1550,springen,to jump,[]
+1551,openen,to open,[]
+1552,ontsluiten,unlocking,"['v', 'v', 'v']"
+1553,keten,chain,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+1554,servicekosten,service fee,[]
+1555,ontmoeten,Meet,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+1556,hergroeperen,regroup,"['v', 'v']"
+1557,betrokkenen,involved,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 's', 's', 's', 's']"
+1558,modelleren,to model,[]
+1559,benen,legs,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+1560,koesteren,to cherish,[]
+1561,nieten,staple,"['n', 'n', 'n', 'n', 'n', 'v', 's']"
+1562,rondvliegen,flying around,[]
+1563,grafkisten,coffins,"['n', 'v']"
+1564,verzaken,renounce,"['v', 'v', 'v', 'v']"
+1565,voorrijden,drive in front,[]
+1566,aderlaten,phlebotomy,['n']
+1567,verdenken,suspect,"['n', 'n', 'v', 'v', 'v', 's']"
+1568,terugleiden,return,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1569,uitleven,let off steam,[]
+1570,boenen,scrub,"['n', 'n', 'v', 'v', 'v', 's']"
+1571,praktiseren,to practice,[]
+1572,nakijken,check,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1573,fonkelen,twinkle,"['n', 'n', 'v', 'v']"
+1574,slingeren,swing,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1575,uitnemen,take out,[]
+1576,kwijnen,languish,"['v', 'v', 'v']"
+1577,huishouden,household,['n']
+1578,archiveren,to archive,[]
+1579,geilen,horny,"['s', 's', 's']"
+1580,voortkomen,emerge,"['v', 'v', 'v', 'v', 'v']"
+1581,kaarten,Cards,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+1582,kalkoen,Turkey,"['n', 'n', 'n', 'n', 'n']"
+1583,duimendraaien,thumb twisting,[]
+1584,aanpoten,pawing,"['v', 'v']"
+1585,oppoetsen,brush up,[]
+1586,teleurstellen,disappoint,['v']
+1587,rantsoen,ration,"['n', 'n', 'v', 'v']"
+1588,vermoeien,tire,"['n', 'v', 'v', 'v', 'v']"
+1589,armworstelen,arm wrestling,[]
+1590,uitschelden,name calling,[]
+1591,omkopen,bribe,"['n', 'v']"
+1592,detoneren,detonate,"['v', 'v']"
+1593,ophijsen,lifting,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1594,kussen,To kiss,[]
+1595,sollen,mess around,[]
+1596,porren,to poke,[]
+1597,overladen,overcharged,"['v', 'v']"
+1598,bijtsporen,bite marks,[]
+1599,losdraaien,loosen,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1600,fouilleren,search,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1601,dunken,dunking,"['v', 'v', 'v']"
+1602,meesmokkelen,smuggling,"['n', 'v']"
+1603,bejubelen,hail,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1604,ovuleren,ovulate,['v']
+1605,piepen,squeak,"['n', 'n', 'v']"
+1606,voorzeggen,foretelling,"['n', 'n', 'v', 'v', 'v']"
+1607,moedigen,encourage,"['v', 'v', 'v']"
+1608,verkassen,relocate,"['v', 'v']"
+1609,adviseren,to advise,[]
+1610,aanhouden,persist,"['v', 'v', 'v']"
+1611,koppelen,to link,[]
+1612,sneuvelen,die,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1613,oppikken,pick up,[]
+1614,superwezen,super being,[]
+1615,wieken,blades,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+1616,ongeslepen,uncut,"['a', 'a', 'a', 'a', 'a', 's', 's']"
+1617,terechtwijzen,to correct,[]
+1618,versnellen,accelerate,"['v', 'v']"
+1619,zweetvoeten,sweaty feet,[]
+1620,omroepen,broadcasters,"['n', 'n']"
+1621,opsommen,sum up,[]
+1622,ontluizen,delousing,['v']
+1623,wegkwijnen,languish,"['v', 'v', 'v']"
+1624,smullen,feast,"['n', 'n', 'n', 'n', 'v', 'v', 'v']"
+1625,aanschuiven,queue up,[]
+1626,paratroepen,paratroopers,['n']
+1627,inscheuren,tear,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1628,waaien,blow,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1629,bewonen,inhabit,"['v', 'v', 'v']"
+1630,verenigen,unite,"['v', 'v', 'v', 'v', 'v', 'v']"
+1631,wrijven,to rub,[]
+1632,dorsten,thirst,"['n', 'n', 'v', 'v']"
+1633,rocken,to rock,[]
+1634,vleesgeworden,incarnate,"['v', 'v', 's', 's']"
+1635,geraken,get,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1636,opzeggen,terminate,"['v', 'v', 'v', 'v']"
+1637,vernielen,wreck,"['n', 'n', 'n', 'n', 'v']"
+1638,verkleinen,reduce,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1639,honderdtien,one hundred and ten,[]
+1640,spartelen,floundering,"['v', 'v']"
+1641,afblijven,hands off,[]
+1642,vitten,nagging,"['v', 'v', 'v', 's']"
+1643,verzegelen,to seal,[]
+1644,associëren,associate,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 's']"
+1645,kietelen,tickle,"['n', 'n', 'v', 'v', 'v']"
+1646,mislopen,miss out on,[]
+1647,onderduiken,go into hiding,[]
+1648,concentreren,to concentrate,[]
+1649,communiceren,to communicate,[]
+1650,uitgeven,to spend,[]
+1651,opvoeden,raise,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1652,oplaaien,flare up,[]
+1653,leren,to learn,[]
+1654,isoleren,isolate,"['v', 'v', 'v', 'v']"
+1655,zuigen,suck,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1656,extrapoleren,extrapolate,"['v', 'v', 'v']"
+1657,wiegelen,rock,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+1658,inlijven,incorporate,"['v', 'v', 'v', 'v', 's']"
+1659,lepelen,spooning,"['v', 'v']"
+1660,stoeien,frolic,"['n', 'v']"
+1661,rondhuppelen,hopping around,[]
+1662,witwassen,money laundering,[]
+1663,vermenigvuldigen,multiply,"['v', 'v', 'v', 'v', 'r']"
+1664,men,men,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+1665,deltavliegen,hang gliding,[]
+1666,druipen,dripping,"['n', 'n', 'v', 'v', 'r']"
+1667,identificeren,identify,"['v', 'v', 'v', 'v', 'v', 'v']"
+1668,filmmaken,filmmaking,[]
+1669,nippen,sipping,['v']
+1670,aanraden,recommend,"['v', 'v', 'v']"
+1671,omarmen,embrace,"['n', 'n', 'n', 'v', 'v', 'v']"
+1672,controletoren,control tower,[]
+1673,verdoven,numb,"['v', 's', 's', 's']"
+1674,overleven,survive,"['v', 'v', 'v', 'v']"
+1675,vereenvoudigen,simplify,['v']
+1676,inchecken,checking in,[]
+1677,wegstemmen,vote out,[]
+1678,opraken,running out,[]
+1679,willen,want,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1680,hardlopen,running,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 's', 'a', 'a', 's', 's']"
+1681,opkikkeren,perk up,[]
+1682,uitkramen,talk about,[]
+1683,aflezen,read,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1684,interesseren,to interest,[]
+1685,versgebakken,freshly baked,[]
+1686,minnen,minuses,['n']
+1687,doodbloeden,bleed to death,[]
+1688,blazen,blow,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1689,afknallen,pop off,[]
+1690,afdanken,discard,"['n', 'n', 'n', 'v']"
+1691,overdreven,overdone,"['v', 's', 's']"
+1692,beveiligen,to secure,[]
+1693,afwijken,deviate,"['n', 'v', 'v', 'v', 's']"
+1694,uitspreiden,spread out,[]
+1695,relaxen,relax,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1696,hongerlijden,to be hungry,[]
+1697,socialiseren,socialize,"['v', 'v', 'v', 'v']"
+1698,sauteren,sauté,[]
+1699,edelmetalen,precious metals,[]
+1700,hypnotiseren,hypnotize,['v']
+1701,verpanden,pledge,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1702,ploffen,pop,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 'r']"
+1703,oppotten,hoard,"['n', 'v', 'v']"
+1704,waggelen,totter,"['v', 'v', 'v']"
+1705,kalfsleren,calf leather,[]
+1706,acteren,Act,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1707,synchroonzwemmen,synchronized swimming,[]
+1708,bezaaien,litter,"['n', 'n', 'n', 'n', 'v', 'v', 'v']"
+1709,aren,spikes,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1710,grappen,jokes,"['n', 'n', 'n', 'n', 'v', 'v']"
+1711,staven,rods,"['n', 'n', 'n', 'n', 'n', 'n']"
+1712,verscherpen,sharpen,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1713,afkloppen,knock off,[]
+1714,uitzaaien,metastasize,['v']
+1715,wriemelen,squirm,"['n', 'v']"
+1716,grutten,grits,"['n', 'n', 'n', 'v', 'v']"
+1717,vervlogen,gone,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's', 's', 's']"
+1718,kniezen,mope,"['n', 'v', 'v']"
+1719,onterven,disinherit,['v']
+1720,pulken,pick,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1721,frituren,frying,"['n', 'v', 'v', 'v']"
+1722,recyclen,to recycle,[]
+1723,heupbeen,hip bone,[]
+1724,schaden,harm,"['n', 'n', 'n', 'v']"
+1725,joggen,to jog,[]
+1726,uitspelen,play it out,[]
+1727,kunnen,being able,[]
+1728,doorslikken,swallow,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1729,houden,to keep,[]
+1730,creëren,to create,[]
+1731,knikkeren,marbles,"['n', 'n', 'n', 'n', 'n', 'v']"
+1732,uitbraken,outbreaks,['n']
+1733,marmeren,marble,"['n', 'n', 'n', 'v']"
+1734,tekenen,to draw,[]
+1735,hinniken,whinny,"['n', 'v']"
+1736,verlekkeren,delight,"['n', 'n', 'v', 'v', 'v']"
+1737,paarrijden,horse riding,[]
+1738,fijnmalen,grind,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1739,belemmeren,hinder,"['v', 'v', 'v', 's', 's']"
+1740,beschamen,to shame,[]
+1741,schimpen,taunt,"['n', 'v']"
+1742,braken,vomit,"['n', 'n', 'n', 'v']"
+1743,bijslapen,catch up on sleep,[]
+1744,solderen,soldering,"['n', 'v']"
+1745,talen,languages,"['n', 'n', 'n', 'n', 'n', 'n']"
+1746,henen,them,[]
+1747,verhitten,heating,"['n', 'n', 'v', 'v', 'v', 'v']"
+1748,zemelen,bran,"['n', 'n']"
+1749,omvergooien,knock down,[]
+1750,passeren,pass,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a']"
+1751,onderwerpen,subjects,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1752,lichten,lights,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1753,instinken,instinct,"['n', 's']"
+1754,neerzetten,put down,[]
+1755,invliegen,fly in,[]
+1756,binnendringen,intrusion,"['n', 'n', 'n', 'n', 'n']"
+1757,algemeen,general,"['n', 'n', 'n', 'v', 'a', 's', 's', 'a', 's', 's']"
+1758,klonen,clones,"['n', 'n', 'n', 'v']"
+1759,hoogachten,regards,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+1760,opvrijen,make out,[]
+1761,uitruimen,clearing out,[]
+1762,meevliegen,fly along,[]
+1763,verzwikken,sprain,"['n', 'v']"
+1764,dimmen,dimming,"['v', 'v', 'v', 'v', 'v']"
+1765,timen,time,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1766,overspuiten,refinishing,['v']
+1767,flippen,freaking out,[]
+1768,bevruchten,fertilize,"['v', 'v', 'v']"
+1769,uitvergroten,enlarge,"['v', 'v', 'v', 'v']"
+1770,meeroken,passive smoking,[]
+1771,ontrieven,embarrassment,"['n', 'n', 'n', 'n']"
+1772,achterlopen,lagging behind,[]
+1773,verrassen,to surprise,[]
+1774,kladden,blots,"['n', 'n', 'v', 'v']"
+1775,herberekenen,recalculate,['v']
+1776,omsmeden,forging,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1777,omen,omen,"['n', 'n', 'v']"
+1778,instorten,to collapse,[]
+1779,ruften,ruften,[]
+1780,doorbreken,breaking through,[]
+1781,doorzoeken,search,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1782,dealen,deal,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1783,bijschenken,top up,[]
+1784,praten,to talk,[]
+1785,speerwerpen,javelin throw,[]
+1786,wegscheuren,tear away,[]
+1787,steden,cities,"['n', 'n', 'n']"
+1788,morgen,tomorrow,"['n', 'n', 'r']"
+1789,blowen,to smoke,[]
+1790,ontgoochelen,disappointment,"['n', 'n']"
+1791,kalksteen,limestone,['n']
+1792,tsjilpen,chirp,"['n', 'v', 'v']"
+1793,meehelpen,help out,[]
+1794,snijden,to cut,[]
+1795,zeiken,whining,"['v', 'v', 'v', 'v']"
+1796,krammen,staples,"['n', 'n', 'n', 'n', 'n', 'v']"
+1797,spaarvarken,piggy bank,[]
+1798,vermoorden,murder,"['n', 'v', 'v']"
+1799,urineren,urinating,"['v', 'v']"
+1800,huurwagen,rental car,[]
+1801,dagvaarden,subpoena,"['n', 'v']"
+1802,vastberaden,determined,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 'a', 's', 's', 's']"
+1803,bespreken,discuss,"['n', 'n', 'v', 'v']"
+1804,overdonderen,overwhelm,"['v', 'v', 'v', 'v']"
+1805,opkomen,come up,[]
+1806,gesloten,closed,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 'a', 'a', 'a', 's', 's', 's', 's', 's']"
+1807,opvissen,fish up,[]
+1808,rinkelen,ringing,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1809,veroordelen,condemn,"['v', 'v', 'v', 'v', 'v', 'v']"
+1810,afschudden,shake off,[]
+1811,verstevigen,strengthen,"['v', 'v', 'v']"
+1812,vergruizen,crush,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1813,doorgeven,pass around,[]
+1814,overbrengen,transfer,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1815,samenvatten,to summarize,[]
+1816,betreden,enter,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1817,renoveren,renovate,"['v', 'v', 'v']"
+1818,optimaliseren,optimize,"['v', 'v', 'v']"
+1819,ontkoppelen,disconnect,"['n', 'v', 'v']"
+1820,zen,zen,"['n', 'n', 'n']"
+1821,presteren,achieve,['v']
+1822,torsen,tors,"['n', 'n']"
+1823,opgroeien,to grow up,[]
+1824,kondigen,announce,"['v', 'v', 'v', 'v']"
+1825,wapperen,flutter,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1826,kantoorbenodigdheden,office equipment,[]
+1827,penetreren,penetrate,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1828,aandikken,thicken,"['v', 'v', 'v']"
+1829,mikken,aim,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1830,initialiseren,initialize,"['v', 'v']"
+1831,ontketenen,unleash,"['v', 'v', 'v']"
+1832,afsnauwen,snub,"['n', 'n', 'v', 'v', 's']"
+1833,schrompelen,shrivel,"['v', 'v']"
+1834,inpraten,talking,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1835,aandenken,keepsake,['n']
+1836,kopergroen,copper green,[]
+1837,zuigzoen,hickey,"['n', 'n']"
+1838,sodemieteren,bugger,"['n', 'v']"
+1839,plunderen,looting,"['n', 'v', 'v']"
+1840,opknappen,refurbish,['v']
+1841,volgen,to follow,[]
+1842,natrappen,after pedaling,[]
+1843,voorzagen,foresaw,"['v', 'v', 'v']"
+1844,bloeien,Bloom,"['n', 'n', 'n', 'n', 'n', 'n', 'v']"
+1845,been,leg,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+1846,complotteren,conspiring,"['v', 'v']"
+1847,woonwagen,caravan,"['n', 'n', 'v']"
+1848,jubelen,exult,"['v', 'v']"
+1849,profiteren,taking advantage,[]
+1850,verschepen,to ship,[]
+1851,ploegen,plow,"['n', 'v', 'v', 'v']"
+1852,aanhaken,hook up,[]
+1853,stommelen,stumble,"['n', 'n', 'v', 'v', 'v', 'v']"
+1854,overdoen,redo,"['v', 'v']"
+1855,rechtzitten,sit up straight,[]
+1856,poederen,powder,"['n', 'n', 'n', 'v', 'v']"
+1857,lagen,layers,"['n', 'n', 'n', 'n', 'n', 'v']"
+1858,happen,bite,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1859,zakendoen,do business,[]
+1860,afzoeken,searching,"['v', 'v', 'v', 'v', 's', 's', 's']"
+1861,stukbijten,biting,"['v', 'v', 'v', 'v', 's', 's']"
+1862,afhelpen,get rid of,[]
+1863,blussen,extinguish,"['v', 'v', 'v', 'v', 'v']"
+1864,inkrimpen,reduce,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1865,realiseren,realize,"['v', 'v', 'v', 'v', 'v', 'v']"
+1866,lanceren,launch,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1867,piekeren,worry,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1868,hangen,to hang,[]
+1869,hopen,to hope,[]
+1870,vloeren,floors,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+1871,tippelen,soliciting,"['v', 'v', 'v', 'v', 'v']"
+1872,meezingen,sing along,[]
+1873,verwekken,beget,['v']
+1874,gootsteen,sink,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1875,omblazen,blow over,[]
+1876,afbetalen,pay off,[]
+1877,uitschreeuwen,Scream,"['n', 'n', 'n', 'v', 'v', 'v']"
+1878,verwonden,to injure,[]
+1879,verlinken,link,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1880,bedotten,fool,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1881,botten,bones,"['n', 'n', 'n', 'n', 'v', 'v']"
+1882,klauteren,scramble,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1883,duizelen,dizzy,"['v', 's', 's']"
+1884,onderwijzen,to educate,[]
+1885,klooien,messing around,[]
+1886,beschieten,shelling,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1887,blootstellen,expose,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1888,identiteitspapieren,identity papers,[]
+1889,omhullen,envelop,['v']
+1890,goedpraten,justify,"['v', 'v', 'v', 'v', 'v']"
+1891,vervullen,fulfill,"['v', 'v', 'v']"
+1892,compenseren,compensate,"['v', 'v', 'v', 'v', 'v', 'v']"
+1893,houthakken,to chop wood,[]
+1894,verongelukken,crash,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1895,opsplitsen,split up,[]
+1896,lobbyen,lobbying,['v']
+1897,kusten,coasts,"['n', 'n', 'n', 'n', 'v']"
+1898,racewagen,racing car,[]
+1899,voortmaken,hurry up,[]
+1900,flatteren,flatter,"['v', 's', 's', 's', 's', 'a', 'a', 's', 's', 's', 's', 's', 's', 's', 's', 's']"
+1901,snorkelen,snorkeling,"['n', 'v']"
+1902,amputeren,amputate,['v']
+1903,opwekken,arouse,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1904,herbevestigen,reconfirm,['v']
+1905,studeren,to study,[]
+1906,troggelen,dribble,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1907,wachtlopen,watchkeeping,[]
+1908,aanranden,assault,"['n', 'n', 'n', 'n', 'v', 'v', 'v']"
+1909,losbreken,break away,[]
+1910,betegelen,tiling,"['n', 'v']"
+1911,prijzen,Prices,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+1912,beoefenen,practicing,"['v', 'v', 'v', 'v', 'v']"
+1913,hersenspoelen,brainwashing,"['n', 'v', 'v']"
+1914,braden,roast,"['n', 'n', 'v', 'v', 's']"
+1915,tv-optreden,TV appearance,[]
+1916,betalen,Pay,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1917,houtsnijden,wood cutting,[]
+1918,loslaten,letting go,[]
+1919,initiëren,initiate,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1920,sluimeren,slumber,"['n', 'n', 'v']"
+1921,stopteken,stop sign,[]
+1922,joyriden,joyriding,['v']
+1923,waarmaken,live up to,[]
+1924,besterven,to die,[]
+1925,beklagen,to complain,[]
+1926,lijken,appear,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1927,rennen,run,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1928,martelen,torture,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+1929,wegrijden,drive away,[]
+1930,bezweren,exorcise,['v']
+1931,zelfgebakken,home baked,[]
+1932,insinueren,insinuate,"['v', 'v']"
+1933,verruilen,exchange,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1934,ventileren,ventilate,"['v', 'v', 'v', 'v', 'v']"
+1935,verworpen,rejected,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+1936,arresteren,to arrest,[]
+1937,rondsluipen,sneak around,[]
+1938,gloeien,glowing,"['n', 'v', 'v', 'v', 'v', 'v', 's']"
+1939,behoren,belong,"['v', 'v', 'v', 'v', 'v', 'v']"
+1940,wreken,avenge,['v']
+1941,blootleggen,uncover,"['v', 'v']"
+1942,langswippen,pop by,[]
+1943,verrichten,perform,"['v', 'v', 'v', 'v']"
+1944,glimlachen,smile,"['n', 'v', 'v']"
+1945,afschieten,shoot,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1946,helpen,help out,[]
+1947,samenroepen,to convene,[]
+1948,stompen,stumps,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+1949,vergunnen,permit,"['n', 'n', 'n', 'v', 'v', 'v']"
+1950,omhakken,chop down,[]
+1951,provoceren,provoke,"['v', 'v', 'v', 'v']"
+1952,steroïden,steroids,"['n', 'n']"
+1953,drogeren,drugging,"['n', 'v', 'v']"
+1954,toespelen,allusive,['s']
+1955,instrueren,instruct,"['v', 'v', 'v']"
+1956,besluipen,stalking,"['n', 'n', 'v', 'v', 'v']"
+1957,verfrissen,refresh,"['v', 'v', 'v', 'v']"
+1958,zwetsen,sweat,"['n', 'n', 'n', 'n', 'v']"
+1959,wegjagen,scare off,[]
+1960,warmtekussen,heat pad,[]
+1961,dokken,docks,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+1962,harten,hearts,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+1963,vastklampen,clinging,"['v', 'v', 'v']"
+1964,hunkeren,crave,"['v', 'v']"
+1965,bepalen,determine,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1966,overplaatsen,transfer,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1967,pijpen,pipes,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1968,bejegenen,treat,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1969,kalmeren,to calm down,[]
+1970,ereteken,badge of honor,[]
+1971,rondlummelen,fool around,[]
+1972,kikkeren,frogs,"['n', 'n', 'n', 'v']"
+1973,privé-leven,private life,[]
+1974,onbescheiden,indiscreet,['a']
+1975,verwedden,wager,"['n', 'n', 'v', 'v']"
+1976,groenen,greens,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v']"
+1977,uitspellen,spell out,[]
+1978,doodmaken,kill,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1979,betekenen,mean,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's', 's', 's', 's', 's', 's', 's']"
+1980,adverteren,to advertise,[]
+1981,navragen,inquire,"['v', 'v', 'v']"
+1982,bezinnen,reflect,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1983,bespelen,to play,[]
+1984,paardjerijden,horse riding,[]
+1985,presenteren,present,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 'a']"
+1986,vastvriezen,freeze,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1987,bekopen,pay,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1988,meevaren,sail along,[]
+1989,binnenschieten,comes to mind,[]
+1990,omsingelen,to surround,[]
+1991,uitzoomen,zoom out,[]
+1992,voordoen,occur,"['v', 'v', 'v']"
+1993,dagen,days,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+1994,krullen,shavings,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+1995,herstellen,to recover,[]
+1996,registreren,Register,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+1997,verwachten,expect,"['v', 'v', 'v', 'v', 'v', 'v']"
+1998,vastpakken,grasp,"['n', 'n', 'n', 'n', 'v', 'v']"
+1999,doodtrappen,kick to death,[]
+2000,drijfvermogen,buoyancy,"['n', 'n', 'n', 'n']"
+2001,verwarmen,to heat,[]
+2002,rekenen,to calculate,[]
+2003,verdelen,divide,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2004,trimmen,trimming,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2005,jen,jen,[]
+2006,teruglezen,read back,[]
+2007,vernachelen,down,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 's', 's', 's', 's', 's', 's', 's', 's', 'r', 'r', 'r', 'r', 'r', 'r']"
+2008,solliciteren,Apply,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2009,bullen,bulls,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2010,breiden,expand,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2011,wenken,beckons,"['v', 'v', 'v']"
+2012,vermelden,mention,"['n', 'n', 'n', 'v', 'v', 'v']"
+2013,luisteren,listen,"['v', 'v', 'v']"
+2014,verhullen,conceal,"['v', 'v']"
+2015,spelen,play,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2016,meubileren,furnish,"['v', 'v']"
+2017,opnemen,record,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2018,aantekenen,note,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2019,weven,weave,"['n', 'v', 'v', 'v', 'v']"
+2020,bidden,pray,"['v', 'v']"
+2021,meedelen,to communicate,[]
+2022,slippen,slipping,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+2023,uitstijgen,rise out,[]
+2024,aandoen,to put on,[]
+2025,voortdoen,continue,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2026,inplanten,implant,"['n', 'v', 'v', 'v']"
+2027,claimen,claim,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2028,kaartlezen,card reading,[]
+2029,spioneren,spy,"['n', 'n', 'v', 'v', 'v', 'v']"
+2030,opladen,load,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2031,niesen,to sneeze,[]
+2032,tegenstribbelen,struggle,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2033,carpoolen,carpooling,[]
+2034,staken,to strike,[]
+2035,ontroeren,moving,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 'a', 'a']"
+2036,pasgeboren,newborn,"['n', 's', 's']"
+2037,omzeilen,circumvent,"['v', 'v', 'v']"
+2038,dringen,insist,"['v', 'v', 'v']"
+2039,vervijfvoudigen,fivefold,['s']
+2040,zwengelen,cranking,"['v', 'v', 'v', 'v', 'v']"
+2041,opgeleiden,educated,"['v', 'v', 'v', 'a', 's']"
+2042,rekruteren,recruiting,"['v', 'v', 'v']"
+2043,vinden,find,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2044,uitblazen,blow out,[]
+2045,verminken,mutilate,"['v', 'v', 'v']"
+2046,vertrappelen,trample,"['n', 'v', 'v', 'v']"
+2047,ontzeggen,deny,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2048,volgooien,filling up,[]
+2049,opborrelen,bubble up,[]
+2050,uitverkoren,elect,"['n', 'v', 'v', 's', 's']"
+2051,intapen,tap,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2052,wegrennen,run away,[]
+2053,overschaduwen,overshadow,"['v', 'v', 'v']"
+2054,omhooghalen,lift up,[]
+2055,inactiveren,inactivate,"['v', 'v']"
+2056,welslagen,success,"['n', 'n', 'n', 'n']"
+2057,berispen,reprimand,"['n', 'v', 'v']"
+2058,ontrukken,snatch,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+2059,meerijden,ride along,[]
+2060,omdoen,put on,[]
+2061,afzagen,saw off,[]
+2062,proeven,taste,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2063,doorsteken,pierce,"['n', 'v', 'v', 'v', 'v', 'v']"
+2064,uiteendrijven,disperse,"['v', 'v', 'v', 'v', 'v', 'v']"
+2065,wegsmelten,melt away,[]
+2066,repeteren,rehearse,['v']
+2067,doorkruisen,traverse,"['n', 'n', 'n', 'n', 'v', 'v', 'v']"
+2068,parkeren,parking,"['n', 'n', 'v', 'v']"
+2069,opbeuren,uplift,"['n', 'n', 'v', 'v', 'v']"
+2070,verleiden,seduce,"['v', 'v']"
+2071,vrienden,friends,"['n', 'n', 'n', 'n', 'n']"
+2072,inlossen,redeem,"['v', 'v', 'v', 'v', 'v', 'v']"
+2073,vernieuwen,renew,"['v', 'v']"
+2074,pruilen,pout,"['n', 'n', 'n', 'v', 'v']"
+2075,uitlenen,lending,"['n', 'v', 'v', 'v']"
+2076,verslappen,relax,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2077,kreukelen,wrinkle,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2078,vrouwenschoen,woman's shoe,[]
+2079,intypen,key in,[]
+2080,muteren,mutate,['v']
+2081,deelnemen,Participate,"['v', 'v']"
+2082,ontfutselen,to steal,[]
+2083,tegenspartelen,struggle,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2084,toeroepen,shout,"['n', 'v', 'v', 'v', 'v']"
+2085,terugschieten,shoot back,[]
+2086,opgedragen,commissioned,"['v', 'v', 'v', 'a', 's']"
+2087,raken,touch,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2088,fantaseren,fantasize,"['v', 'v']"
+2089,vooruitbetalen,pay it Forward,[]
+2090,vrijen,making out,[]
+2091,scheren,shave,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2092,terughoren,hear back,[]
+2093,grafsteen,tombstone,['n']
+2094,afdalen,descend,"['v', 'v', 'v', 'v']"
+2095,begeleiden,accompany,"['v', 'v', 'v', 'v']"
+2096,modificeren,modify,"['v', 'v', 'v']"
+2097,folteren,torture,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2098,knakken,snap,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2099,weren,keep out,[]
+2100,aftellen,countdown,['n']
+2101,ex-kampioen,ex-champion,[]
+2102,liksteen,lick stone,[]
+2103,koloniseren,colonize,"['v', 'v']"
+2104,schaken,chess,"['n', 'n']"
+2105,rotzooien,mess around,[]
+2106,beroeren,touch,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2107,nablijven,detention,"['n', 'n']"
+2108,specimen,specimen,"['n', 'n']"
+2109,afpikken,pick off,[]
+2110,straffen,to punish,[]
+2111,herbouwen,rebuild,['v']
+2112,verstieren,to disrupt,[]
+2113,glijden,to slide,[]
+2114,verzenden,to send,[]
+2115,uitdoen,turning off,[]
+2116,ontluchten,bleed,"['v', 'v', 'v', 'v', 'v']"
+2117,beproeven,to try,[]
+2118,openscheuren,tear open,[]
+2119,flaneren,stroll,"['n', 'v']"
+2120,sjorren,lashing,"['n', 'n', 'v', 'v', 'v', 'v', 's']"
+2121,onderdompelen,submerge,"['v', 'v', 'v', 'v']"
+2122,seksleven,sex life,[]
+2123,openhalen,open up,[]
+2124,resoneren,resonate,"['v', 'v']"
+2125,doen,to do,[]
+2126,hen,them,[]
+2127,capituleren,capitulate,['v']
+2128,afschilderen,depict,"['v', 'v', 'v']"
+2129,oprijzen,rise up,[]
+2130,verroesten,rust,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 's']"
+2131,inzittenden,occupants,['n']
+2132,klagen,complain,"['v', 'v']"
+2133,overwerken,overtime,"['n', 'n', 'r']"
+2134,kraaien,crows,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+2135,kanovaren,canoeing,['v']
+2136,papieren,paper,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2137,charmeren,charm,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2138,flessen,bottles,"['n', 'n', 'n', 'v', 'v']"
+2139,kletsen,chat,"['n', 'n', 'n', 'v']"
+2140,draaien,to turn,[]
+2141,kiezen,select,"['v', 's', 's']"
+2142,verbrokkelen,crumble,"['v', 'v', 'v']"
+2143,ineenstorten,collapse,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2144,gijzelen,hostage,['n']
+2145,oprotten,get lost,[]
+2146,ontploffen,explode,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2147,spoorzoeken,tracking,"['n', 'v', 'v', 'v', 'v', 'v']"
+2148,overcompenseren,overcompensate,"['v', 'v']"
+2149,binden,tie,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2150,overgeven,throwing up,[]
+2151,ketenen,shackles,"['n', 'n', 'v', 'v']"
+2152,helen,heal,"['v', 'v', 'v']"
+2153,geschoren,shaved,"['v', 'v', 'v', 'v', 'v', 'v', 'a']"
+2154,draperen,drape,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2155,verstoten,cast away,[]
+2156,wauwelen,wow,"['n', 'v']"
+2157,overhalen,persuade,"['v', 'v']"
+2158,gevangen,caught,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2159,beboteren,butter,"['n', 'n', 'v']"
+2160,uitsmeren,smear,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2161,opknopen,hang,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2162,tinkelen,tinkling,"['v', 's']"
+2163,afreageren,to react,[]
+2164,stelen,steal,"['n', 'n', 'v', 'v', 'v']"
+2165,insemineren,inseminate,"['v', 'v']"
+2166,dubbelchecken,double check,[]
+2167,verbijten,to bite,[]
+2168,atoomwapen,nuclear weapon,[]
+2169,wagen,car,"['n', 'n', 'n', 'n', 'n']"
+2170,gelen,yellows,"['n', 'v']"
+2171,bedanken,to thank,[]
+2172,verdubbelen,double,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's', 's', 'a', 'a', 's', 's', 'r', 'r', 'r']"
+2173,jokken,lying,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2174,jengelen,whine,"['n', 'v', 'v', 'v', 'v']"
+2175,landen,Nations,"['n', 'n', 'n', 'n']"
+2176,veredelen,breed,"['n', 'n', 'v', 'v', 'v', 'v']"
+2177,doorzetten,persevere,['v']
+2178,bekvechten,argue,"['v', 'v', 'v']"
+2179,herzien,revise,"['n', 'v', 'v']"
+2180,ronddolen,wander around,[]
+2181,tapdansen,tap dancing,[]
+2182,dichthouden,keep shut,[]
+2183,rijten,rip,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2184,afborstelen,brushing off,[]
+2185,na-apen,copycat,['n']
+2186,neuspeuteren,picking your nose,[]
+2187,peinzen,meditate,"['v', 'v']"
+2188,sloten,locks,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2189,platbranden,burn down,[]
+2190,vergieten,shedding,"['n', 'n', 'v', 'v', 'v', 'v']"
+2191,vrijlaten,to release,[]
+2192,meevechten,fight along,[]
+2193,doorbijten,bite through,[]
+2194,roteren,rotate,"['v', 'v', 'v', 'v', 'v', 'v']"
+2195,doorbrengen,Spending time,[]
+2196,goeddunken,discretion,"['n', 'n', 'n', 'n', 'n']"
+2197,opofferen,sacrifice,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2198,graveren,engraving,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2199,zondigen,sin,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2200,omkappen,hood down,[]
+2201,zwabberen,swabbing,"['n', 'v', 'v']"
+2202,opensnijden,cut open,[]
+2203,wijzen,point,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2204,bemoederen,mother,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2205,vormgeven,Shaping,"['n', 'n', 'v', 'v', 'v', 's']"
+2206,wegsluipen,sneak off,[]
+2207,berokkenen,harm,"['n', 'n', 'n', 'v']"
+2208,takelen,hoist,"['n', 'v', 'v', 'v']"
+2209,kosten,cost,"['n', 'n', 'n', 'v', 'v']"
+2210,vergasten,regale,['v']
+2211,duimen,fingers crossed,[]
+2212,pluimen,plumes,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2213,omleggen,divert,"['v', 'v', 'v', 'v']"
+2214,scratchen,scratch,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2215,wrikken,pry,"['n', 'v', 'v', 'v', 'v']"
+2216,samenspelen,play together,[]
+2217,instellen,Set up,[]
+2218,baren,to give birth,[]
+2219,vervuilen,to pollute,[]
+2220,inbegrepen,including,"['v', 'v', 'v', 'v']"
+2221,toedekken,cover up,[]
+2222,neerstorten,crash,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2223,waden,wading,"['n', 'v', 'v', 'v']"
+2224,terugrijden,drive back,[]
+2225,autorijden,driving a car,[]
+2226,bezegelen,seal,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2227,herkennen,recognize,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2228,escorteren,escort,"['n', 'n', 'n', 'n', 'v', 'v']"
+2229,afbuigen,deflect,"['v', 'v', 'v', 'v', 'v']"
+2230,beërven,inherit,"['v', 'v', 'v']"
+2231,verdachten,suspects,"['n', 'n', 'v', 'v', 'v']"
+2232,bewijzen,prove,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2233,bestraffen,to punish,[]
+2234,verzwijgen,conceal,"['v', 'v']"
+2235,uitzoeken,investigate,"['v', 'v']"
+2236,autopapieren,car papers,[]
+2237,binnenloodsen,pilots in,[]
+2238,doorwerken,continue working,[]
+2239,vallen,fall,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2240,grazen,grazing,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2241,neutraliseren,neutralize,"['v', 'v', 'v', 'v', 'v', 'v']"
+2242,bevochtigen,moisten,"['v', 'v']"
+2243,opereren,to operate,[]
+2244,verbrassen,to surprise,[]
+2245,stuitbeen,coccyx,['n']
+2246,rondtrekken,travel around,[]
+2247,filmen,to film,[]
+2248,werven,recruit,"['n', 'n', 'v', 'v', 'v']"
+2249,kokhalzen,gag reflex,[]
+2250,wonen,live,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 'a', 'a', 's', 's', 's', 's', 's', 's', 's', 's', 'r']"
+2251,bereiken,to achieve,[]
+2252,grasmaaien,mowing,"['v', 'v']"
+2253,gorden,gird,"['v', 'v', 'v']"
+2254,zoemen,zoom,"['n', 'n', 'v', 'v', 'v']"
+2255,dupliceren,duplicate,"['n', 'n', 'v', 'v', 'v', 'v', 's', 's']"
+2256,ravotten,romp,"['n', 'n', 'n', 'v', 'v', 'v']"
+2257,vergeten,to forget,[]
+2258,gelden,apply,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2259,hondenharen,dog hair,[]
+2260,inzien,view,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+2261,trippelen,tripping,"['v', 'v', 'v', 'v', 'v', 's', 's']"
+2262,vergaderen,meeting,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2263,inprenten,imprint,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2264,reactiveren,reactivate,['v']
+2265,runnen,run,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2266,opsporen,track down,[]
+2267,overschakelen,switch over,[]
+2268,applaudisseren,applauding,"['v', 'v']"
+2269,uitkafferen,cry out,[]
+2270,wapenen,arm,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2271,verneuken,screw up,[]
+2272,toen,then,"['n', 's', 'r', 'r', 'r']"
+2273,verhuizen,moving away,[]
+2274,overgroeien,overgrow,"['v', 'v', 'v']"
+2275,rotleven,bad life,[]
+2276,afbellen,cancel,"['n', 'v', 'v', 'v', 'v', 'v']"
+2277,opdrogen,dry up,[]
+2278,bevochten,fought,"['v', 'v', 'v', 'v']"
+2279,uitdijen,expanding,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2280,villen,skinning,"['v', 'v', 'v', 'v']"
+2281,klaarleggen,ready,"['n', 'v', 'v', 'a', 's', 's', 's', 's']"
+2282,opruien,stir up,[]
+2283,tjirpen,chirping,"['v', 'v']"
+2284,roddelen,to gossip,[]
+2285,laagvliegen,low flying,[]
+2286,inslikken,ingestion,['n']
+2287,losmaken,loosening,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2288,terughalen,recall,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2289,consumeren,to consume,[]
+2290,omcirkelen,circle,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+2291,uitroepen,call out,[]
+2292,opmonteren,assemble,"['v', 'v', 'v']"
+2293,inbreken,hack,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2294,burgerkleren,civilian clothes,[]
+2295,binnenvallen,invade,"['v', 'v', 'v', 'v']"
+2296,oplikken,licking up,[]
+2297,sparen,save,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2298,luieren,lazing around,[]
+2299,tossen,flip a coin,[]
+2300,ophangen,hang up,[]
+2301,leiden,lead,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2302,peren,pears,"['n', 'n']"
+2303,decoderen,decoding,"['n', 'v']"
+2304,offeren,sacrifice,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2305,inschattingsvermogen,judgment,"['n', 'n', 'n', 'n', 'n', 'n', 'n']"
+2306,achtervolgen,Chase,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2307,aaneenrijgen,string together,[]
+2308,voorliegen,lie to,[]
+2309,doorverkopen,resell,['v']
+2310,resteren,remain,"['v', 'v', 'v', 'v']"
+2311,poseren,pose,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2312,ontzien,sparing,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+2313,adresseren,address,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2314,wurgen,strangle,"['v', 'v', 'v', 'v', 'v', 'v']"
+2315,simuleren,simulate,"['v', 'v', 'v']"
+2316,relativeren,perspective,"['n', 'n']"
+2317,zakkenrollen,pickpocketing,[]
+2318,fijnhakken,chop it up,[]
+2319,sabbelen,sucking,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2320,vibreren,vibrate,"['v', 'v', 'v', 'v', 'v']"
+2321,spotten,spotting,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2322,toedienen,to administer,[]
+2323,formaliseren,formalize,"['v', 'v']"
+2324,wegspringen,jump away,[]
+2325,freestylen,freestyling,[]
+2326,horen,to hear,[]
+2327,vuren,firing,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2328,kramen,stalls,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2329,ijscowagen,ice cream truck,[]
+2330,wegvegen,wipe away,[]
+2331,rondhangen,hanging around,[]
+2332,weeklagen,lamenting,"['v', 'v', 's']"
+2333,verplegen,nursing,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2334,loshalen,detach,"['v', 'v', 'v']"
+2335,behelzen,include,"['v', 'v', 'v', 'v']"
+2336,thuisbezorgen,home delivery,[]
+2337,sjokken,trudge,"['n', 'v']"
+2338,copuleren,copulate,['v']
+2339,collageen,collagen,['n']
+2340,voortbrengen,bring forth,[]
+2341,afhouden,hold off,[]
+2342,haten,hate,"['n', 'v']"
+2343,bessen,berries,"['n', 'n', 'n', 'v']"
+2344,doordrukken,push through,[]
+2345,knipperen,blink,"['n', 'v', 'v', 'v']"
+2346,oppassen,be careful,[]
+2347,recapituleren,recapitulate,"['v', 'v', 'v']"
+2348,afschaffen,abolish,['v']
+2349,aanlijnen,leash,"['n', 'n', 'n', 'v']"
+2350,schuimen,foaming,"['v', 's', 's']"
+2351,vuurwapen,firearm,['n']
+2352,stabiliseren,stabilize,"['v', 'v', 'v']"
+2353,afranselen,whipping,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+2354,ronddrijven,drifting around,[]
+2355,verhelderen,clarify,"['v', 'v']"
+2356,voortslepen,to drag on,[]
+2357,verkruimelen,crumble,"['v', 'v', 'v']"
+2358,omsmelten,melt down,[]
+2359,lachen,laugh,"['n', 'n', 'n', 'v']"
+2360,deactiveren,deactivate,"['v', 'v']"
+2361,versturen,send,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2362,schrapen,scrape,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2363,bijverdienen,earn extra money,[]
+2364,blijven,stay,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2365,opkopen,buy up,[]
+2366,inkomen,income,['n']
+2367,aftrappen,kick off,[]
+2368,aandrijven,drive,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2369,fonduen,fondue,"['n', 'n']"
+2370,stralen,shine,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2371,trekken,to pull,[]
+2372,aanrekenen,charge,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2373,verbreken,disconnect,"['n', 'v', 'v']"
+2374,bedaren,calm,"['n', 'n', 'v', 'v', 'v', 'v', 's', 'a']"
+2375,dralen,linger,"['v', 'v', 'v', 'v', 'v']"
+2376,afkappen,truncate,"['v', 'v', 'v', 's']"
+2377,optillen,lift,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2378,afvuren,to fire,[]
+2379,mishandelen,mistreat,['v']
+2380,bekoelen,cool down,[]
+2381,vrijkomen,released,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2382,uitkrabben,scrape out,[]
+2383,ontwijden,profane,"['v', 'v', 's', 'a', 's', 's']"
+2384,weghollen,run away,[]
+2385,inladen,loading,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2386,verpesten,screw it up,[]
+2387,rookwaren,smoking materials,[]
+2388,opkrabbelen,scramble up,[]
+2389,schatgraven,treasure digging,[]
+2390,brassen,braising,"['n', 'v']"
+2391,teruggooien,discard,"['n', 'n', 'n', 'v']"
+2392,aangeboren,congenital,['s']
+2393,raaskallen,raaskallen,[]
+2394,mobiliseren,mobilize,"['v', 'v', 'v', 'v']"
+2395,lukken,succeed,"['v', 'v']"
+2396,erven,inherit,"['v', 'v', 'v']"
+2397,tuinen,gardens,"['n', 'n', 'n', 'v']"
+2398,verkneukelen,gloat,"['n', 'v', 'v']"
+2399,behagen,please,"['v', 'v', 'v', 'r']"
+2400,besproeien,spraying,"['n', 'n', 'n', 'v', 'v', 'v']"
+2401,natmaken,make wet,[]
+2402,afdrogen,dry,"['n', 'v', 'v', 'a', 's', 'a', 'a', 'a', 'a', 'a', 's', 's', 's', 's', 's', 's', 's', 's', 's']"
+2403,verdoemen,damn,"['n', 'v', 's', 's', 'r']"
+2404,belenen,pawn,"['n', 'n', 'n', 'n', 'v']"
+2405,zwalken,to drift,[]
+2406,openlaten,leave it open,[]
+2407,uitsnijden,cut out,[]
+2408,ongenoegen,displeasure,['n']
+2409,bannen,banish,"['v', 'v', 'v', 'v']"
+2410,ranselen,whip,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2411,stormen,storms,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2412,storten,deposit,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+2413,versmallen,narrowing,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 's', 's']"
+2414,bemerken,notice,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2415,berekenen,calculate,"['v', 'v', 'v', 'v', 'v', 'v']"
+2416,induiken,dive in,[]
+2417,herwerken,rework,['v']
+2418,kortwieken,trim,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's', 's', 's']"
+2419,afwenden,turn away,[]
+2420,bedelen,beg,"['v', 'v', 'v', 'v']"
+2421,uitzenden,to broadcast,[]
+2422,ontkrachten,debunk,['v']
+2423,schoolexamen,school exam,[]
+2424,absorberen,absorb,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2425,dwarszitten,bother,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2426,omrollen,roll over,[]
+2427,boerentrien,peasant trien,[]
+2428,pakken,to grab,[]
+2429,zwerven,roam,['v']
+2430,redden,to rescue,[]
+2431,binnenwandelen,walk in,[]
+2432,destabiliseren,destabilize,"['v', 'v']"
+2433,bottelen,bottling,"['v', 'v']"
+2434,opsnorren,whip up,[]
+2435,inschrijven,register,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2436,aandragen,propose,"['v', 'v', 'v', 'v', 'v']"
+2437,peddelen,paddle,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2438,dichtritsen,zip up,[]
+2439,kabbelen,rippling,"['n', 'v', 'v']"
+2440,strooien,sprinkle,"['n', 'n', 'v', 'v', 'v', 'v']"
+2441,afzuigen,suction,"['n', 'n', 'v', 'v']"
+2442,koeken,cakes,"['n', 'n', 'n', 'v']"
+2443,besteden,spend,"['v', 'v', 'v']"
+2444,uithangen,hang out,[]
+2445,maaien,mow,"['n', 'v', 'v']"
+2446,rampetampen,disaster lamps,[]
+2447,samenleven,living together,[]
+2448,ontspringen,gush,"['n', 'n', 'v', 'v', 'v']"
+2449,verschuilen,hide,"['n', 'n', 'v', 'v', 'v', 'v']"
+2450,tv-kijken,watch TV,[]
+2451,uitslapen,sleep in,[]
+2452,dribbelen,dribble,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2453,optrekken,pull up,[]
+2454,losgooien,throw loose,[]
+2455,schroeien,scorching,"['v', 'v', 'v', 'v', 'v', 's', 'r']"
+2456,stuklopen,fail,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2457,rondspoken,haunt,"['n', 'v', 'v', 'v']"
+2458,neersteken,stabbing,"['v', 'v', 'v', 's', 's']"
+2459,reproduceren,reproduce,"['v', 'v', 'v', 'v']"
+2460,verschrompelen,shrivel,"['v', 'v']"
+2461,voorkruipen,to crawl forward,[]
+2462,voederen,feeding,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2463,mecanicien,mechanic,"['n', 'n', 's']"
+2464,stijgen,rise,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2465,reflecteren,to reflect,[]
+2466,handwapen,handgun,['n']
+2467,toejuichen,applaud,"['v', 'v']"
+2468,loshaken,unhooking,['v']
+2469,betoveren,enchant,"['v', 'v', 'v']"
+2470,langsrijden,drive by,[]
+2471,berouwen,repent,"['v', 'v']"
+2472,verplaatsen,move,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2473,afzetten,drop off,[]
+2474,verblinden,to blind,[]
+2475,overmeesteren,overpower,"['v', 'v']"
+2476,noemen,to mention,[]
+2477,omwisselen,exchange,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2478,betonen,demonstrate,"['v', 'v', 'v', 'v']"
+2479,repliceren,replicate,"['v', 'v', 'v']"
+2480,namaken,counterfeiting,['v']
+2481,tolereren,tolerate,"['v', 'v', 'v', 'v']"
+2482,terugleggen,put back,[]
+2483,terugvechten,fight back,[]
+2484,vlammen,flames,"['n', 'v', 'v', 'v']"
+2485,sjansen,sjansen,[]
+2486,verraden,betray,"['v', 'v', 'v', 'v', 'v', 'v']"
+2487,opdagen,show up,[]
+2488,aftappen,draining,"['v', 'v', 'v', 'v', 's']"
+2489,mollen,moles,"['n', 'n', 'n', 'n', 'n', 'n']"
+2490,spreiden,to spread,[]
+2491,kerstmorgen,Christmas morning,[]
+2492,waarzeggen,divination,"['n', 'n', 'n']"
+2493,afvragen,questioning,"['n', 'v', 'v', 'v', 'v', 'v', 's', 's', 's']"
+2494,indrijven,drive in,[]
+2495,touwklimmen,rope climbing,[]
+2496,doorademen,breathe through,[]
+2497,reserveren,to reserve,[]
+2498,slaapwandelen,sleepwalking,"['n', 'v']"
+2499,procederen,litigate,"['v', 'v']"
+2500,uitbranden,burning out,[]
+2501,natekenen,draw,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2502,wieden,weeding,['v']
+2503,winkelen,shop,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2504,blinken,shine,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2505,aardvarken,Aardvark,['n']
+2506,een,a,"['n', 'n', 'n', 'n', 'n', 'n', 'n']"
+2507,saboteren,sabotage,"['n', 'v']"
+2508,zenden,send,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2509,grauwen,snarl,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2510,plannen,plan,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2511,bijlappen,clapping,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2512,verschonen,changing,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+2513,overdragen,transfer,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2514,doortrekken,continue,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2515,rondbanjeren,buzzing around,[]
+2516,rouwen,mourn,"['v', 'v']"
+2517,vervormen,deform,"['v', 'v', 'v', 'v', 'v', 'v']"
+2518,bivakkeren,camp,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 's']"
+2519,bevoorraden,to supply,[]
+2520,omkatten,envelop,['v']
+2521,mummificeren,mummify,"['v', 'v', 'v']"
+2522,pissen,piss,"['n', 'n', 'v']"
+2523,dwepen,rave,"['n', 'n', 'v', 'v', 'v']"
+2524,afwentelen,passing on,[]
+2525,herpakken,repacking,[]
+2526,gladgeschoren,clean-shaven,['s']
+2527,saven,save,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2528,ontbijten,having breakfast,[]
+2529,breien,to knit,[]
+2530,teken,sign,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+2531,signeren,signing,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2532,wegrukken,snatch away,[]
+2533,uitademen,exhale,"['v', 'v']"
+2534,medelijden,pity,"['n', 'n', 'n', 'v']"
+2535,gokken,gamble,"['n', 'n', 'v', 'v']"
+2536,uitklimmen,climbing out,[]
+2537,onderzoeken,to research,[]
+2538,confronteren,confront,"['v', 'v', 'v', 'v']"
+2539,samenspannen,collude,['v']
+2540,opnoemen,mention,"['n', 'n', 'n', 'v', 'v', 'v']"
+2541,gemeen,mean,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's', 's', 's', 's', 's', 's', 's']"
+2542,verwerpen,reject,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2543,bijtellen,add,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2544,ondernemen,to undertake,[]
+2545,jachthaven,marina,['n']
+2546,verpieteren,to die,[]
+2547,prediken,preach,"['v', 'v']"
+2548,strompelen,stumble,"['n', 'n', 'v', 'v', 'v', 'v']"
+2549,aanvallen,to attack,[]
+2550,vrijspreken,acquit,"['v', 'v']"
+2551,reiken,to reach,[]
+2552,lenen,to borrow,[]
+2553,beroven,to rob,[]
+2554,zeggen,say,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2555,rondsnuffelen,poke around,[]
+2556,uithouden,hold out,[]
+2557,latten,slats,"['n', 'v', 'v']"
+2558,afvallen,to lose weight,[]
+2559,oprakelen,stir up,[]
+2560,afroepen,calling,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2561,bedenken,think up,[]
+2562,geboren,born,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 's']"
+2563,rondneuzen,poking around,[]
+2564,evacueren,evacuate,"['v', 'v', 'v', 'v', 'v']"
+2565,overrompelen,overwhelm,"['v', 'v', 'v', 'v']"
+2566,dolen,wander,"['v', 'v', 'v', 'v', 'v']"
+2567,halveren,halve,['v']
+2568,verontschuldigen,excuse,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2569,achttien,eighteen,"['n', 's']"
+2570,opgeilen,get up,[]
+2571,stilzwijgen,silence,"['n', 'n', 'n', 'n', 'v', 'v']"
+2572,drammen,nagging,"['v', 'v', 'v', 's']"
+2573,veranderen,change,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2574,betasten,groping,"['v', 'v', 'v', 's']"
+2575,verkwanselen,squander,"['v', 'v']"
+2576,doorhakken,cut through,[]
+2577,oplappen,patch up,[]
+2578,galopperen,galloping,"['v', 'v', 'v']"
+2579,adopteren,to adopt,[]
+2580,hielen,heels,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2581,bedwingen,restrain,"['v', 'v', 'v', 'v', 'v']"
+2582,leeghalen,clear out,[]
+2583,leegdrinken,drink it out,[]
+2584,laten,let,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2585,uitloggen,log out,[]
+2586,zaklopen,sack race,[]
+2587,weten,know,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2588,bespugen,spit,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2589,uithalen,take out,[]
+2590,stotteren,stutter,"['n', 'v']"
+2591,paarseizoen,mating season,[]
+2592,lauweren,laurels,"['n', 'n', 'n', 'n', 'n']"
+2593,opgezwollen,swollen,"['v', 'v', 'v', 'v', 'v', 'v', 's']"
+2594,wenen,Vienna,['n']
+2595,afbinden,binding,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+2596,weken,weeks,"['n', 'n', 'n']"
+2597,gulden,guilders,"['n', 'n']"
+2598,dingen,things,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+2599,opbiechten,to confess,[]
+2600,induwen,push in,[]
+2601,ochtendgloren,dawn,"['n', 'n', 'n', 'v', 'v', 'v']"
+2602,annexeren,annex,"['n', 'v', 'v']"
+2603,doorleven,live through,[]
+2604,treffen,hit,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2605,uitbreiden,to expand,[]
+2606,definiëren,to define,[]
+2607,aanbranden,burning,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+2608,vertragen,to delay,[]
+2609,vertroetelen,pamper,['v']
+2610,observeren,to observe,[]
+2611,ontrafelen,unravel,"['v', 'v', 'v']"
+2612,ronselen,recruiting,"['v', 'v', 'v']"
+2613,begluren,peeping,"['v', 'v', 'v', 'v', 'v']"
+2614,worstelen,struggle,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2615,omrijden,detour,"['n', 'v']"
+2616,kennen,to know,[]
+2617,samenkomen,getting together,[]
+2618,uitvechten,fight out,[]
+2619,versplinteren,shatter,"['v', 'v', 'v']"
+2620,verdunnen,dilute,"['v', 'v', 'a']"
+2621,huilen,to cry,[]
+2622,samenbinden,bind together,[]
+2623,aanvoelen,feel,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2624,trampolinespringen,Jumping on the trampoline,[]
+2625,samenblijven,stay together,[]
+2626,verdraaien,twisting,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+2627,deleten,delete,"['v', 'v', 'v']"
+2628,ioniseren,ionize,"['v', 'v']"
+2629,mensachtigen,humanoids,['n']
+2630,beantwoorden,reply,"['n', 'n', 'v']"
+2631,handen,hands,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2632,lostrekken,pull off,[]
+2633,feestvieren,celebrate,"['v', 'v', 'v']"
+2634,binnentreden,enter,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2635,terugschakelen,shift down,[]
+2636,glaceren,glaze,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2637,posten,to post,[]
+2638,beklimmen,climb,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2639,genieten,to enjoy,[]
+2640,reden,reason,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+2641,klinken,sound,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 's', 'a', 's', 's', 's', 's', 's', 's']"
+2642,verspringen,long jump,[]
+2643,overhouden,left over,[]
+2644,wegduiken,dive away,[]
+2645,duelleren,dueling,['v']
+2646,werpen,throw,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2647,slissen,swish,"['n', 'v', 's']"
+2648,afzien,renounce,"['v', 'v', 'v', 'v']"
+2649,gedenksteen,memorial stone,[]
+2650,biljarten,billiards,['n']
+2651,beginnen,to start,[]
+2652,proppen,cram,"['v', 'v', 'v', 'v']"
+2653,weggooien,throw away,[]
+2654,uitbesteden,outsource,['v']
+2655,afluisteren,eavesdropping,['v']
+2656,overzwemmen,swim over,[]
+2657,bewaren,keep,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2658,ondervragen,interrogate,"['v', 'v']"
+2659,aanliggen,lie down,[]
+2660,aankijken,look at,[]
+2661,wegroesten,rust away,[]
+2662,neerliggen,lay down,[]
+2663,uitprinten,print it out,[]
+2664,belasteren,slander,"['n', 'n', 'v']"
+2665,wegkomen,getting away,[]
+2666,krenken,hurt,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's']"
+2667,afhalen,Take Away,[]
+2668,verkrijgen,to gain,[]
+2669,wantrouwen,distrust,"['n', 'n', 'v']"
+2670,veilen,auction,"['n', 'n', 'v']"
+2671,binnenroepen,call in,[]
+2672,aanwerven,recruit,"['n', 'n', 'v', 'v', 'v']"
+2673,haarknippen,cut hair,[]
+2674,doodlachen,laugh to death,[]
+2675,ruilen,exchange,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2676,patrouilleren,patrol,"['n', 'n', 'n', 'v']"
+2677,overwinteren,hibernate,"['v', 'v']"
+2678,doden,kill,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2679,betijen,beings,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2680,versieren,to decorate,[]
+2681,hondenleven,dog life,[]
+2682,voordragen,nominate,"['v', 'v', 'v', 'v']"
+2683,aanbieden,to offer,[]
+2684,dompelen,dipping,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2685,ontkomen,escape,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2686,uitwerpen,eject,"['v', 'v', 'v', 'v']"
+2687,immigreren,immigrate,"['v', 'v', 'v']"
+2688,verzorgen,take care of,[]
+2689,ontcijferen,decipher,"['v', 'v']"
+2690,handelen,to trade,[]
+2691,meebrengen,bring over,[]
+2692,beluisteren,to listen,[]
+2693,rapporteren,report,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2694,exploderen,explode,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2695,vleien,flatter,"['v', 's', 's', 's', 's', 'a', 'a', 's', 's', 's', 's', 's', 's', 's', 's', 's']"
+2696,bijlopen,catch up,[]
+2697,inmengen,mixing in,[]
+2698,vermannen,admonish,"['v', 'v', 'v']"
+2699,welterusten,goodnight,[]
+2700,rondbazuinen,trumpet around,[]
+2701,netwerken,networks,"['n', 'n', 'n', 'n', 'n', 'v']"
+2702,eerbiedigen,respect,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2703,loskomen,come off,[]
+2704,aanmoedigen,cheer on,[]
+2705,opdreunen,rant,"['n', 'n', 'v']"
+2706,toepassen,to apply,[]
+2707,wegdoen,put away,[]
+2708,uitspoken,do it,[]
+2709,bekken,pelvis,"['n', 'n']"
+2710,terugbetalen,refund,"['n', 'n', 'v']"
+2711,hervormen,reform,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2712,nekken,necks,"['n', 'n', 'n', 'n', 'n', 'v']"
+2713,lachten,laughed,['v']
+2714,gaarkeuken,soup kitchen,[]
+2715,publiceren,to publish,[]
+2716,binnenvliegen,fly in,[]
+2717,sportvissen,sport fishing,[]
+2718,maansteen,moonstone,['n']
+2719,knippen,to cut,[]
+2720,aanrijden,drive up,[]
+2721,opduikelen,emerge,"['v', 'v', 'v', 'v', 'v']"
+2722,sneeuwruimen,shovel snow,[]
+2723,liegen,to lie,[]
+2724,aanstippen,touch,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2725,spugen,spit,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2726,kalen,bald,"['v', 's', 's', 's']"
+2727,verstrijken,expire,"['v', 'v', 'v']"
+2728,vertellen,to tell,[]
+2729,generen,embarrassed,"['v', 'v', 's', 's']"
+2730,doodlopen,dead end,[]
+2731,verbranden,to burn,[]
+2732,pimpen,pimping,['v']
+2733,varen,sail,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2734,valideren,validate,"['v', 'v', 'v', 'v']"
+2735,claxonneren,sound the horn,[]
+2736,oplazeren,recharge,"['v', 'v']"
+2737,bestrijden,combat,"['n', 'n', 'v']"
+2738,fatsoen,decency,"['n', 'n']"
+2739,bespeuren,detect,['v']
+2740,gaten,holes,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2741,uitstrekken,to stretch,[]
+2742,schrappen,deleted,"['v', 'v', 'v']"
+2743,opbergen,put away,[]
+2744,verschijnen,to appear,[]
+2745,schonen,clean,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 's', 's', 's', 's', 'a', 'a', 'a', 's', 's', 's', 's', 's', 's', 's', 's', 's', 's', 'r', 'r']"
+2746,prakken,mash,"['n', 'n', 'v', 'v', 'v']"
+2747,binnenhalen,bring in,[]
+2748,afscheren,shave off,[]
+2749,dineren,to dine,[]
+2750,onderbreken,interrupt,"['n', 'v', 'v', 'v', 'v']"
+2751,toebehoren,to belong,[]
+2752,dwingen,force,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2753,opspelen,strike up,[]
+2754,doorvechten,fight on,[]
+2755,duiden,indicate,"['v', 'v', 'v', 'v', 'v']"
+2756,dertien,thirteen,"['n', 's']"
+2757,scoren,to score,[]
+2758,bezorgen,to deliver,[]
+2759,vertegenwoordigen,represent,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2760,inwinnen,collect,"['n', 'v', 'v', 'v', 'v', 'v', 's', 'r']"
+2761,botvieren,let go,[]
+2762,verzopen,drowned,"['v', 'v', 'v', 'v', 'v']"
+2763,verminderen,Reduce,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2764,verzuipen,drown,"['v', 'v', 'v', 'v', 'v']"
+2765,neuken,fuck,"['n', 'v']"
+2766,voorblijven,stay ahead,[]
+2767,zinnen,sentences,"['n', 'n', 'n', 'v']"
+2768,husselen,toss,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2769,spermasporen,sperm traces,[]
+2770,zegenen,to bless,[]
+2771,warmlopen,warm up,[]
+2772,settelen,settle down,[]
+2773,overbruggen,bridging,"['v', 'v', 'v']"
+2774,terugkopen,repurchase,"['n', 'v']"
+2775,accepteren,accept,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2776,laaien,blaze,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2777,stoefen,stoefen,[]
+2778,ademhalen,breathing,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a']"
+2779,alarmeren,alarm,"['n', 'n', 'n', 'n', 'v', 'v']"
+2780,doorweken,soak,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2781,oppakken,picking up,[]
+2782,terugvallen,relapse,"['n', 'v', 'v']"
+2783,stilleggen,shut down,[]
+2784,klaplopen,folding,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 's']"
+2785,overschoen,overshoe,['n']
+2786,rechtschapen,righteous,"['a', 's']"
+2787,vooruitzien,looking ahead,[]
+2788,schijten,shit,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2789,beweren,claim,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2790,verkolen,char,"['n', 'n', 'n', 'v', 'v']"
+2791,inlevingsvermogen,empathy,['n']
+2792,uitpraten,to talk,[]
+2793,knagen,gnaw,"['v', 'v']"
+2794,neervallen,falling down,[]
+2795,deren,harms,"['n', 'n', 'n', 'v']"
+2796,belezen,well-read,"['s', 's']"
+2797,trachten,attempt,"['n', 'n', 'v', 'v']"
+2798,souffleren,prompting,"['n', 'n', 'v', 'v', 'v']"
+2799,polijsten,polishing,"['n', 'v', 'v', 'v']"
+2800,communicatietoren,communication tower,[]
+2801,uitvreten,eating out,[]
+2802,versmelten,merge,"['v', 'v', 'v']"
+2803,stribbelen,struggle,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2804,vergokken,gambling,"['n', 'v', 'v']"
+2805,afstellen,fine tune,[]
+2806,opeten,eat,"['v', 'v', 'v', 'v', 'v', 'v']"
+2807,aansteken,to light,[]
+2808,bezuipen,drown,"['v', 'v', 'v', 'v', 'v']"
+2809,kidnappen,kidnapping,"['n', 'v']"
+2810,belegeren,besiege,"['v', 'v', 'v']"
+2811,meedoen,participate,"['v', 'v']"
+2812,discuteren,to argue,[]
+2813,verkrachten,rape,"['n', 'n', 'n', 'v', 'v']"
+2814,uitputten,to exhaust,[]
+2815,meewerken,to cooperate,[]
+2816,katten,cats,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+2817,verspillen,waste,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+2818,watertoren,water tower,[]
+2819,afstijgen,dismount,"['n', 'v']"
+2820,verdorven,depraved,"['v', 's']"
+2821,manoeuvreren,maneuvering,"['v', 'v', 'v']"
+2822,wedergeboren,born again,[]
+2823,bekrassen,scratch,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2824,ontsteken,ignite,"['v', 'v', 'v']"
+2825,wegdrinken,drink away,[]
+2826,volpompen,pumping up,[]
+2827,aanstichten,instigate,"['v', 'v']"
+2828,wegtoveren,magic away,[]
+2829,openmaken,open up,[]
+2830,indrukken,impressions,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+2831,hersengolven,brainwaves,"['n', 'n']"
+2832,balanceren,to balance,[]
+2833,verloederen,run down,[]
+2834,inspireren,to inspire,[]
+2835,uiten,express,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's', 'r']"
+2836,wegwezen,get out,[]
+2837,afleveringskosten,delivery costs,[]
+2838,combineren,to combine,[]
+2839,overklassen,outclass,['v']
+2840,inleggen,insert,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2841,afspoelen,wash down,[]
+2842,showen,showing,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2843,fronsen,frown,"['n', 'v']"
+2844,tuffen,chug,"['n', 'v']"
+2845,verankeren,anchor,"['n', 'n', 'n', 'v', 'v']"
+2846,opdoffen,dress up,[]
+2847,verbijsteren,bewilder,"['v', 'v']"
+2848,mompelen,mumble,"['n', 'v', 'v']"
+2849,mishagen,displease,['v']
+2850,honkballen,baseballs,"['n', 'n']"
+2851,beschrijven,describe,"['v', 'v', 'v', 'v']"
+2852,fluisteren,to whisper,[]
+2853,castreren,castrate,"['n', 'v', 'v', 'v', 'v']"
+2854,kaalgevreten,eaten bald,[]
+2855,buikspreken,ventriloquism,['n']
+2856,kristallen,crystals,"['n', 'n', 'n', 'n', 'n', 'n']"
+2857,protesteren,protest,"['n', 'n', 'n', 'v', 'v', 'v']"
+2858,conserven,preserves,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2859,ontsmetten,disinfect,['v']
+2860,ontknopen,unbutton,['v']
+2861,uithoudingsvermogen,stamina,"['n', 'n']"
+2862,bedonderen,cheat,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2863,maken,to make,[]
+2864,meekomen,come along,[]
+2865,bewateren,watering,"['n', 'n', 'v', 'v', 'v', 'v']"
+2866,dateren,dating,"['n', 'v', 'v', 'v', 'v', 'v']"
+2867,doorvaren,sail on,[]
+2868,rukken,snatch,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+2869,verknallen,screw up,[]
+2870,verdorren,wither,"['v', 'v']"
+2871,freaken,freak,"['n', 'n', 'v']"
+2872,toefluisteren,whisper,"['n', 'n', 'v']"
+2873,opvreten,eat up,[]
+2874,berijden,ride a,[]
+2875,voorbijrazen,rush past,[]
+2876,tevreden,satisfied,"['v', 'v', 'v', 's', 's']"
+2877,decimeren,decimate,"['v', 'v']"
+2878,voorbehouden,reserved,"['v', 'v', 'v', 'v', 'a', 'a']"
+2879,opsodemieteren,fuck off,[]
+2880,kokken,cocci,"['n', 'n']"
+2881,feestvarken,birthday boy,[]
+2882,specificeren,specify,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2883,verzilveren,cashing in,[]
+2884,dichtspijkeren,nailing up,[]
+2885,herdenken,commemorate,"['v', 'v', 'v']"
+2886,doordringen,penetrate,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2887,programmeren,computer programming,[]
+2888,verbergen,hide,"['n', 'n', 'v', 'v', 'v', 'v']"
+2889,opkloppen,whip up,[]
+2890,vernietigen,destroy,"['v', 'v', 'v', 'v']"
+2891,hossen,hossen,[]
+2892,spitten,digging,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2893,bevechten,fight,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2894,versnijden,to cut,[]
+2895,bekennen,confess,"['v', 'v', 'v']"
+2896,speculeren,speculate,"['v', 'v', 'v', 'v']"
+2897,verdrievoudigen,triple,"['n', 'n', 'n', 'v', 'v', 's', 's']"
+2898,inseinen,sign in,[]
+2899,doorboren,pierce,"['n', 'v', 'v', 'v', 'v', 'v']"
+2900,traumatiseren,traumatize,['v']
+2901,overrijden,drive over,[]
+2902,hengelen,angling,"['n', 'v', 'v', 'v', 'v', 'v']"
+2903,ontnuchteren,sober up,[]
+2904,anabolen,steroids,"['n', 'n']"
+2905,thuiszitten,be at home,[]
+2906,terugroepen,recall,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2907,vernederen,humiliate,['v']
+2908,verheffen,uplift,"['n', 'n', 'v', 'v', 'v']"
+2909,eruitzien,look,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2910,autoracen,car racing,[]
+2911,dichtvriezen,freeze over,[]
+2912,schieten,shoot,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2913,toewensen,wish,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2914,ijlen,delirious,"['s', 's']"
+2915,langskomen,come,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2916,afkicken,kick the habit,[]
+2917,doodsteken,stab to death,[]
+2918,opzien,look up,[]
+2919,uitkijktoren,watchtower,['n']
+2920,voordringen,push forward,[]
+2921,potten,pots,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v']"
+2922,verstoppen,to hide,[]
+2923,terugzakken,back down,[]
+2924,verzadigen,saturate,"['v', 'v']"
+2925,natrekken,retracing,"['v', 'v']"
+2926,wegrollen,roll away,[]
+2927,schudden,shake,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2928,overledenen,deceased,"['n', 'v', 's']"
+2929,boeten,penance,"['n', 'n', 'n']"
+2930,volbrengen,to accomplish,[]
+2931,pochen,boast,"['n', 'v', 'v']"
+2932,vegeteren,vegetate,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2933,insnijden,incise,['v']
+2934,indekken,hedge,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+2935,misleiden,mislead,"['v', 'v']"
+2936,inzitten,worry,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2937,reukvermogen,sense of smell,[]
+2938,achterlaten,leave behind,[]
+2939,inviteren,invite,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2940,tekortschieten,fall short,[]
+2941,richten,to target,[]
+2942,rondhollen,run around,[]
+2943,beoordelingsvermogen,judgment,"['n', 'n', 'n', 'n', 'n', 'n', 'n']"
+2944,verstoren,to disturb,[]
+2945,produceren,produce,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2946,dichtvallen,fall shut,[]
+2947,uitglijden,slip,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2948,verfraaien,embellish,"['v', 'v', 'v', 'v']"
+2949,bespieden,spy,"['n', 'n', 'v', 'v', 'v', 'v']"
+2950,aanpassen,To adjust,[]
+2951,poedelen,paddle,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2952,aanpraten,talking,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+2953,vormen,form,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2954,watertrappelen,treading water,[]
+2955,neerknallen,pop down,[]
+2956,opdissen,to do up,[]
+2957,moorden,murders,"['n', 'v', 'v']"
+2958,afvegen,wipe off,[]
+2959,ondermijnen,undermine,"['v', 'v']"
+2960,dippen,dipping,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2961,begeven,fail,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2962,vertrekken,leave,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2963,schatten,to estimate,[]
+2964,rondbrengen,bring around,[]
+2965,executeren,to execute,[]
+2966,vasthaken,hook,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2967,verdrinken,drowning,"['v', 'v', 'v', 'v', 'v']"
+2968,romantiseren,romanticize,"['v', 'v', 'v']"
+2969,afronden,complete,"['v', 'v', 'v', 'v', 'v', 'a', 's', 's', 's', 's']"
+2970,fikken,fire up,[]
+2971,terechtstellen,to execute,[]
+2972,ongeschreven,unwritten,"['a', 's', 's']"
+2973,opeisen,to claim,[]
+2974,beledigen,to offend,[]
+2975,draven,trot,"['n', 'n', 'n', 'n', 'v', 'v', 'v']"
+2976,stukmaken,to break,[]
+2977,vergoeden,reimburse,"['v', 'v']"
+2978,pollen,pollen,['n']
+2979,klitten,tangles,"['n', 'n', 'v', 'v', 'v', 'v']"
+2980,binnenleiden,lead in,[]
+2981,tetteren,chatter,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+2982,smikkelen,enjoy,"['v', 'v', 'v', 'v', 'v']"
+2983,aangrijpen,seize,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+2984,reorganiseren,reorganize,"['v', 'v']"
+2985,intrappen,smash,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'r']"
+2986,uitwerken,work out,[]
+2987,haasten,hurry,"['n', 'n', 'n', 'v', 'v', 'v']"
+2988,duizenden,thousands,['n']
+2989,katoen,cotton,"['n', 'n', 'n', 'n', 'v']"
+2990,neerschrijven,write down,[]
+2991,sardien,sardine,"['n', 'n', 'n', 'n']"
+2992,tegenwerken,counteract,"['v', 'v', 'v', 'v']"
+2993,buitenzetten,put out,[]
+2994,balpen,Biro,['n']
+2995,weerkaatsen,bounce off,[]
+2996,ontginnen,mining,"['n', 'n', 'v', 'v']"
+2997,classificeren,classify,"['v', 'v', 'v']"
+2998,stammen,tribes,"['n', 'n', 'n', 'n']"
+2999,jagen,to hunt,[]
+3000,gebeuren,to happen,[]
+3001,wegkruipen,to crawl away,[]
+3002,toebrengen,inflict,['v']
+3003,aflikken,lick it off,[]
+3004,surfen,surf,"['n', 'v', 'v', 'v']"
+3005,uitbreken,break out,[]
+3006,ritselen,rustle,"['n', 'v', 'v', 'v']"
+3007,jongleren,juggle,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+3008,ontkennen,to deny,[]
+3009,verloven,get engaged,[]
+3010,toeteren,honk,"['n', 'v', 'v', 'v', 'v']"
+3011,coördineren,coordinate,"['n', 'v', 'v', 'v', 'v', 's']"
+3012,ontkurken,uncork,"['v', 'v']"
+3013,vermengen,mixing,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+3014,worden,turn into,[]
+3015,degraderen,degrade,"['v', 'v', 'v']"
+3016,spijten,regret,"['n', 'v', 'v', 'v', 'v']"
+3017,vergewissen,verify,"['v', 'v', 'v', 'v']"
+3018,straalbezopen,drunk,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'a', 's']"
+3019,binnenblijven,stay inside,[]
+3020,rondvaren,cruising around,[]
+3021,bitten,bits,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+3022,kopiëren,to copy,[]
+3023,smeken,to beg,[]
+3024,veroorzaken,cause,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+3025,zo-even,just now,[]
+3026,zwendelen,scam,"['n', 'v']"
+3027,afpersen,extort,"['v', 'v', 'v']"
+3028,afsnijden,cut off,[]
+3029,volhouden,persist,"['v', 'v', 'v']"
+3030,buitenwesten,unconscious,"['n', 'a', 's', 's']"
+3031,vasthechten,attach,"['v', 'v', 'v', 'v', 'v']"
+3032,bespraken,discussed,"['v', 'v']"
+3033,couperen,docking,"['n', 'v', 'v', 'v', 'v', 'v']"
+3034,uitstellen,Delay,"['n', 'n', 'v', 'v', 'v', 'v']"
+3035,aanhangen,adhere,"['v', 'v', 'v', 'v', 'v', 'v']"
+3036,kritiseren,to criticize,[]
+3037,vermalen,ground,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3038,voortrekken,favor,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3039,verbrijzelen,shatter,"['v', 'v', 'v']"
+3040,verdwalen,to get lost,[]
+3041,formeren,form,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3042,schooljongen,schoolboy,['n']
+3043,wekken,arouse,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3044,erkennen,acknowledge,"['v', 'v', 'v', 'v', 'v', 'v']"
+3045,vlijen,snuggle,"['n', 'v', 'v']"
+3046,verlangen,desire,"['n', 'n', 'n', 'v', 'v', 'v']"
+3047,tuimelen,tumble,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3048,morren,murmur,"['n', 'n', 'n', 'n', 'v', 'v']"
+3049,aardgebonden,earthbound,"['s', 's']"
+3050,plattrappen,trample,"['n', 'v', 'v', 'v']"
+3051,krijgen,to get,[]
+3052,vastroesten,rusting,"['n', 'v', 'v', 'v']"
+3053,feesten,celebrate,"['v', 'v', 'v']"
+3054,puffen,puffing,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3055,herrijzen,resurrect,"['v', 'v', 'v']"
+3056,toekijken,watch,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3057,ronddollen,wander around,[]
+3058,druppelen,drip,"['n', 'n', 'n', 'v', 'v']"
+3059,onderbrengen,to accommodate,[]
+3060,pokeren,playing poker,[]
+3061,inzepen,soaping,['v']
+3062,veelgeprezen,critically acclaimed,[]
+3063,goedvinden,approve,"['v', 'v']"
+3064,bevlekken,stain,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3065,weigeren,refuse,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+3066,hozen,bailing,"['v', 'v', 'v', 'v', 'v']"
+3067,bevoorrechten,privileged,"['v', 'a', 's', 's']"
+3068,wuiven,wave,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+3069,bedrinken,drunken,['s']
+3070,inzingen,singing,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+3071,steven,steven,[]
+3072,opboksen,boxing up,[]
+3073,kakken,poop,"['n', 'n', 'n', 'n']"
+3074,storen,to disturb,[]
+3075,inschikken,arrange,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3076,ongewassen,unwashed,"['s', 's']"
+3077,voldoen,meet,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+3078,aanklikken,click,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3079,hijgen,panting,"['n', 'n', 'v', 'v']"
+3080,smijten,hurl,"['n', 'v', 'v', 'v']"
+3081,molesteren,molest,"['v', 'v']"
+3082,sporten,sports,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+3083,neerpennen,pen down,[]
+3084,neergooien,throw down,[]
+3085,bevriezen,to freeze,[]
+3086,kloven,chapping,['v']
+3087,afblazen,blow off,[]
+3088,noodzaken,necessities,"['n', 'n']"
+3089,onbezonnen,rash,"['n', 'n', 's', 's']"
+3090,verdrijven,expel,"['v', 'v', 'v', 'v']"
+3091,nadenken,to think,[]
+3092,personeelszaken,human resource department,[]
+3093,afzeggen,cancel,"['n', 'v', 'v', 'v', 'v', 'v']"
+3094,spietsen,impale,"['v', 'v']"
+3095,meeslepen,carried away,[]
+3096,herontdekken,rediscover,['v']
+3097,geren,ren,[]
+3098,stofzuigen,vacuuming,['v']
+3099,verdrukken,oppress,"['v', 'v']"
+3100,krimpen,shrink,"['n', 'v', 'v', 'v', 'v', 'v']"
+3101,meedragen,to carry,[]
+3102,aanrommelen,mess around,[]
+3103,rodelen,sledding,"['n', 'n', 'v']"
+3104,zeegroen,sea green,[]
+3105,maskeren,masking,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+3106,besneden,circumcised,"['v', 'v']"
+3107,believen,please,"['v', 'v', 'v', 'r']"
+3108,liefkozen,caress,"['n', 'v']"
+3109,tanken,to fuel,[]
+3110,toevoegen,add,"['n', 'v', 'v', 'v', 'v', 'v', 'v']"
+3111,indammen,damming,['v']
+3112,dienstwapen,service weapon,[]
+3113,verhuren,rent out,[]
+3114,dollen,fool around,[]
+3115,beheksen,bewitch,"['v', 'v', 'v']"
+3116,behoeden,protect,"['v', 'v']"
+3117,afbreken,to break down,[]
+3118,plaatsvinden,take place,[]
+3119,sprenkelen,sprinkle,"['n', 'n', 'v', 'v', 'v', 'v']"
+3120,struikelen,to trip,[]
+3121,examen,exam,['n']
+3122,jodelen,yodeling,"['n', 'v']"
+3123,koken,Cook,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+3124,stoten,bumping,"['v', 'v', 'v', 'v', 'v']"
+3125,optekenen,record,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+3126,bedreigen,threaten,"['v', 'v', 'v']"
+3127,verderven,to destroy,[]
+3128,benadelen,disadvantage,"['n', 'v']"
+3129,ontgroeien,outgrow,"['v', 'v']"
+3130,aanduiden,indicate,"['v', 'v', 'v', 'v', 'v']"
+3131,omhelzen,embrace,"['n', 'n', 'n', 'v', 'v', 'v']"
+3132,geschieden,occur,"['v', 'v', 'v']"
+3133,overheersen,dominate,"['v', 'v', 'v', 'v', 'v']"
+3134,slachten,slaughter,"['n', 'n', 'n', 'v', 'v']"
+3135,beladen,loaded,"['v', 'v', 'v', 'v', 'v', 's', 'a', 's', 's', 's']"
+3136,toelaten,permit,"['n', 'n', 'n', 'v', 'v', 'v']"
+3137,trappelen,kicking,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3138,oestrogeen,estrogen,['n']
+3139,ongelogen,incredulous,['a']
+3140,vrijgeven,release,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3141,opwarmen,warm up,[]
+3142,maanden,months,"['n', 'n']"
+3143,kappen,hack,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3144,vrouwenkleren,women's clothes,[]
+3145,vasten,fasting,"['n', 'v', 'v']"
+3146,interviewen,interview,"['n', 'n', 'v', 'v', 'v']"
+3147,herbeginnen,start over,[]
+3148,afschminken,paint off,[]
+3149,onbewogen,unmoved,"['a', 's']"
+3150,verlegen,shy,"['n', 'v', 'v', 'a', 's', 's']"
+3151,watermeloen,watermelon,"['n', 'n']"
+3152,nationaliseren,nationalize,"['v', 'v']"
+3153,wegblazen,blow away,[]
+3154,benaderen,to approach,[]
+3155,treuzelen,dawdle,"['v', 'v', 'v']"
+3156,meevoelen,empathize,['v']
+3157,kronkelen,squirm,"['n', 'v']"
+3158,afwerken,finish off,[]
+3159,rijpen,ripen,"['v', 'v']"
+3160,hooggeboren,highborn,['s']
+3161,vergeven,to forgive,[]
+3162,schuilhouden,hide,"['n', 'n', 'v', 'v', 'v', 'v']"
+3163,aflebberen,to fade away,[]
+3164,knarsen,crunch,"['n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3165,ongebroken,unbroken,"['a', 's', 'a', 'a', 'a']"
+3166,dicteren,dictate,"['n', 'n', 'v', 'v', 'v']"
+3167,overgieten,pour over,[]
+3168,wegvallen,fall away,[]
+3169,heenrijden,drive out,[]
+3170,besloten,private,"['n', 'a', 's', 's', 's']"
+3171,afkluiven,chewing,"['n', 'v']"
+3172,opzouten,piss off,[]
+3173,meeliften,piggybacking,"['v', 'v', 'v', 'v', 'v']"
+3174,converseren,converse,"['n', 'v', 's', 's']"
+3175,proosten,toast,"['n', 'n', 'n', 'n', 'v', 'v']"
+3176,verliezen,to lose,[]
+3177,introduceren,to introduce,[]
+3178,rippen,rip,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3179,betwisten,dispute,"['n', 'n', 'v', 'v']"
+3180,kastijden,chastise,['v']
+3181,rondvertellen,tell around,[]
+3182,benemen,take,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3183,toehoren,hear,"['v', 'v', 'v', 'v', 'v']"
+3184,soldatenleven,soldier life,[]
+3185,obsceen,obscene,"['s', 's', 's']"
+3186,kopen,to buy,[]
+3187,wen,wen,['n']
+3188,leugen,lie,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3189,aanspannen,Tighten,"['v', 'v', 'v', 'v']"
+3190,alfabetiseren,alphabetize,"['v', 'v']"
+3191,afwissen,wipe,"['n', 'v']"
+3192,wereldkampioen,world champion,[]
+3193,opschrikken,startle,"['n', 'v', 'v']"
+3194,klappen,clap,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3195,inslapen,to fall asleep,[]
+3196,stempelen,stamping,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3197,frustreren,frustrate,"['v', 'v']"
+3198,tegemoetkomen,cater to,[]
+3199,tekortkomen,fall short,[]
+3200,bedriegen,to cheat,[]
+3201,velen,many,['a']
+3202,dienen,serve,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3203,verdagen,adjourn,"['v', 'v']"
+3204,sneeuwen,to snow,[]
+3205,steigeren,prance,"['n', 'v', 'v', 'v', 'v']"
+3206,bevredigen,to satisfy,[]
+3207,collecteren,collect,"['n', 'v', 'v', 'v', 'v', 'v', 's', 'r']"
+3208,vooruitkomen,get ahead,[]
+3209,levensteken,life sign,[]
+3210,overstijgen,transcend,"['v', 'v']"
+3211,bestemmen,destiny,"['n', 'n', 'n']"
+3212,schitteren,to shine,[]
+3213,stomdronken,shitfaced,[]
+3214,ophouden,cease,"['n', 'v', 'v']"
+3215,vastnemen,take hold,[]
+3216,wegcijferen,efface,"['v', 'v', 'v']"
+3217,onthoofden,behead,['v']
+3218,beteugelen,curb,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3219,heffen,lift,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3220,opheffen,cancel,"['n', 'v', 'v', 'v', 'v', 'v']"
+3221,openspringen,pop open,[]
+3222,mixen,to blend,[]
+3223,vastbijten,bite down,[]
+3224,rammen,rams,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3225,verwerken,processing,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3226,klaarkomen,cum,['n']
+3227,sussen,appease,"['v', 'v', 'v']"
+3228,afschepen,fob off,[]
+3229,aanlengen,to lengthen,[]
+3230,afvriezen,freeze,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3231,ongeladen,unloaded,"['v', 'v', 'a']"
+3232,aanleggen,mooring,"['n', 'n', 'v', 'v', 'v']"
+3233,lichtbaken,beacon of light,[]
+3234,verstuiken,sprain,"['n', 'v']"
+3235,influisteren,whisper,"['n', 'n', 'v']"
+3236,wegglippen,sneaking out,[]
+3237,doorzakken,sag,"['n', 'v', 'v']"
+3238,kwaadspreken,speak ill,[]
+3239,ontvangen,received,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'a', 's']"
+3240,persen,pressing,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
+3241,verscheuren,tear up,[]
+3242,deppen,dab,"['n', 'n', 'v', 'v']"
+3243,verorberen,devour,"['v', 'v', 'v', 'v']"
+3244,herstarten,Restarting,"['v', 'v']"
+3245,verroeren,to move,[]
+3246,genoegen,pleasure,"['n', 'n', 'n', 'n', 'n']"
+3247,ontkleden,undress,"['n', 'v', 'v']"
+3248,moduleren,modulate,"['v', 'v', 'v', 'v', 'v']"
+3249,verkopen,to sell,[]
+3250,opentrekken,pull open,[]
+3251,kruitsporen,powder spores,[]
+3252,verwaaien,blow away,[]
+3253,demonteren,disassemble,['v']
+3254,doordraven,run through,[]
+3255,binnenlopen,walk in,[]
+3256,varken,pig,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v']"
+3257,barsten,burst,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3258,verguizen,malign,"['v', 'a', 's']"
+3259,loensen,squinting,"['v', 'v', 'v', 's']"
+3260,verbeuren,forfeit,"['n', 'n', 'n', 'v', 's']"
+3261,hernieuwen,renew,"['v', 'v']"
+3262,wankelen,falter,"['n', 'v', 'v', 'v', 'v']"
+3263,afbijten,bite off,[]
+3264,leidinggeven,to lead,[]
+3265,schoolkleren,school clothes,[]
+3266,flikflooien,cops,"['n', 'v', 'v']"
+3267,zwaardvechten,sword fighting,[]
+3268,klemzetten,lock,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3269,beplanten,planting,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+3270,overlijden,passing away,[]
+3271,meisjeskleren,girls clothes,[]
+3272,tarten,defy,"['v', 'v', 'v']"
+3273,demonstreren,demonstrate,"['v', 'v', 'v', 'v']"
+3274,regelen,arrange for,[]
+3275,omvatten,include,"['v', 'v', 'v', 'v']"
+3276,zweven,float,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3277,sluipen,to sneak,[]
+3278,blaffen,bark,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+3279,wegwandelen,walk away,[]
+3280,verrijzen,arise,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3281,janken,whine,"['n', 'v', 'v', 'v', 'v']"
+3282,verbuigen,bend,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+3283,arbeidsverleden,employment history,[]
+3284,steken,stabbing,"['v', 'v', 'v', 's', 's']"
+3285,opstijgen,to take off,[]
+3286,middenwesten,midwest,['n']
+3287,rationaliseren,rationalize,"['v', 'v', 'v', 'v', 'v']"
+3288,ontsporen,derail,"['v', 'v']"
+3289,pruimen,plums,"['n', 'n', 'n']"
+3290,financieren,finance,"['n', 'n', 'n', 'v', 'v']"
+3291,afschrijven,write off,[]
+3292,liften,hitchhike,['v']
+3293,smokkelen,smuggle,['v']
+3294,grootbrengen,raise,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3295,balsemen,embalming,['v']
+3296,uitpersen,squeeze out,[]
+3297,intekenen,sign up,[]
+3298,ophitsen,incite,"['v', 'v', 'v']"
+3299,verzinnen,invent,"['v', 'v']"
+3300,ademen,to breathe,[]
+3301,misnoegen,displeasure,['n']
+3302,inblazen,blowing in,[]
+3303,beuken,beech,"['n', 'n']"
+3304,doodschrikken,scare to death,[]
+3305,kneden,kneading,"['v', 'v']"
+3306,uilskuiken,owl chick,[]
+3307,weerzien,see again,[]
+3308,zaklantaren,flashlights,['n']
+3309,wraken,revenge,"['n', 'v']"
+3310,lezen,read,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3311,overkomen,happen,"['v', 'v', 'v', 'v', 'v']"
+3312,afrukken,jerk off,[]
+3313,ontwaken,awakening,"['n', 'v', 'v', 'v']"
+3314,invoegen,insert,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3315,wegvoeren,carry away,[]
+3316,vergiftigen,poison,"['n', 'n', 'v', 'v', 'v', 'v', 'v']"
+3317,weerhouden,withhold,"['v', 'v']"
+3318,beschermen,to protect,[]
+3319,gedijen,thrive,"['v', 'v']"
+3320,verzachten,soften,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3321,snelwandelen,speed walking,[]
+3322,kammen,to comb,[]
+3323,ijzelen,icing,"['n', 'n', 'n', 'v', 'v', 'v']"
+3324,afkammen,combing off,[]
+3325,najagen,chase after,[]
+3326,stouwen,stow,['v']
+3327,afgelasten,canceled,"['v', 'v', 'v', 'v', 'v']"
+3328,terugzeggen,cancel,"['n', 'v', 'v', 'v', 'v', 'v']"
+3329,weesjongen,orphan boy,[]
+3330,scherpstellen,focus,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v']"
+3331,achterliggen,lag behind,[]
+3332,achterblijven,stay behind,[]
+3333,verzwelgen,engulf,"['v', 'v']"
+3334,psalmen,psalms,"['n', 'n', 'n', 'v']"
+3335,verschansen,entrench,"['v', 'v', 'v']"
+3336,boekhouden,accounting,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3337,brouwen,brew,"['n', 'v', 'v']"
+3338,ploeteren,slog,"['v', 'v', 'v']"
+3339,uitvliegen,fly out,[]
+3340,schoonvegen,wipe clean,[]
+3341,leegbloeden,bleeding out,[]
+3342,uitwrijven,rub out,[]
+3343,inlezen,read up on,[]
+3344,lunchen,having lunch,[]
+3345,tillen,lifting,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3346,koren,corn,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+3347,poppenkleren,doll clothes,[]
+3348,rechtzetten,straighten up,[]
+3349,wegkapen,hijack,"['n', 'v', 'v']"
+3350,bluffen,bluffing,"['v', 'v']"
+3351,wachten,to wait,[]
+3352,verbruiken,consume,"['v', 'v', 'v', 'v', 'v', 'v']"
+3353,inademen,inhale,"['v', 'v']"
+3354,niet-roken,do not smoke,[]
+3355,platgooien,flatten,"['v', 'v', 'v']"
+3356,vertroosten,comfort,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+3357,maffen,goof,"['n', 'n', 'v']"
+3358,uitzweten,sweating out,[]
+3359,kwalificeren,qualify,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3360,bijknippen,trim,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 's', 's', 's']"
+3361,vastzitten,be stuck,[]
+3362,kantelen,tilt,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3363,opschonen,clean up,[]
+3364,creperen,to die,[]
+3365,bezingen,sing,"['v', 'v', 'v', 'v', 'v']"
+3366,openvallen,fall open,[]
+3367,doordenken,think through,[]
+3368,imponeren,impress,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3369,bedruipen,basting,"['n', 'n', 'v', 'v', 'v']"
+3370,rijmen,rhyme,"['n', 'n', 'v', 'v']"
+3371,riskeren,risk,"['n', 'n', 'n', 'n', 'v', 'v']"
+3372,uitjouwen,jeer,"['n', 'v']"
+3373,pletten,crush,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3374,uitbaten,exploit,"['n', 'v', 'v', 'v']"
+3375,verwelkomen,to welcome,[]
+3376,rookten,smoked,"['v', 'v', 's']"
+3377,inhakken,hack,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3378,wegwerpen,throw away,[]
+3379,verklappen,reveal,"['v', 'v', 'v']"
+3380,zwarthemden,black shirts,[]
+3381,mekkeren,bleating,"['v', 'v']"
+3382,racen,to race,[]
+3383,declareren,declare,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3384,batten,batten,"['n', 'n', 'v', 'v']"
+3385,ruiten,windows,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n']"
+3386,arriveren,arrive,"['v', 'v']"
+3387,stigmatiseren,stigmatize,"['v', 'v']"
+3388,rechthouden,keep straight,[]
+3389,rangschikken,arrange,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3390,pingpongen,ping pong,[]
+3391,vrijkopen,ransom,"['n', 'n', 'n', 'v']"
+3392,nodigen,invite,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3393,voetjevrijen,feet free,[]
+3394,uitdraaien,print out,[]
+3395,lopen,walk,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3396,omdraaien,turn around,[]
+3397,kalligraferen,calligraphy,['n']
+3398,uitgroeien,grow out,[]
+3399,schooien,kicking,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3400,uitrekenen,calculate,"['v', 'v', 'v', 'v', 'v', 'v']"
+3401,ombrengen,kill,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3402,voeren,feed,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3403,afschermen,shielding,"['n', 'n', 'n', 'v', 'v']"
+3404,bankdrukken,bench press,[]
+3405,lonen,wages,"['n', 'n', 'v', 'v']"
+3406,motorrijden,motorcycling,"['n', 'v']"
+3407,hoeven,hooves,"['n', 'n']"
+3408,lullen,dicks,"['n', 'n']"
+3409,belazeren,cheating,"['n', 'v', 'v', 'v', 'v', 's', 's']"
+3410,drukken,to press,[]
+3411,aanmeren,mooring,"['n', 'n', 'v', 'v', 'v']"
+3412,eten,food,"['n', 'n', 'n']"
+3413,uitrazen,rage out,[]
+3414,wegzuigen,suck away,[]
+3415,uithakken,carve out,[]
+3416,bijpraten,catch up,[]
+3417,loven,praise,"['n', 'n', 'v']"
+3418,flauwvallen,pass out,[]
+3419,opdweilen,mop up,[]
+3420,overweldigen,overwhelm,"['v', 'v', 'v', 'v']"
+3421,amuseren,to have fun,[]
+3422,trotseren,to defy,[]
+3423,uitgieten,pour,"['v', 'v', 'v', 'v', 'v', 'v']"
+3424,denken,to think,[]
+3425,ommezien,turn around,[]
+3426,bevrijden,to free,[]
+3427,verpletteren,crush,"['n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3428,uithongeren,to starve,[]
+3429,ontwapenen,disarm,"['v', 'v', 'v']"
+3430,doorknippen,cut through,[]
+3431,opschepen,boasting,"['n', 'v', 'v']"
+3432,darren,drones,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+3433,zullen,shall,[]
+3434,flirten,to flirt,[]
+3435,overhandigen,hand over,[]
+3436,knisperen,crackle,"['n', 'n', 'v', 'v', 'v', 's']"
+3437,samplen,sample,"['n', 'n', 'n', 'v']"
+3438,stadsjongen,city boy,[]
+3439,suizen,whizzing,['v']
+3440,kaalscheren,shave bald,[]
+3441,brandmerken,branding,"['n', 'v', 'v', 'v', 'v']"
+3442,traplopen,climbing stairs,[]
+3443,plaatsen,place,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3444,imiteren,imitate,"['v', 'v', 'v']"
+3445,vastbesloten,determined,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's', 'a', 's', 's', 's']"
+3446,strijden,fight,"['n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3447,neuzen,noses,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v']"
+3448,opfokken,rearing,"['n', 'n', 'v', 'v', 'v', 'v', 'v', 's']"
+3449,dutten,napping,"['v', 's']"
+3450,verkennen,explore,"['v', 'v', 'v', 'v']"
+3451,lastigvallen,Harassment,"['n', 'n']"
+3452,bederven,spoil,"['n', 'n', 'n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3453,verloochenen,deny,"['v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3454,gedragen,behave,"['v', 'v', 'v']"
+3455,sleepwagen,tow truck,[]
+3456,werkverleden,work history,[]
+3457,goeddoen,doing well,[]
+3458,bijbrengen,teach,"['n', 'v', 'v']"
+3459,opmeten,to measure,[]
+3460,uitrusten,to rest,[]
+3461,verdriedubbelen,triple,"['n', 'n', 'n', 'v', 'v', 's', 's']"
+3462,knabbelen,to nibble,[]
+3463,sliepen,slept,"['v', 'v']"
+3464,overwinnen,overcome,"['v', 'v', 'v', 'v']"
+3465,toasten,toast,"['n', 'n', 'n', 'n', 'v', 'v']"
+3466,opmerken,notice,"['n', 'n', 'n', 'n', 'n', 'n', 'n', 'v', 'v', 'v', 'v']"
+3467,bewapenen,arm,"['n', 'n', 'n', 'n', 'n', 'n', 'v', 'v']"
+3468,transportwagen,transport cart,[]
+3469,incasseren,collect,"['n', 'v', 'v', 'v', 'v', 'v', 's', 'r']"
+3470,afslachten,butchering,"['n', 'v']"
+3471,uitroeien,exterminate,"['v', 'v']"
+3472,leeggieten,empty,"['n', 'v', 'v', 'v', 'v', 'v', 'a', 's', 's', 's']"
+3473,overhangen,overhang,"['n', 'v', 'v']"
+3474,aanrichten,cause,"['n', 'n', 'n', 'n', 'n', 'v', 'v']"
+3475,kielhalen,keel pull,[]
+3476,tapen,taping,"['n', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v']"
+3477,stuksmijten,toss to pieces,[]
+3478,meuren,meuren,[]
+3479,keuren,approve,"['v', 'v']"
+3480,ontladen,discharged,"['v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 'v', 's']"
