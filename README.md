@@ -13,6 +13,16 @@ A big thank you to the authors of these excellent papers.
 * Gimenes, M., New, B. Worldlex: Twitter and blog word frequencies for 66 languages. Behav Res 48, 963–972 (2016). https://doi.org/10.3758/s13428-015-0621-0
   * **wordlex paper**: https://link.springer.com/article/10.3758/s13428-015-0621-0
 
+## Libraries used in this project
+  * [pandas](https://pandas.pydata.org/)
+  * [numpy](https://numpy.org/)
+  * [google-cloud-translate](https://googleapis.dev/python/translation/latest/index.html)
+  * [sklearn.preprocessing.MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+  * [json](https://docs.python.org/3/library/json.html)
+  * [os](https://docs.python.org/3.3/library/os.html?highlight=os.environ#os.environ)
+  * [spacy](https://spacy.io/)
+  * [nltk](https://www.nltk.org/)
+
 ## Methodology
 1 - import libraries and define function to translate words using google cloud translate API
 
@@ -38,10 +48,12 @@ A big thank you to the authors of these excellent papers.
   * count lemmas to see in how many categories they are, if 2 comes up, theyre classified as verb and noun
   * we extract words that end in 'gaan', 'slaan', 'staan' or 'zijn', as these verbs do not end in 'en'
   * because there are so many words ending in 'en' that are *not* verbs, we need to apply some kind of filter to fairly choose them, so we do one of the following:
+  
     A - check if it has 'en' as ending
       * create a sentence as follows 'ik ga *word*' 
       * use spacey's nl_core_news_lg model to check the PoS of such *word* in the sentence (view model here: https://spacy.io/models/nl#nl_core_news_lg)
       * use this tagging to classify the word as verb or noun
+  
     B - check if it has 'en' as ending
       * translate the word to english
       * look for the word in english in the NLTK WordNet
