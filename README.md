@@ -32,17 +32,24 @@ A big thank you to the authors of these excellent papers.
 
   * The information about the Part of speech/lemma types explanation for subtlex-nl can be found here: http://crr.ugent.be/archives/362
 
-9 - given that a word can have different functions in a sentence, some words in the part of speech dataset of subtlex-nl are repeated. The focus of this project is to help dutch learners memorize useful words ordered by frequency. The first filter was applied to extract *nouns and verbs* first. The process here is the following:
+9 - given that a word can have different functions in a sentence, some words in the part of speech dataset of subtlex-nl are repeated as they might constitute a different PoS depending on the sentence. The first filter was applied to extract *nouns and verbs* first. The reasoning behind this choice is because we want to also include the article for the nouns in Dutch as this is an integral part of learning the language and we're going to find such article by translating the word from Dutch back to english using the english article 'the' along with the translation later, if they differ, we will use a different methodology for finding out the article. The process here is the following:
 
   * filter nouns and verbs
   * count lemmas to see in how many categories they are, if 2 comes up, theyre classified as verb and noun
   * we extract words that end in 'gaan', 'slaan', 'staan' or 'zijn', as these verbs do not end in 'en'
-  * because there are so many words ending in 'en' that are *not* verbs, we need to apply some kind of filter to fairly choose them, so what we do is
-    * check if it has 'en' as ending
-    * translate the word to english
-    * check the function of that word in english
-    * if the function is noun, we take it out of the verb list
-  * add this list of verbs and nouns finally separated in a general dataframe of words excluded from the general list called nw_ww
+  * because there are so many words ending in 'en' that are *not* verbs, we need to apply some kind of filter to fairly choose them, so we do one of the following:
+    A - check if it has 'en' as ending
+      * create a sentence as follows 'ik ga *word*' 
+      * use spacey's nl_core_news_lg model to check the PoS of such *word* in the sentence (view model here: https://spacy.io/models/nl#nl_core_news_lg)
+      * use this tagging to classify the word as verb or noun
+    B - check if it has 'en' as ending
+      * translate the word to english
+      * look for the word in english in the NLTK WordNet
+      * check all the possible PoS of this word in the sentence
+      * the PoS with the most appearances will be used
+      * if empty, assign as verb, if tie, assign first observed of those two most voted options
+    * if the PoS = Noun, we take it out of the verb list and include in Noun list
+  * add this list of verbs and nouns finally separated in a general dataframe of words separated from the general list called nw_ww
 
 
 

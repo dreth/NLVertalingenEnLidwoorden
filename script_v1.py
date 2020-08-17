@@ -102,9 +102,9 @@ verbs = {'verb':[], 'translation':[], 'english_pos':[]}
 for word in nw_ww_VC[nw_ww_VC > 1].index:
     if word[-2:] == 'en':
         verbs['verb'].append(word)
-        translation = translate_txt(word, 'YOUR PROJECT ID')
+        translation = translate_txt(word, '1072058686454')
         verbs['translation'].append(translation)
-        verbs['english_pos'].append(wn.synsets(translation)[0].pos())
+        verbs['english_pos'].append([x.pos() for x in wn.synsets(translation)])
 
 # other = classif[~classif['Lemma'].isin(nouns['Lemma'])]
 # pos_count = other['Lemma'].value_counts()
