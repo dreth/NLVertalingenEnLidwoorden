@@ -61,7 +61,7 @@ A big thank you to the authors of these excellent papers.
       * the PoS with the most appearances will be used
       * if empty, assign as verb, if tie, assign first observed of those two most voted options
     * if the PoS = Noun, we take it out of the verb list and include in Noun list
-  * add this list of verbs and nouns finally separated in a general dataframe of words separated from the general list called nw_ww
+  * add this list of verbs and nouns finally separated in a dataframe of words separated from the general list called nw_ww
 
 
 
