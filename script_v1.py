@@ -94,7 +94,7 @@ def extract_verbs(nw_ww_value_count, project_id):
         # but the word, when translated is not designated as a noun in english
         # then add to verb list
         elif word[-2:] == 'en':
-            
+
             verbs.append(word)
 
 # IMPORTANT SNIPPET
@@ -122,7 +122,7 @@ for word in nw_ww_VC[nw_ww_VC > 1].index:
 # pos_list = nw_ww['POS'].values
 # for n, (word, pos) in enumerate(zip(word_list, pos_list)):
 #     words['word'].append(word)
-#     translation = translate_txt(word, '1072058686454')
+#     translation = translate_txt(word, '')
 #     words['translation'].append(translation)
 #     words['pos'].append(pos)
 #     words['english_pos'].append([x.pos() for x in wn.synsets(translation)])
