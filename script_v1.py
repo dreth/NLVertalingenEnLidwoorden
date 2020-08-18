@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 from json import load
 from os import environ
 from nltk.corpus import wordnet as wn
-
+import spacy
 
 # google cloud authentication and client connection
 environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'api-key.json'
@@ -79,32 +79,27 @@ classif = classif[(classif['Lemma'] != '@') & (classif['Lemma'].isin(data['word'
 
 nw_ww = classif[classif['POS'].isin(['N','WW'])]
 nw_ww_VC = nw_ww['Lemma'].value_counts()
-nw_ww_main = nw_ww[nw_ww['Lemma'].isin(nw_ww_VC[nw_ww_VC == 1].index)]
+woorden = nw_ww[nw_ww['Lemma'].isin(nw_ww_VC[nw_ww_VC == 1].index)]
+
+# bringing spacy's nl_core_news_lg model
+sp = spacy.load('nl_core_news_lg')
 
 # extracting verbs only from previous filter
-def extract_verbs(nw_ww_value_count, project_id):
-    irr_verbs = ['gaan', 'slaan', 'staan', 'zijn']
-    verbs = []
-    for word in nw_ww_value_count[nw_ww_value_count > 1].index:
-        # if the word includes an irregular verb from the irr verb list in their last 5 chars, add to verb list
-        cond = tuple((stem in word[-5:]) for stem in irr_verbs)
-        if any(cond):
-            verbs.append(word)
-        # if the word ends in 'en' like most dutch verbs
-        # but the word, when translated is not designated as a noun in english
-        # then add to verb list
-        elif word[-2:] == 'en':
-
-            verbs.append(word)
-
-# IMPORTANT SNIPPET
-verbs = {'verb':[], 'translation':[], 'english_pos':[]}
+irr_verbs = ['gaan', 'slaan', 'staan', 'zijn']
+verbs = []
 for word in nw_ww_VC[nw_ww_VC > 1].index:
-    if word[-2:] == 'en':
-        verbs['verb'].append(word)
-        translation = translate_txt(word, '1072058686454')
-        verbs['translation'].append(translation)
-        verbs['english_pos'].append([x.pos() for x in wn.synsets(translation)])
+    # if the word includes an irregular verb from the irr verb list in their last 5 chars, add to verb list
+    cond = tuple((stem in word[-5:]) for stem in irr_verbs)
+    if any(cond):
+        verbs.append(word)
+    # if the word ends in 'en' like most dutch verbs
+    # but the word, when translated is not designated as a noun in english
+    # then add to verb list
+    elif word[-2:] == 'en':
+        zin = sp(f'ik ga {word}')
+        if zin[2].pos_ == 'VERB':
+            verbs.append(word)
+
 
 # other = classif[~classif['Lemma'].isin(nouns['Lemma'])]
 # pos_count = other['Lemma'].value_counts()
@@ -115,19 +110,3 @@ for word in nw_ww_VC[nw_ww_VC > 1].index:
 # 
 
 
-# import pickle
-
-# words = {'word':[], 'translation':[], 'english_pos':[], 'pos':[]}
-# word_list = nw_ww.Lemma.values
-# pos_list = nw_ww['POS'].values
-# for n, (word, pos) in enumerate(zip(word_list, pos_list)):
-#     words['word'].append(word)
-#     translation = translate_txt(word, '')
-#     words['translation'].append(translation)
-#     words['pos'].append(pos)
-#     words['english_pos'].append([x.pos() for x in wn.synsets(translation)])
-#     if n % 100 == 0:
-#         print((n/(len(word_list))))
-
-# with open('data/nw_ww.pkl', 'wb') as file:
-#     pickle.dump(pd.DataFrame(words), file)

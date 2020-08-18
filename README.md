@@ -49,19 +49,14 @@ A big thank you to the authors of these excellent papers.
   * we extract words that end in 'gaan', 'slaan', 'staan' or 'zijn', as these verbs do not end in 'en'
   * because there are so many words ending in 'en' that are *not* verbs, we need to apply some kind of filter to fairly choose them, so we do one of the following:
   
-    A - check if it has 'en' as ending
+    * check if it has 'en' as ending **(This is the methodology I'm currently using in v1)**
       * create a sentence as follows 'ik ga *word*' 
       * use spacey's nl_core_news_lg model to check the PoS of such *word* in the sentence (view model here: https://spacy.io/models/nl#nl_core_news_lg)
       * use this tagging to classify the word as verb or noun
   
-    B - check if it has 'en' as ending
-      * translate the word to english
-      * look for the word in english in the NLTK WordNet
-      * check all the possible PoS of this word in the sentence
-      * the PoS with the most appearances will be used
-      * if empty, assign as verb, if tie, assign first observed of those two most voted options
+    
     * if the PoS = Noun, we take it out of the verb list and include in Noun list
-  * add this list of verbs and nouns finally separated in a dataframe of words separated from the general list called nw_ww
+  * add this list of verbs and nouns finally separated in a dataframe of words separated from the general list called nw_ww (meaning: naamwoorden_werkwoorden)
 
 
 
