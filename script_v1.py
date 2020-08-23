@@ -6,9 +6,17 @@ from json import load
 from os import environ
 from nltk.corpus import wordnet as wn
 import spacy
+from PyDictionary import PyDictionary
+
+# creating dictionary instance
+dictionary = PyDictionary()
 
 # google cloud authentication and client connection
 environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'api-key.json'
+
+# project number (google cloud project)
+# I suggest you add this as an entry to your api key json
+project_number = load('api-key.json')['project_number']
 
 # using google api
 def translate_txt(text, project_id):
@@ -77,29 +85,52 @@ classif2 = pd.read_csv('data/subtlex-nl-v1.3/SUBTLEX-NL.master.cd-above2.txt', s
 classif = pd.concat([classif1,classif2])[['Lemma','POS']]
 classif = classif[(classif['Lemma'] != '@') & (classif['Lemma'].isin(data['word']))].drop_duplicates()
 
+# filtering 1 letter words
+classif = classif[classif['Lemma'].isin([x for x in classif['Lemma'] if len(x) > 1])]
+
+# filtering 2 letter words and keeping them if they exist
+two_letter_words = set([word for word in classif['Lemma'] if len(word) < 4])
+low_length_eval = {'word':[], 'translation':[], 'meaning_en':[]}
+for word in two_letter_words:
+    low_length_eval['word'].append(word)
+    t = translate_txt(word, project_number)
+    low_length_eval['translation'].append(t)
+    low_length_eval['meaning_en'].append(dictionary.meaning(word))
+
+# nouns and verbs filter
 nw_ww = classif[classif['POS'].isin(['N','WW'])]
 nw_ww_VC = nw_ww['Lemma'].value_counts()
-woorden = nw_ww[nw_ww['Lemma'].isin(nw_ww_VC[nw_ww_VC == 1].index)]
 
-# bringing spacy's nl_core_news_lg model
+# importing  spacy's nl_core_news_lg model
 sp = spacy.load('nl_core_news_lg')
 
 # extracting verbs only from previous filter
-irr_verbs = ['gaan', 'slaan', 'staan', 'zijn']
-verbs = []
+onr_verben = ['gaan', 'slaan', 'staan', 'zijn']
+verben = []
 for word in nw_ww_VC[nw_ww_VC > 1].index:
     # if the word includes an irregular verb from the irr verb list in their last 5 chars, add to verb list
-    cond = tuple((stem in word[-5:]) for stem in irr_verbs)
+    cond = tuple((stem in word[-5:]) for stem in onr_verben)
     if any(cond):
-        verbs.append(word)
-    # if the word ends in 'en' like most dutch verbs
+        verben.append(word)
+    # if the word ends in 'en' like most dutch verben
     # but the word, when translated is not designated as a noun in english
     # then add to verb list
     elif word[-2:] == 'en':
         zin = sp(f'ik ga {word}')
         if zin[2].pos_ == 'VERB':
-            verbs.append(word)
+            verben.append(word)
 
+# Nouns
+naamwoorden = nw_ww[(~(nw_ww['Lemma'].isin(verben)) |
+                (nw_ww['Lemma'].isin(nw_ww_VC[nw_ww_VC == 1].index)))
+                & (nw_ww['POS'] == 'N')]
+
+# Verbs
+verben = nw_ww[((nw_ww['Lemma'].isin(verben)) | 
+                (nw_ww['Lemma'].isin(nw_ww_VC[nw_ww_VC == 1].index)))
+                & (nw_ww['POS'] == 'WW')]
+
+woorden = pd.concat([verben, naamwoorden])
 
 # other = classif[~classif['Lemma'].isin(nouns['Lemma'])]
 # pos_count = other['Lemma'].value_counts()
