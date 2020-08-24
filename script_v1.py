@@ -16,7 +16,8 @@ environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'api-key.json'
 
 # project number (google cloud project)
 # I suggest you add this as an entry to your api key json
-project_number = load('api-key.json')['project_number']
+with open('api-key.json') as apikey:
+    project_number = load(apikey)
 
 # using google api
 def translate_txt(text, project_id):
@@ -88,7 +89,21 @@ classif = classif[(classif['Lemma'] != '@') & (classif['Lemma'].isin(data['word'
 # filtering 1 letter words
 classif = classif[classif['Lemma'].isin([x for x in classif['Lemma'] if len(x) > 1])]
 
-# filtering 2 letter words and keeping them if they exist
+# checking if words include accents, if so only keep those accented words
+# that are french loanwords or include the words 'privé', 'één', 'vóór'
+accented_words = classif[0:0]
+accents = ['á', 'é', 'í', 'ó', 'ú']
+no_accents = ['a', 'e', 'i', 'o', 'u']
+for letter in accents:
+    accented_words = pd.concat([accented_words, classif[classif['Lemma'].str.contains(letter)]])
+for word in accented_words['Lemma']:
+    new_word = word
+    for x,y in zip(accents, no_accents):
+        new_word = new_word.replace(x, y)
+    accented_words.loc[accented_words['Lemma'] == word, 'unac_eq'] = new_word
+
+# filtering 2 letter words and keeping them if they have a meaning in english or a translation
+# such translation must also not be identical, otherwise the word will be removed from the main list
 two_letter_words = set([word for word in classif['Lemma'] if len(word) < 4])
 low_length_eval = {'word':[], 'translation':[], 'meaning_en':[]}
 for word in two_letter_words:
@@ -96,6 +111,11 @@ for word in two_letter_words:
     t = translate_txt(word, project_number)
     low_length_eval['translation'].append(t)
     low_length_eval['meaning_en'].append(dictionary.meaning(word))
+low_length_eval = pd.DataFrame(low_length_eval)
+low_length_eval_remove = low_length_eval[(low_length_eval['meaning'].isna())
+                                            & (low_length_eval['word'] == low_length_eval['translation'])]
+classif = classif[~classif['Lemma'].isin(low_length_eval_remove['word'])]
+
 
 # nouns and verbs filter
 nw_ww = classif[classif['POS'].isin(['N','WW'])]
