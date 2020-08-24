@@ -115,7 +115,7 @@ low_length_eval = pd.DataFrame(low_length_eval)
 low_length_eval_remove = low_length_eval[(low_length_eval['meaning'].isna())
                                             & (low_length_eval['word'] == low_length_eval['translation'])]
 classif = classif[~classif['Lemma'].isin(low_length_eval_remove['word'])]
-
+ 
 
 # nouns and verbs filter
 nw_ww = classif[classif['POS'].isin(['N','WW'])]
