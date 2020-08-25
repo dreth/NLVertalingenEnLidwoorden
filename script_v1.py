@@ -133,6 +133,9 @@ classif.loc[(classif['Lemma'] == 'het') & (classif['POS'] == 'VNW'), 'meaning_en
 # finally, replacing entries labeled as lidwoord 
 classif.loc[classif['Lemma'].isin(lidwoorden)] = classif[~classif['meaning_en'].isna()]
 
+# cleaning up removed things
+classif = classif[~(classif['POS'].isna())] 
+
 # %% Filtering 1 letter words
 classif = classif[classif['Lemma'].isin([x for x in classif['Lemma'] if len(x) > 1])]
 
