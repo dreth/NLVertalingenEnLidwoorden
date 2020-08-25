@@ -127,17 +127,14 @@ accented_words = accented_words[~((accented_words['Lemma'].str.contains('privé'
                                     | (accented_words['Lemma'].str.contains('één'))
                                     | (accented_words['Lemma'].str.contains('vóór')))]
 kept_accented_words = []
-dataset_without_accented_words = classif[~classif['Lemma'].isin(accented_words)]['Lemma']
+dataset_without_accented_words = classif[~classif['Lemma'].isin(accented_words)]['Lemma'].unique()
 for word in accented_words['Lemma'].unique():
     if detect_lang(word, project_number) == 'fr':
         kept_accented_words.append(word)
     else:
-        print('2nd')
         for x,y in zip(accents, no_accents):
             if x in word:
                 new_word = word.replace(x, y)
-                print('new: ', new_word)
-                print('orig: ', word)
                 if new_word not in dataset_without_accented_words:
                     kept_accented_words.append(word)
 excluded_accented_words = accented_words[~accented_words['Lemma'].isin(kept_accented_words)]['Lemma'].unique()
