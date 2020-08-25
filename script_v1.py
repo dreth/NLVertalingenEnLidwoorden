@@ -112,6 +112,26 @@ classif1 = pd.read_csv('data/subtlex-nl-v1.3/SUBTLEX-NL.master.txt', sep='\t')
 classif2 = pd.read_csv('data/subtlex-nl-v1.3/SUBTLEX-NL.master.cd-above2.txt', sep='\t')
 classif = pd.concat([classif1,classif2])[['Lemma','POS']]
 classif = classif[(classif['Lemma'] != '@') & (classif['Lemma'].isin(data['word']))].drop_duplicates()
+classif['meaning_en'] = np.nan
+
+# %% Filtering Articles (lidwoord)
+# listing all possible articles
+lidwoorden = ['de', 'het', 'een']
+lidwoorden_df = classif[classif['POS'] == 'LID']
+classif.loc[classif['POS'] == 'LID'] = classif[(classif['POS'] == 'LID') & (classif['Lemma'].isin(lidwoorden))]
+
+# de
+classif.loc[(classif['Lemma'] == 'de') & (classif['POS'] == 'LID'), 'meaning_en'] = 'the (definite article, for de-woorden)'
+
+# een
+classif.loc[(classif['Lemma'] == 'een') & (classif['POS'] == 'LID'), 'meaning_en'] = 'a/an (indefinite article)'
+
+# het (also as pronoun)
+classif.loc[(classif['Lemma'] == 'het') & (classif['POS'] == 'LID'), 'meaning_en'] = 'the (definite article, for het-woorden)'
+classif.loc[(classif['Lemma'] == 'het') & (classif['POS'] == 'VNW'), 'meaning_en'] = 'it'
+
+# finally, replacing entries labeled as lidwoord 
+classif.loc[classif['Lemma'].isin(lidwoorden)] = classif[~classif['meaning_en'].isna()]
 
 # %% Filtering 1 letter words
 classif = classif[classif['Lemma'].isin([x for x in classif['Lemma'] if len(x) > 1])]
@@ -202,18 +222,18 @@ for word in nw_ww_adj_VC[nw_ww_adj_VC > 1].index:
 
 # Nouns
 naamwoorden = nw_ww_adj[(~(nw_ww_adj['Lemma'].isin(verben)) |
-                ((nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                & (nw_ww_adj['POS'] == 'N'))]
+                (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                & (nw_ww_adj['POS'] == 'N')]
 
 # Verbs
 verben = nw_ww_adj[((nw_ww_adj['Lemma'].isin(verben)) | 
-                ((nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                & (nw_ww_adj['POS'] == 'WW'))]
+                (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                & (nw_ww_adj['POS'] == 'WW')]
 
 # Adjectives
 adjectieven = nw_ww_adj[((nw_ww_adj['Lemma'].isin(adjectieven)) | 
-                ((nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                & (nw_ww_adj['POS'] == 'ADJ'))]
+                (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                & (nw_ww_adj['POS'] == 'ADJ')]
 
 # joining all word types
 woorden = pd.concat([verben, naamwoorden, adjectieven])
