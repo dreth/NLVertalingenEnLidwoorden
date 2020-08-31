@@ -24,10 +24,10 @@ with open('api-key.json') as apikey:
 # using google api
 
 
-def translate_txt(text, project_id, batch=False):
+def translate_txt(text, project_id, batch=False, batchsize=1024):
     """
     Translating Text using google API
-    if batch=True, text must be a list
+    if batch=True, text must be a list with max 1024 elements
     if batch=False, text must be a string
     """
 
@@ -45,9 +45,19 @@ def translate_txt(text, project_id, batch=False):
         return response.translations[0].translated_text
 
     else:
-        params['contents'] = text
-        response = client.translate_text(**params)
-        return [response.translations[x].translated_text for x in range(len(response.translations))]
+        if len(text) <= 1024:
+            params['contents'] = text
+            response = client.translate_text(**params)
+            return [response.translations[x].translated_text for x in range(len(response.translations))]
+        else:
+            result = []
+            word_lists = np.array_split(np.array(text), int(len(text)/1024)+1)
+            for word_list in word_lists:
+                params['contents'] = word_list
+                response = client.translate_text(**params)
+                response = [response.translations[x].translated_text for x in range(len(response.translations))]
+                for word in response:
+                    result.append(word)
 
 
 def detect_lang(text, project_id):
@@ -188,7 +198,7 @@ low_length_eval_remove = low_length_eval[(low_length_eval['meaning_en'].isna())
 # removing elements by filtering these out
 classif = classif[~classif['Lemma'].isin(low_length_eval_remove['word'])]
 
-# %% Filtering accented words that just emphasize and don't have a different meaning
+# %% Filtering words where the accent emphasizes the word and doesn't change its meaning
 # checking if words include accents, if so only keep those accented words
 # that are french loanwords or include the words 'privé', 'één', 'vóór'
 accented_words = classif[0:0]
@@ -235,13 +245,13 @@ nw_ww_adj_VC = nw_ww_adj['Lemma'].value_counts()
 
 # extracting verbs only from previous filter
 onr_verben = ['gaan', 'slaan', 'staan', 'zijn']
-verben, adjectieven = [], []
+verben, bijvoeglijk_nmw = [], []
 for word in nw_ww_adj_VC[nw_ww_adj_VC > 1].index:
     # if the word includes an irregular verb from the irr verb list in their last 5 chars, add to verb list
     cond = tuple((stem in word[-5:]) for stem in onr_verben)
     if any(cond):
         verben.append(word)
-    # if the word ends in 'en' like most dutch verben
+    # if the word ends in 'en' like most dutch verbs
     # but the word, when translated is not designated as a noun in english
     # then add to verb list
     elif word[-2:] == 'en':
@@ -250,16 +260,16 @@ for word in nw_ww_adj_VC[nw_ww_adj_VC > 1].index:
         if zin[2].pos_ == 'VERB':
             verben.append(word)
         elif zin2[3].pos_ == 'ADJ':
-            adjectieven.append(word)
+            bijvoeglijk_nmw.append(word)
     # if the word is an adjective after labeling with spacy
     # then the word is added to the adjective list
     else:
         zin2 = sp(f'mijn huis is {word}')
         if zin2[3].pos_ == 'ADJ':
-            adjectieven.append(word)
+            bijvoeglijk_nmw.append(word)
 
 # Nouns
-naamwoorden = nw_ww_adj[(~(nw_ww_adj['Lemma'].isin(verben)) |
+zelfstandige_nmw = nw_ww_adj[(~(nw_ww_adj['Lemma'].isin(verben)) |
                          (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
                         & (nw_ww_adj['POS'] == 'N')]
 
@@ -269,18 +279,13 @@ verben = nw_ww_adj[((nw_ww_adj['Lemma'].isin(verben)) |
                    & (nw_ww_adj['POS'] == 'WW')]
 
 # Adjectives
-adjectieven = nw_ww_adj[((nw_ww_adj['Lemma'].isin(adjectieven)) |
+bijvoeglijk_nmw = nw_ww_adj[((nw_ww_adj['Lemma'].isin(bijvoeglijk_nmw)) |
                          (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
                         & (nw_ww_adj['POS'] == 'ADJ')]
 
 # joining all word types
-woorden = pd.concat([verben, naamwoorden, adjectieven])
+woorden = pd.concat([verben, zelfstandige_nmw, bijvoeglijk_nmw])
+
+# %% Rest of words
 
 
-# other = classif[~classif['Lemma'].isin(nouns['Lemma'])]
-# pos_count = other['Lemma'].value_counts()
-
-# one_count = other[other['Lemma'].isin(pos_count[pos_count == 1].index)]
-# main = nouns.append(one_count)
-
-#
