@@ -24,7 +24,7 @@ with open('api-key.json') as apikey:
 # using google api
 
 
-def translate_txt(text, project_id, batch=False, batchsize=1024):
+def translate_txt(text, project_id, batch=False, source="nl", target="en-US"):
     """
     Translating Text using google API
     if batch=True, text must be a list with max 1024 elements
@@ -35,8 +35,8 @@ def translate_txt(text, project_id, batch=False, batchsize=1024):
     params = {
         'parent': f'projects/{project_id}',
         'mime_type': "text/plain",
-        'source_language_code': "nl",
-        'target_language_code': "en-US"
+        'source_language_code': source,
+        'target_language_code': target
     }
 
     if batch == False:
@@ -55,9 +55,11 @@ def translate_txt(text, project_id, batch=False, batchsize=1024):
             for word_list in word_lists:
                 params['contents'] = word_list
                 response = client.translate_text(**params)
-                response = [response.translations[x].translated_text for x in range(len(response.translations))]
+                response = [response.translations[x].translated_text for x in range(
+                    len(response.translations))]
                 for word in response:
                     result.append(word)
+            return result
 
 
 def detect_lang(text, project_id):
@@ -257,7 +259,7 @@ for word in nw_ww_adj_VC[nw_ww_adj_VC > 1].index:
     elif word[-2:] == 'en':
         zin = sp(f'ik ga {word}')
         zin2 = sp(f'mijn huis is {word}')
-        if zin[2].pos_ == 'VERB':
+        if zin[2].pos_ in ['VERB','AUX']:
             verben.append(word)
         elif zin2[3].pos_ == 'ADJ':
             bijvoeglijk_nmw.append(word)
@@ -270,8 +272,8 @@ for word in nw_ww_adj_VC[nw_ww_adj_VC > 1].index:
 
 # Nouns
 zelfstandige_nmw = nw_ww_adj[(~(nw_ww_adj['Lemma'].isin(verben)) |
-                         (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                        & (nw_ww_adj['POS'] == 'N')]
+                              (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                             & (nw_ww_adj['POS'] == 'N')]
 
 # Verbs
 verben = nw_ww_adj[((nw_ww_adj['Lemma'].isin(verben)) |
@@ -280,12 +282,60 @@ verben = nw_ww_adj[((nw_ww_adj['Lemma'].isin(verben)) |
 
 # Adjectives
 bijvoeglijk_nmw = nw_ww_adj[((nw_ww_adj['Lemma'].isin(bijvoeglijk_nmw)) |
-                         (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                        & (nw_ww_adj['POS'] == 'ADJ')]
+                             (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                            & (nw_ww_adj['POS'] == 'ADJ')]
 
 # joining all word types
 woorden = pd.concat([verben, zelfstandige_nmw, bijvoeglijk_nmw])
 
-# %% Rest of words
+# %% Classifying other word taggings
 
+# selecting subset of words per remaining PoS
+remaining_pos_taggings = ['TW', 'VZ', 'VG', 'TSW', 'VNW', 'BW']
+other_taggings = {pos:classif[classif['POS'] == pos] for pos in remaining_pos_taggings}
+kept_words_per_pos = {pos:[] for pos in remaining_pos_taggings}
+etc_words = []
 
+# iterating over different remaining PoS selected above
+# then iterating over the words and checking a sentence which would
+# reasonably correspond with its appropriate tagging
+for pos, word_list in other_taggings.items():
+    for word in word_list['Lemma']:
+        if pos == 'TW':
+            zin = sp(f'ik heb {word} huizen')
+            a = 1 if zin[2].pos_ == 'NUM':
+                kept_words_per_pos[pos].append(word)
+        elif pos == 'VZ':
+            zin = sp(f'ik ben {word} mijn huis')
+            if zin[2].pos_ == 'ADP':
+                kept_words_per_pos[pos].append(word)
+        elif pos == 'VG':
+            zin = sp(f'ik eet {word} loop')
+            if zin[2].pos_ in ['CCONJ', 'SCONJ', 'CONJ']:
+                kept_words_per_pos[pos].append(word)
+        elif pos == 'TSM':
+            zin = sp(f'{word}')
+            if zin[0].pos_ == 'INTJ':
+                kept_words_per_pos[pos].append(word)
+        elif pos == 'VNW':
+            zin = sp(f'{word} eet')
+            zin2 = sp(f'{word} eten')
+            if (zin[0].pos_ == 'PRON') or (zin2[0].pos_ == 'PRON'):
+                kept_words_per_pos[pos].append(word)
+        elif pos == 'BW':
+            zin = sp(f'ik ga {word} eten')
+            if zin[2].pos_ == 'ADV':
+                kept_words_per_pos[pos].append(word)
+        else:
+            etc_words.append(word)
+        
+# correct and incorrect numerals
+ = numerals[numerals['Lemma'].isin(correct_nums)]
+etc_words = classif[classif['Lemma'].isin(etc_words)]
+
+# %% Classifying words tagged as prepositions
+
+# selecting subset of prepositions
+preps = classif[classif['POS'] == 'VZ']
+for word in preps['Lemma']:
+    zin = sp(f'ik ben {word} mijn huis')
