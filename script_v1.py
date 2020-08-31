@@ -303,7 +303,7 @@ for pos, word_list in other_taggings.items():
     for word in word_list['Lemma']:
         if pos == 'TW':
             zin = sp(f'ik heb {word} huizen')
-            a = 1 if zin[2].pos_ == 'NUM':
+            if zin[2].pos_ == 'NUM':
                 kept_words_per_pos[pos].append(word)
         elif pos == 'VZ':
             zin = sp(f'ik ben {word} mijn huis')
@@ -330,7 +330,6 @@ for pos, word_list in other_taggings.items():
             etc_words.append(word)
         
 # correct and incorrect numerals
- = numerals[numerals['Lemma'].isin(correct_nums)]
 etc_words = classif[classif['Lemma'].isin(etc_words)]
 
 # %% Classifying words tagged as prepositions
