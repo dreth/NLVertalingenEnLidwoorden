@@ -260,7 +260,7 @@ for word in nw_ww_adj_VC[nw_ww_adj_VC > 1].index:
     elif word[-2:] == 'en':
         zin = sp(f'ik ga {word}')
         zin2 = sp(f'mijn huis is {word}')
-        if zin[2].pos_ in ['VERB','AUX']:
+        if zin[2].pos_ in ['VERB', 'AUX']:
             verben.append(word)
         elif zin2[3].pos_ == 'ADJ':
             bijvoeglijk_nmw.append(word)
@@ -271,12 +271,31 @@ for word in nw_ww_adj_VC[nw_ww_adj_VC > 1].index:
         if zin2[3].pos_ == 'ADJ':
             bijvoeglijk_nmw.append(word)
 
-# %% Classifying other word taggings
+# nouns, adjectives and verbs
+# Nouns
+zelfstandige_nmw = nw_ww_adj[(~(nw_ww_adj['Lemma'].isin(set(verben) | set(bijvoeglijk_nmw))) |
+                              (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                             & (nw_ww_adj['POS'] == 'N')]
 
+# Verbs
+verben = nw_ww_adj[((nw_ww_adj['Lemma'].isin(verben)) |
+                    (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                   & (nw_ww_adj['POS'] == 'WW')]
+
+# Adjectives
+bijvoeglijk_nmw = nw_ww_adj[((nw_ww_adj['Lemma'].isin(bijvoeglijk_nmw)) |
+                             (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                            & (nw_ww_adj['POS'] == 'ADJ')]
+
+# joining the 3 main groups
+woorden = pd.concat([verben, zelfstandige_nmw, bijvoeglijk_nmw])
+
+# %% Classifying other word taggings
 # selecting subset of words per remaining PoS
 remaining_pos_taggings = ['TW', 'VZ', 'VG', 'TSW', 'VNW', 'BW']
-other_taggings = {pos:classif[classif['POS'] == pos] for pos in remaining_pos_taggings}
-kept_words_per_pos = {pos:[] for pos in remaining_pos_taggings}
+other_taggings = {pos: classif[classif['POS'] == pos]
+                  for pos in remaining_pos_taggings}
+kept_words_per_pos = {pos: [] for pos in remaining_pos_taggings}
 etc_words = []
 
 # iterating over different remaining PoS selected above
@@ -286,7 +305,8 @@ for pos, word_list in other_taggings.items():
     for word in word_list['Lemma']:
         if pos == 'TW':
             zin = sp(f'ik heb {word} huizen')
-            if zin[2].pos_ == 'NUM':
+            zin2 = sp(f'{word}')
+            if (zin[2].pos_ == 'NUM') or (zin2[0].pos_ == 'NUM'):
                 kept_words_per_pos[pos].append(word)
         elif pos == 'VZ':
             zin = sp(f'ik ben {word} mijn huis')
@@ -311,29 +331,30 @@ for pos, word_list in other_taggings.items():
                 kept_words_per_pos[pos].append(word)
         else:
             etc_words.append(word)
-        
-# correct and incorrect numerals
-etc_words = classif[classif['Lemma'].isin(etc_words)]
+
+# all words in teh kept words dict
+all_words = []
+for pos, l in kept_words_per_pos.items():
+    for word in l:
+        all_words.append(word)
+
+# words that didn't pass the filters
+etc_words = classif[((~classif['Lemma'].isin(all_words)) | (
+    classif['Lemma'].isin(etc_words))) & (~classif['Lemma'].isin(woorden['Lemma']))]
+
+# %% Analyzing the PoS of the rest of the words
+
+
+
 
 # %% Finalizing each PoS dataframe
 
-# Nouns
-zelfstandige_nmw = nw_ww_adj[(~(nw_ww_adj['Lemma'].isin(verben)) |
-                              (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                             & (nw_ww_adj['POS'] == 'N')]
-
-# Verbs
-verben = nw_ww_adj[((nw_ww_adj['Lemma'].isin(verben)) |
-                    (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                   & (nw_ww_adj['POS'] == 'WW')]
-
-# Adjectives
-bijvoeglijk_nmw = nw_ww_adj[((nw_ww_adj['Lemma'].isin(bijvoeglijk_nmw)) |
-                             (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                            & (nw_ww_adj['POS'] == 'ADJ')]
+# zelfstandige naamwoorden, bijvoeglijk naamwoorden and verben
+# defined in lines 276, 281 and 286 respectively
 
 # Lidwoorden
 # defined in line 179
 
+
 # joining all word types
-woorden = pd.concat([verben, zelfstandige_nmw, bijvoeglijk_nmw, lidwoorden])
+woorden = pd.concat([woorden, lidwoorden])
