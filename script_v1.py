@@ -176,6 +176,7 @@ classif.loc[classif['Lemma'].isin(
 
 # cleaning up removed things
 classif = classif[~(classif['POS'].isna())]
+lidwoorden = classif[~classif['meaning_en'].isna()]
 
 # %% Filtering 1 letter words
 classif = classif[classif['Lemma'].isin(
@@ -270,24 +271,6 @@ for word in nw_ww_adj_VC[nw_ww_adj_VC > 1].index:
         if zin2[3].pos_ == 'ADJ':
             bijvoeglijk_nmw.append(word)
 
-# Nouns
-zelfstandige_nmw = nw_ww_adj[(~(nw_ww_adj['Lemma'].isin(verben)) |
-                              (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                             & (nw_ww_adj['POS'] == 'N')]
-
-# Verbs
-verben = nw_ww_adj[((nw_ww_adj['Lemma'].isin(verben)) |
-                    (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                   & (nw_ww_adj['POS'] == 'WW')]
-
-# Adjectives
-bijvoeglijk_nmw = nw_ww_adj[((nw_ww_adj['Lemma'].isin(bijvoeglijk_nmw)) |
-                             (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
-                            & (nw_ww_adj['POS'] == 'ADJ')]
-
-# joining all word types
-woorden = pd.concat([verben, zelfstandige_nmw, bijvoeglijk_nmw])
-
 # %% Classifying other word taggings
 
 # selecting subset of words per remaining PoS
@@ -332,9 +315,25 @@ for pos, word_list in other_taggings.items():
 # correct and incorrect numerals
 etc_words = classif[classif['Lemma'].isin(etc_words)]
 
-# %% Classifying words tagged as prepositions
+# %% Finalizing each PoS dataframe
 
-# selecting subset of prepositions
-preps = classif[classif['POS'] == 'VZ']
-for word in preps['Lemma']:
-    zin = sp(f'ik ben {word} mijn huis')
+# Nouns
+zelfstandige_nmw = nw_ww_adj[(~(nw_ww_adj['Lemma'].isin(verben)) |
+                              (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                             & (nw_ww_adj['POS'] == 'N')]
+
+# Verbs
+verben = nw_ww_adj[((nw_ww_adj['Lemma'].isin(verben)) |
+                    (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                   & (nw_ww_adj['POS'] == 'WW')]
+
+# Adjectives
+bijvoeglijk_nmw = nw_ww_adj[((nw_ww_adj['Lemma'].isin(bijvoeglijk_nmw)) |
+                             (nw_ww_adj['Lemma'].isin(nw_ww_adj_VC[nw_ww_adj_VC == 1].index)))
+                            & (nw_ww_adj['POS'] == 'ADJ')]
+
+# Lidwoorden
+# defined in line 179
+
+# joining all word types
+woorden = pd.concat([verben, zelfstandige_nmw, bijvoeglijk_nmw, lidwoorden])
