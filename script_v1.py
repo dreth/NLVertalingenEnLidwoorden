@@ -339,6 +339,7 @@ remaining_words = etc_words['Lemma'].unique()
 conflicts = []
 kept_remaining_words_per_pos = {pos:[] for pos in Part_of_speech.keys()}
 
+# performing checks
 for word in remaining_words:
     checks = {'N': sp(f'{word} is rood')[0].pos_ in ['NOUN','PROPN'],
               'SPEC': False,
@@ -351,8 +352,10 @@ for word in remaining_words:
               'TW': (sp(f'ik heb {word} huizen')[2].pos_ == 'NUM') or (sp(f'{word}')[0].pos_ == 'NUM'),
               'TSW': sp(f'{word}')[0].pos_ == 'INTJ',
               'LID': False}
+    tags = list(checks.keys())
+    bools = list(checks.values())
     if Counter([x for x in checks.values()])[True] == 1:
-        kept_remaining_words_per_pos
+        kept_remaining_words_per_pos[tags[bools.index(True)]].append(word)
     else:
         conflicts.append(word)
 
