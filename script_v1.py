@@ -1,3 +1,4 @@
+# %% imports
 import pandas as pd
 import numpy as np
 from google.cloud import translate
@@ -7,6 +8,7 @@ from os import environ
 from nltk.corpus import wordnet as wn
 import spacy
 from PyDictionary import PyDictionary
+from collections import Counter
 
 # %% Basic things
 # creating dictionary instance
@@ -258,17 +260,14 @@ for word in nw_ww_adj_VC[nw_ww_adj_VC > 1].index:
     # but the word, when translated is not designated as a noun in english
     # then add to verb list
     elif word[-2:] == 'en':
-        zin = sp(f'ik ga {word}')
-        zin2 = sp(f'mijn huis is {word}')
-        if zin[2].pos_ in ['VERB', 'AUX']:
+        if sp(f'ik ga {word}')[2].pos_ in ['VERB', 'AUX']:
             verben.append(word)
-        elif zin2[3].pos_ == 'ADJ':
+        elif sp(f'mijn huis is {word}')[3].pos_ == 'ADJ':
             bijvoeglijk_nmw.append(word)
     # if the word is an adjective after labeling with spacy
     # then the word is added to the adjective list
     else:
-        zin2 = sp(f'mijn huis is {word}')
-        if zin2[3].pos_ == 'ADJ':
+        if sp(f'mijn huis is {word}')[3].pos_ == 'ADJ':
             bijvoeglijk_nmw.append(word)
 
 # nouns, adjectives and verbs
@@ -304,30 +303,22 @@ etc_words = []
 for pos, word_list in other_taggings.items():
     for word in word_list['Lemma']:
         if pos == 'TW':
-            zin = sp(f'ik heb {word} huizen')
-            zin2 = sp(f'{word}')
-            if (zin[2].pos_ == 'NUM') or (zin2[0].pos_ == 'NUM'):
+            if (sp(f'ik heb {word} huizen')[2].pos_ == 'NUM') or (sp(f'{word}')[0].pos_ == 'NUM'):
                 kept_words_per_pos[pos].append(word)
         elif pos == 'VZ':
-            zin = sp(f'ik ben {word} mijn huis')
-            if zin[2].pos_ == 'ADP':
+            if sp(f'ik ben {word} mijn huis')[2].pos_ == 'ADP':
                 kept_words_per_pos[pos].append(word)
         elif pos == 'VG':
-            zin = sp(f'ik eet {word} loop')
-            if zin[2].pos_ in ['CCONJ', 'SCONJ', 'CONJ']:
+            if sp(f'ik eet {word} loop')[2].pos_ in ['CCONJ', 'SCONJ', 'CONJ']:
                 kept_words_per_pos[pos].append(word)
         elif pos == 'TSM':
-            zin = sp(f'{word}')
-            if zin[0].pos_ == 'INTJ':
+            if sp(f'{word}')[0].pos_ == 'INTJ':
                 kept_words_per_pos[pos].append(word)
         elif pos == 'VNW':
-            zin = sp(f'{word} eet')
-            zin2 = sp(f'{word} eten')
-            if (zin[0].pos_ == 'PRON') or (zin2[0].pos_ == 'PRON'):
+            if (sp(f'{word} eet')[0].pos_ == 'PRON') or (sp(f'{word} eten')[0].pos_ == 'PRON'):
                 kept_words_per_pos[pos].append(word)
         elif pos == 'BW':
-            zin = sp(f'ik ga {word} eten')
-            if zin[2].pos_ == 'ADV':
+            if sp(f'ik ga {word} eten')[2].pos_ == 'ADV':
                 kept_words_per_pos[pos].append(word)
         else:
             etc_words.append(word)
@@ -343,7 +334,27 @@ etc_words = classif[((~classif['Lemma'].isin(all_words)) | (
     classif['Lemma'].isin(etc_words))) & (~classif['Lemma'].isin(woorden['Lemma']))]
 
 # %% Analyzing the PoS of the rest of the words
+# iterating over words and doing the tests for every possible PoS tagging
+remaining_words = etc_words['Lemma'].unique()
+conflicts = []
+kept_remaining_words_per_pos = {pos:[] for pos in Part_of_speech.keys()}
 
+for word in remaining_words:
+    checks = {'N': sp(f'{word} is rood')[0].pos_ in ['NOUN','PROPN'],
+              'SPEC': False,
+              'VG': sp(f'ik eet {word} loop')[2].pos_ in ['CCONJ', 'SCONJ', 'CONJ'],
+              'ADJ': sp(f'mijn huis is {word}')[3].pos_ == 'ADJ',
+              'WW': sp(f'ik ga {word}')[2].pos_ in ['VERB', 'AUX'],
+              'VZ': sp(f'ik ben {word} mijn huis')[2].pos_ == 'ADP',
+              'BW': sp(f'ik ga {word} eten')[2].pos_ == 'ADV',
+              'VNW': (sp(f'{word} eet')[0].pos_ == 'PRON') or (sp(f'{word} eten')[0].pos_ == 'PRON'),
+              'TW': (sp(f'ik heb {word} huizen')[2].pos_ == 'NUM') or (sp(f'{word}')[0].pos_ == 'NUM'),
+              'TSW': sp(f'{word}')[0].pos_ == 'INTJ',
+              'LID': False}
+    if Counter([x for x in checks.values()])[True] == 1:
+        kept_remaining_words_per_pos
+    else:
+        conflicts.append(word)
 
 
 

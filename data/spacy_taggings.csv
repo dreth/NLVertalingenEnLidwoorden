@@ -1,0 +1,19 @@
+ADJ   ,adjective                 ,x
+ADP   ,adposition                ,x
+ADV   ,adverb                    ,x
+AUX   ,auxiliary                 ,x
+CONJ  ,conjunction               ,x
+CCONJ ,coordinating conjunction  ,x
+DET   ,determiner                ,x
+INTJ  ,interjection              ,x
+NUM   ,numeral                   ,x
+PART  ,particle
+PRON  ,pronoun                   ,x
+PROPN ,proper noun               ,x
+PUNCT ,punctuation
+SCONJ ,subordinating conjunction ,x
+SYM   ,symbol
+VERB  ,verb                      ,x
+X     ,other
+SPACE ,space
+NOUN  ,noun                      ,x
