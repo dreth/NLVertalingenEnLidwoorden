@@ -294,7 +294,7 @@ woorden = pd.concat([verben, zelfstandige_nmw, bijvoeglijk_nmw])
 remaining_pos_taggings = ['TW', 'VZ', 'VG', 'TSW', 'VNW', 'BW']
 other_taggings = {pos: classif[classif['POS'] == pos]
                   for pos in remaining_pos_taggings}
-kept_words_per_pos = {pos: [] for pos in remaining_pos_taggings}
+kept_words_per_pos = {pos:[] for pos in Part_of_speech.keys()}
 etc_words = []
 
 # iterating over different remaining PoS selected above
@@ -337,7 +337,6 @@ etc_words = classif[((~classif['Lemma'].isin(all_words)) | (
 # iterating over words and doing the tests for every possible PoS tagging
 remaining_words = etc_words[['Lemma','POS']].values
 conflicts = {'word':[], 'POS':[], 'amnt_cats':[], 'cats':[]}
-kept_remaining_words_per_pos = {pos:[] for pos in Part_of_speech.keys()}
 
 # performing checks
 for word,part_of_speech in remaining_words:
@@ -356,12 +355,25 @@ for word,part_of_speech in remaining_words:
     bools = list(checks.values())
     amnt_true = Counter([x for x in checks.values()])[True]
     if amnt_true == 1:
-        kept_remaining_words_per_pos[tags[bools.index(True)]].append(word)
+        kept_words_per_pos[tags[bools.index(True)]].append(word)
     else:
-        conflicts['word'].append(word)
-        conflicts['POS'].append(part_of_speech)
-        conflicts['amnt_cats'].append(amnt_true)
-        conflicts['cats'].append(tuple([pos for pos,b in checks.items() if b==True]))
+        all_cats = [pos for pos,b in checks.items() if b==True]
+        if 'N' in all_cats:
+            kept_words_per_pos['N'].append(word)
+        elif 'ADJ' in all_cats:
+            kept_words_per_pos['ADJ'].append(word)
+        elif 'BW' in all_cats:
+            kept_words_per_pos['BW'].append(word)
+        else:
+            conflicts['word'].append(word)
+            conflicts['POS'].append(part_of_speech)
+            conflicts['amnt_cats'].append(amnt_true)
+            conflicts['cats'].append(tuple(all_cats))
+
+# %% Dealing with conflicts
+
+
+
 
 # %% Finalizing each PoS dataframe
 
