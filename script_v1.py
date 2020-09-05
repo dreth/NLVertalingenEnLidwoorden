@@ -335,12 +335,12 @@ etc_words = classif[((~classif['Lemma'].isin(all_words)) | (
 
 # %% Analyzing the PoS of the rest of the words
 # iterating over words and doing the tests for every possible PoS tagging
-remaining_words = etc_words['Lemma'].unique()
-conflicts = []
+remaining_words = etc_words[['Lemma','POS']].values
+conflicts = {'word':[], 'POS':[], 'amnt_cats':[], 'cats':[]}
 kept_remaining_words_per_pos = {pos:[] for pos in Part_of_speech.keys()}
 
 # performing checks
-for word in remaining_words:
+for word,part_of_speech in remaining_words:
     checks = {'N': sp(f'{word} is rood')[0].pos_ in ['NOUN','PROPN'],
               'SPEC': False,
               'VG': sp(f'ik eet {word} loop')[2].pos_ in ['CCONJ', 'SCONJ', 'CONJ'],
@@ -354,12 +354,14 @@ for word in remaining_words:
               'LID': False}
     tags = list(checks.keys())
     bools = list(checks.values())
-    if Counter([x for x in checks.values()])[True] == 1:
+    amnt_true = Counter([x for x in checks.values()])[True]
+    if amnt_true == 1:
         kept_remaining_words_per_pos[tags[bools.index(True)]].append(word)
     else:
-        conflicts.append(word)
-
-
+        conflicts['word'].append(word)
+        conflicts['POS'].append(part_of_speech)
+        conflicts['amnt_cats'].append(amnt_true)
+        conflicts['cats'].append(tuple([pos for pos,b in checks.items() if b==True]))
 
 # %% Finalizing each PoS dataframe
 
