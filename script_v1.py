@@ -372,6 +372,15 @@ for word,part_of_speech in remaining_words:
 
 # %% Dealing with conflicts
 
+translated_words = dict(zip(conflicts['word'], translate_txt(conflicts['word'], project_number, batch=True)))
+conflicts['en_translation'] = [translated_words[x] for x in conflicts['word']]
+conflicts['pydictionary_en_pos'] = []
+
+for word in conflicts['en_translation']:
+    try:
+        conflicts['pydictionary_en_pos'].append(list(dictionary.meaning(word).keys()))
+    except:
+        conflicts['pydictionary_en_pos'].append([])
 
 
 

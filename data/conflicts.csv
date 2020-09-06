@@ -1,1106 +1,236 @@
-     ,word                     ,POS  ,amnt_cats ,cats
-0    ,aanbid                   ,SPEC ,2         ,"('N', 'ADJ')"
-1    ,aanlaat                  ,SPEC ,2         ,"('N', 'TW')"
-2    ,aardbevingen             ,SPEC ,2         ,"('N', 'WW')"
-3    ,aartsengelen             ,SPEC ,2         ,"('N', 'WW')"
-4    ,aasgier                  ,N    ,3         ,"('N', 'ADJ', 'BW')"
-5    ,aasgier                  ,WW   ,3         ,"('N', 'ADJ', 'BW')"
-6    ,aasgieren                ,SPEC ,2         ,"('N', 'WW')"
-7    ,academici                ,SPEC ,2         ,"('N', 'WW')"
-8    ,accurate                 ,SPEC ,2         ,"('N', 'ADJ')"
-9    ,aces                     ,SPEC ,2         ,"('N', 'WW')"
-10   ,achtentachtig            ,TW   ,2         ,"('ADJ', 'BW')"
-11   ,achtergestelde           ,SPEC ,0         ,()
-12   ,acteerlessen             ,SPEC ,2         ,"('N', 'WW')"
-13   ,ad                       ,SPEC ,0         ,()
-14   ,advocaten                ,SPEC ,2         ,"('N', 'WW')"
-15   ,afghanen                 ,SPEC ,2         ,"('N', 'WW')"
-16   ,afhaaleten               ,SPEC ,2         ,"('N', 'WW')"
-17   ,afrikanen                ,SPEC ,2         ,"('N', 'WW')"
-18   ,afschriften              ,SPEC ,2         ,"('N', 'WW')"
-19   ,aken                     ,SPEC ,2         ,"('N', 'WW')"
-20   ,alarm                    ,N    ,2         ,"('N', 'ADJ')"
-21   ,alarm                    ,SPEC ,2         ,"('N', 'ADJ')"
-22   ,alarm                    ,WW   ,2         ,"('N', 'ADJ')"
-23   ,aldoor                   ,BW   ,0         ,()
-24   ,alen                     ,SPEC ,2         ,"('N', 'WW')"
-25   ,algoritmes               ,SPEC ,2         ,"('N', 'WW')"
-26   ,alla                     ,SPEC ,0         ,()
-27   ,allerliefst              ,ADJ  ,0         ,()
-28   ,allerliefst              ,BW   ,0         ,()
-29   ,allerliefst              ,TW   ,0         ,()
-30   ,allerliefst              ,WW   ,0         ,()
-31   ,allesomvattend           ,ADJ  ,0         ,()
-32   ,allesomvattend           ,WW   ,0         ,()
-33   ,alligators               ,SPEC ,2         ,"('N', 'WW')"
-34   ,almachtige               ,SPEC ,0         ,()
-35   ,alumni                   ,SPEC ,2         ,"('WW', 'BW')"
-36   ,alvorens                 ,VG   ,0         ,()
-37   ,ambtshalve               ,BW   ,2         ,"('N', 'VZ')"
-38   ,amerikanen               ,SPEC ,2         ,"('N', 'WW')"
-39   ,analyses                 ,SPEC ,0         ,()
-40   ,anarchisten              ,SPEC ,2         ,"('N', 'WW')"
-41   ,angels                   ,SPEC ,2         ,"('N', 'WW')"
-42   ,antiquiteiten            ,SPEC ,2         ,"('N', 'WW')"
-43   ,apostelen                ,SPEC ,2         ,"('N', 'WW')"
-44   ,appartementen            ,SPEC ,2         ,"('N', 'WW')"
-45   ,appelboomgaarden         ,SPEC ,2         ,"('N', 'WW')"
-46   ,arctische                ,SPEC ,0         ,()
-47   ,arend                    ,N    ,2         ,"('ADJ', 'VNW')"
-48   ,arend                    ,SPEC ,2         ,"('ADJ', 'VNW')"
-49   ,arend                    ,WW   ,2         ,"('ADJ', 'VNW')"
-50   ,ariërs                   ,SPEC ,2         ,"('N', 'WW')"
-51   ,armoedzaaier             ,N    ,2         ,"('N', 'ADJ')"
-52   ,armoedzaaier             ,WW   ,2         ,"('N', 'ADJ')"
-53   ,arresteer                ,SPEC ,2         ,"('N', 'TSW')"
-54   ,art                      ,SPEC ,0         ,()
-55   ,assistenten              ,SPEC ,2         ,"('N', 'WW')"
-56   ,babes                    ,SPEC ,2         ,"('N', 'WW')"
-57   ,bandieten                ,SPEC ,2         ,"('N', 'WW')"
-58   ,bankiers                 ,SPEC ,2         ,"('N', 'WW')"
-59   ,barakken                 ,SPEC ,2         ,"('N', 'WW')"
-60   ,barbaren                 ,SPEC ,2         ,"('N', 'WW')"
-61   ,barbituraten             ,SPEC ,2         ,"('N', 'WW')"
-62   ,baretten                 ,SPEC ,2         ,"('N', 'WW')"
-63   ,bataljons                ,SPEC ,2         ,"('N', 'WW')"
-64   ,beate                    ,SPEC ,0         ,()
-65   ,bedoeïenen               ,SPEC ,2         ,"('N', 'WW')"
-66   ,beef                     ,SPEC ,2         ,"('N', 'ADJ')"
-67   ,bega                     ,SPEC ,2         ,"('N', 'WW')"
-68   ,beginners                ,SPEC ,2         ,"('N', 'WW')"
-69   ,begrafenissen            ,SPEC ,2         ,"('N', 'WW')"
-70   ,behekste                 ,SPEC ,2         ,"('N', 'ADJ')"
-71   ,beieren                  ,SPEC ,2         ,"('N', 'WW')"
-72   ,bekrompen                ,ADJ  ,2         ,"('N', 'WW')"
-73   ,bekrompen                ,N    ,2         ,"('N', 'WW')"
-74   ,bemerk                   ,SPEC ,0         ,()
-75   ,bemoeiallen              ,SPEC ,2         ,"('N', 'WW')"
-76   ,bergaf                   ,BW   ,2         ,"('N', 'WW')"
-77   ,berooid                  ,ADJ  ,0         ,()
-78   ,berooid                  ,WW   ,0         ,()
-79   ,beschermers              ,SPEC ,2         ,"('N', 'WW')"
-80   ,bestanden                ,SPEC ,2         ,"('N', 'WW')"
-81   ,beursmakelaars           ,SPEC ,2         ,"('N', 'WW')"
-82   ,beveel                   ,SPEC ,2         ,"('N', 'TW')"
-83   ,bevende                  ,SPEC ,0         ,()
-84   ,bewegingssensoren        ,SPEC ,3         ,"('N', 'ADJ', 'WW')"
-85   ,bezemsteel               ,N    ,2         ,"('N', 'ADJ')"
-86   ,bezemsteel               ,WW   ,2         ,"('N', 'ADJ')"
-87   ,bibliothecarissen        ,SPEC ,2         ,"('N', 'WW')"
-88   ,binder                   ,N    ,2         ,"('N', 'ADJ')"
-89   ,binder                   ,SPEC ,2         ,"('N', 'ADJ')"
-90   ,binder                   ,WW   ,2         ,"('N', 'ADJ')"
-91   ,binnenin                 ,BW   ,0         ,()
-92   ,binnenlaat               ,SPEC ,2         ,"('N', 'ADJ')"
-93   ,binnenlandse             ,SPEC ,0         ,()
-94   ,biologielessen           ,SPEC ,2         ,"('N', 'WW')"
-95   ,blanken                  ,SPEC ,2         ,"('ADJ', 'WW')"
-96   ,blazers                  ,SPEC ,2         ,"('N', 'WW')"
-97   ,blinder                  ,SPEC ,2         ,"('N', 'ADJ')"
-98   ,bloedens                 ,BW   ,2         ,"('N', 'WW')"
-99   ,bloedproeven             ,SPEC ,2         ,"('N', 'WW')"
-100  ,bloody                   ,SPEC ,0         ,()
-101  ,blowers                  ,SPEC ,2         ,"('N', 'WW')"
-102  ,blus                     ,SPEC ,2         ,"('N', 'WW')"
-103  ,boetes                   ,SPEC ,2         ,"('N', 'WW')"
-104  ,bombrieven               ,SPEC ,2         ,"('N', 'WW')"
-105  ,bomen                    ,SPEC ,2         ,"('N', 'WW')"
-106  ,bonussen                 ,SPEC ,2         ,"('N', 'WW')"
-107  ,boots                    ,SPEC ,2         ,"('N', 'ADJ')"
-108  ,bosten                   ,SPEC ,2         ,"('N', 'WW')"
-109  ,botte                    ,SPEC ,2         ,"('N', 'WW')"
-110  ,bouwprojecten            ,SPEC ,2         ,"('N', 'WW')"
-111  ,bouwzaken                ,SPEC ,2         ,"('N', 'WW')"
-112  ,brandstoftekort          ,N    ,2         ,"('N', 'ADJ')"
-113  ,brandstoftekort          ,WW   ,2         ,"('N', 'ADJ')"
-114  ,brandt                   ,SPEC ,2         ,"('N', 'WW')"
-115  ,bretellen                ,SPEC ,2         ,"('N', 'WW')"
-116  ,bronnen                  ,SPEC ,2         ,"('N', 'WW')"
-117  ,bruggen                  ,SPEC ,2         ,"('N', 'WW')"
-118  ,buitenaardse             ,SPEC ,0         ,()
-119  ,buitenaf                 ,BW   ,0         ,()
-120  ,buitenboordmotoren       ,SPEC ,2         ,"('N', 'WW')"
-121  ,bust                     ,SPEC ,2         ,"('N', 'ADJ')"
-122  ,buttons                  ,SPEC ,2         ,"('N', 'ADJ')"
-123  ,cabinedruk               ,N    ,2         ,"('N', 'ADJ')"
-124  ,cabinedruk               ,WW   ,2         ,"('N', 'ADJ')"
-125  ,capella                  ,SPEC ,0         ,()
-126  ,capes                    ,SPEC ,2         ,"('N', 'WW')"
-127  ,carabinieri              ,SPEC ,0         ,()
-128  ,centauren                ,SPEC ,2         ,"('N', 'WW')"
-129  ,centers                  ,SPEC ,2         ,"('N', 'WW')"
-130  ,cetera                   ,SPEC ,0         ,()
-131  ,challengers              ,SPEC ,2         ,"('N', 'WW')"
-132  ,cheerleaders             ,SPEC ,2         ,"('N', 'WW')"
-133  ,chicks                   ,SPEC ,2         ,"('N', 'WW')"
-134  ,chiefs                   ,SPEC ,2         ,"('N', 'WW')"
-135  ,choice                   ,SPEC ,0         ,()
-136  ,christen                 ,ADJ  ,2         ,"('N', 'WW')"
-137  ,christen                 ,N    ,2         ,"('N', 'WW')"
-138  ,christen                 ,SPEC ,2         ,"('N', 'WW')"
-139  ,codes                    ,SPEC ,2         ,"('N', 'WW')"
-140  ,collect                  ,SPEC ,0         ,()
-141  ,colliers                 ,SPEC ,2         ,"('N', 'WW')"
-142  ,comme                    ,SPEC ,0         ,()
-143  ,common                   ,SPEC ,0         ,()
-144  ,computercode             ,N    ,2         ,"('N', 'ADJ')"
-145  ,computercode             ,WW   ,2         ,"('N', 'ADJ')"
-146  ,computers                ,SPEC ,2         ,"('N', 'WW')"
-147  ,computerspellen          ,SPEC ,2         ,"('N', 'WW')"
-148  ,con                      ,SPEC ,0         ,()
-149  ,conservatieven           ,SPEC ,2         ,"('N', 'WW')"
-150  ,contradictio             ,SPEC ,0         ,()
-151  ,controllers              ,SPEC ,2         ,"('N', 'WW')"
-152  ,couvert                  ,N    ,2         ,"('N', 'ADJ')"
-153  ,couvert                  ,WW   ,2         ,"('N', 'ADJ')"
-154  ,coördinaten              ,SPEC ,2         ,"('N', 'WW')"
-155  ,crews                    ,SPEC ,2         ,"('N', 'WW')"
-156  ,cross-country            ,SPEC ,0         ,()
-157  ,cruces                   ,SPEC ,2         ,"('N', 'WW')"
-158  ,cubanen                  ,SPEC ,2         ,"('N', 'WW')"
-159  ,culturele                ,SPEC ,0         ,()
-160  ,cum                      ,SPEC ,0         ,()
-161  ,cups                     ,SPEC ,2         ,"('N', 'WW')"
-162  ,cutters                  ,SPEC ,2         ,"('N', 'WW')"
-163  ,daarachter               ,BW   ,2         ,"('N', 'ADJ')"
-164  ,daarginds                ,BW   ,0         ,()
-165  ,daarjuist                ,BW   ,0         ,()
-166  ,daden                    ,SPEC ,2         ,"('N', 'WW')"
-167  ,daklozen                 ,SPEC ,2         ,"('N', 'WW')"
-168  ,damast                   ,N    ,2         ,"('N', 'ADJ')"
-169  ,damast                   ,WW   ,2         ,"('N', 'ADJ')"
-170  ,de                       ,LID  ,0         ,()
-171  ,death                    ,SPEC ,0         ,()
-172  ,deco                     ,SPEC ,2         ,"('N', 'WW')"
-173  ,deer                     ,SPEC ,0         ,()
-174  ,degens                   ,SPEC ,2         ,"('N', 'ADJ')"
-175  ,delicatessen             ,SPEC ,2         ,"('N', 'WW')"
-176  ,democraten               ,SPEC ,2         ,"('N', 'WW')"
-177  ,demonen                  ,SPEC ,2         ,"('N', 'WW')"
-178  ,derden                   ,SPEC ,5         ,"('N', 'ADJ', 'WW', 'VNW', 'TW')"
-179  ,deux                     ,SPEC ,0         ,()
-180  ,diadeem                  ,N    ,2         ,"('N', 'ADJ')"
-181  ,diadeem                  ,SPEC ,2         ,"('N', 'ADJ')"
-182  ,diadeem                  ,WW   ,2         ,"('N', 'ADJ')"
-183  ,dierenrechten            ,SPEC ,2         ,"('N', 'WW')"
-184  ,diesels                  ,SPEC ,2         ,"('N', 'WW')"
-185  ,dim                      ,SPEC ,0         ,()
-186  ,doctors                  ,SPEC ,2         ,"('N', 'WW')"
-187  ,donderdagen              ,SPEC ,2         ,"('N', 'WW')"
-188  ,donors                   ,SPEC ,2         ,"('N', 'WW')"
-189  ,donuts                   ,SPEC ,2         ,"('N', 'WW')"
-190  ,doodvermoeiend           ,ADJ  ,0         ,()
-191  ,doodvermoeiend           ,WW   ,0         ,()
-192  ,douchemutsen             ,SPEC ,2         ,"('N', 'WW')"
-193  ,downs                    ,SPEC ,2         ,"('N', 'WW')"
-194  ,draken                   ,SPEC ,2         ,"('N', 'WW')"
-195  ,dreigbrieven             ,SPEC ,2         ,"('N', 'WW')"
-196  ,dreigementen             ,SPEC ,2         ,"('N', 'WW')"
-197  ,dries                    ,SPEC ,2         ,"('N', 'TW')"
-198  ,drifters                 ,SPEC ,2         ,"('N', 'WW')"
-199  ,drives                   ,SPEC ,2         ,"('N', 'WW')"
-200  ,dronkenlap               ,N    ,2         ,"('N', 'ADJ')"
-201  ,dronkenlap               ,WW   ,2         ,"('N', 'ADJ')"
-202  ,drugszaken               ,SPEC ,2         ,"('N', 'WW')"
-203  ,drukbezette              ,SPEC ,0         ,()
-204  ,dubloenen                ,SPEC ,2         ,"('N', 'WW')"
-205  ,duinkerken               ,SPEC ,2         ,"('N', 'WW')"
-206  ,dwaze                    ,SPEC ,0         ,()
-207  ,echtscheidingspapieren   ,SPEC ,2         ,"('N', 'WW')"
-208  ,eden                     ,SPEC ,2         ,"('N', 'WW')"
-209  ,een                      ,LID  ,0         ,()
-210  ,eeuwen                   ,SPEC ,2         ,"('N', 'WW')"
-211  ,eiken                    ,ADJ  ,2         ,"('ADJ', 'WW')"
-212  ,eiken                    ,N    ,2         ,"('ADJ', 'WW')"
-213  ,eiken                    ,SPEC ,2         ,"('ADJ', 'WW')"
-214  ,elfen                    ,SPEC ,2         ,"('N', 'WW')"
-215  ,ellen                    ,SPEC ,2         ,"('N', 'WW')"
-216  ,empire                   ,SPEC ,2         ,"('N', 'WW')"
-217  ,endeldarm                ,N    ,2         ,"('N', 'ADJ')"
-218  ,endeldarm                ,WW   ,2         ,"('N', 'ADJ')"
-219  ,ene                      ,BW   ,0         ,()
-220  ,ene                      ,TW   ,0         ,()
-221  ,ene                      ,VNW  ,0         ,()
-222  ,engelen                  ,SPEC ,2         ,"('N', 'WW')"
-223  ,erectieproblemen         ,SPEC ,2         ,"('N', 'WW')"
-224  ,eropuit                  ,BW   ,2         ,"('N', 'ADJ')"
-225  ,ertegen                  ,BW   ,0         ,()
-226  ,escape                   ,SPEC ,0         ,()
-227  ,escorts                  ,SPEC ,0         ,()
-228  ,espen                    ,SPEC ,2         ,"('N', 'WW')"
-229  ,esprit                   ,SPEC ,0         ,()
-230  ,eventjes                 ,BW   ,2         ,"('N', 'ADJ')"
-231  ,ever                     ,SPEC ,0         ,()
-232  ,executeurs               ,SPEC ,2         ,"('N', 'WW')"
-233  ,exit                     ,SPEC ,0         ,()
-234  ,explosieven              ,SPEC ,2         ,"('N', 'WW')"
-235  ,extreme                  ,SPEC ,0         ,()
-236  ,facto                    ,SPEC ,0         ,()
-237  ,faillissementen          ,SPEC ,2         ,"('N', 'WW')"
-238  ,familieproblemen         ,SPEC ,2         ,"('N', 'WW')"
-239  ,familievriend            ,N    ,2         ,"('N', 'ADJ')"
-240  ,familievriend            ,WW   ,2         ,"('N', 'ADJ')"
-241  ,familiezaken             ,SPEC ,2         ,"('N', 'WW')"
-242  ,fancy                    ,SPEC ,0         ,()
-243  ,farmers                  ,SPEC ,2         ,"('N', 'WW')"
-244  ,fatale                   ,SPEC ,0         ,()
-245  ,faut                     ,SPEC ,0         ,()
-246  ,fetisjisten              ,SPEC ,2         ,"('N', 'WW')"
-247  ,fiction                  ,SPEC ,0         ,()
-248  ,figaro                   ,SPEC ,0         ,()
-249  ,fine                     ,SPEC ,0         ,()
-250  ,first                    ,SPEC ,0         ,()
-251  ,flapperende              ,SPEC ,0         ,()
-252  ,flinters                 ,SPEC ,2         ,"('N', 'WW')"
-253  ,flodders                 ,SPEC ,2         ,"('N', 'WW')"
-254  ,flyers                   ,SPEC ,2         ,"('N', 'WW')"
-255  ,fondsen                  ,SPEC ,2         ,"('N', 'WW')"
-256  ,force                    ,SPEC ,0         ,()
-257  ,foxen                    ,SPEC ,2         ,"('N', 'WW')"
-258  ,francs                   ,SPEC ,0         ,()
-259  ,franken                  ,SPEC ,2         ,"('N', 'WW')"
-260  ,friezen                  ,SPEC ,2         ,"('N', 'WW')"
-261  ,fusies                   ,SPEC ,2         ,"('N', 'WW')"
-262  ,fusion                   ,SPEC ,0         ,()
-263  ,gaaien                   ,SPEC ,2         ,"('N', 'WW')"
-264  ,gaandeweg                ,BW   ,0         ,()
-265  ,gaarne                   ,BW   ,2         ,"('N', 'WW')"
-266  ,galen                    ,SPEC ,2         ,"('N', 'WW')"
-267  ,galjoenen                ,SPEC ,2         ,"('N', 'WW')"
-268  ,games                    ,SPEC ,2         ,"('N', 'WW')"
-269  ,gap                      ,SPEC ,0         ,()
-270  ,garden                   ,SPEC ,2         ,"('N', 'WW')"
-271  ,gasbellen                ,SPEC ,2         ,"('N', 'WW')"
-272  ,gates                    ,SPEC ,2         ,"('N', 'WW')"
-273  ,gazons                   ,SPEC ,2         ,"('N', 'WW')"
-274  ,geallieerden             ,SPEC ,2         ,"('N', 'WW')"
-275  ,gedragswetenschappen     ,SPEC ,2         ,"('N', 'WW')"
-276  ,geen                     ,VNW  ,0         ,()
-277  ,gehandicapten            ,ADJ  ,2         ,"('ADJ', 'WW')"
-278  ,gehandicapten            ,N    ,2         ,"('ADJ', 'WW')"
-279  ,gehandicapten            ,SPEC ,2         ,"('ADJ', 'WW')"
-280  ,geheugenkaart            ,N    ,2         ,"('N', 'ADJ')"
-281  ,geheugenkaart            ,WW   ,2         ,"('N', 'ADJ')"
-282  ,gehoornde                ,SPEC ,2         ,"('N', 'WW')"
-283  ,geile                    ,SPEC ,2         ,"('N', 'ADJ')"
-284  ,geketend                 ,SPEC ,0         ,()
-285  ,gekruide                 ,SPEC ,2         ,"('N', 'WW')"
-286  ,gelaarsde                ,SPEC ,2         ,"('N', 'WW')"
-287  ,gelijkenissen            ,SPEC ,2         ,"('N', 'WW')"
-288  ,geluld                   ,SPEC ,2         ,"('N', 'WW')"
-289  ,gemeentelijke            ,SPEC ,0         ,()
-290  ,genees                   ,SPEC ,2         ,"('N', 'WW')"
-291  ,geschenken               ,SPEC ,2         ,"('N', 'WW')"
-292  ,geschillen               ,SPEC ,2         ,"('N', 'WW')"
-293  ,gestand                  ,ADJ  ,2         ,"('N', 'WW')"
-294  ,gestand                  ,WW   ,2         ,"('N', 'WW')"
-295  ,getaand                  ,SPEC ,0         ,()
-296  ,geurkaarsen              ,SPEC ,2         ,"('N', 'WW')"
-297  ,gevangenissen            ,SPEC ,2         ,"('N', 'WW')"
-298  ,gevers                   ,SPEC ,2         ,"('N', 'WW')"
-299  ,gevlekt                  ,ADJ  ,0         ,()
-300  ,gevlekt                  ,WW   ,0         ,()
-301  ,gevleugeld               ,ADJ  ,2         ,"('N', 'WW')"
-302  ,gevleugeld               ,WW   ,2         ,"('N', 'WW')"
-303  ,geweien                  ,SPEC ,2         ,"('N', 'WW')"
-304  ,geweldsmisdrijven        ,SPEC ,2         ,"('N', 'WW')"
-305  ,gewetenloos              ,ADJ  ,0         ,()
-306  ,gewetenloos              ,SPEC ,0         ,()
-307  ,gewetenloos              ,WW   ,0         ,()
-308  ,gewetensbezwaren         ,SPEC ,2         ,"('N', 'WW')"
-309  ,gewichten                ,SPEC ,2         ,"('N', 'WW')"
-310  ,gezellen                 ,SPEC ,2         ,"('N', 'WW')"
-311  ,gezouten                 ,ADJ  ,2         ,"('N', 'WW')"
-312  ,gezouten                 ,N    ,2         ,"('N', 'WW')"
-313  ,gladiatorengevecht       ,N    ,2         ,"('N', 'ADJ')"
-314  ,gladiatorengevecht       ,WW   ,2         ,"('N', 'ADJ')"
-315  ,glanzend                 ,ADJ  ,0         ,()
-316  ,glanzend                 ,WW   ,0         ,()
-317  ,glitterpakken            ,SPEC ,2         ,"('N', 'ADJ')"
-318  ,godinnen                 ,SPEC ,2         ,"('N', 'WW')"
-319  ,goeden                   ,SPEC ,2         ,"('N', 'WW')"
-320  ,golden                   ,SPEC ,2         ,"('N', 'WW')"
-321  ,goochelaars              ,SPEC ,2         ,"('N', 'WW')"
-322  ,goocheltrucs             ,SPEC ,2         ,"('N', 'VNW')"
-323  ,goten                    ,SPEC ,2         ,"('N', 'WW')"
-324  ,gps                      ,SPEC ,2         ,"('N', 'ADJ')"
-325  ,gps-zenders              ,SPEC ,2         ,"('N', 'WW')"
-326  ,granaatscherven          ,SPEC ,2         ,"('N', 'WW')"
-327  ,grenen                   ,ADJ  ,2         ,"('N', 'WW')"
-328  ,grenen                   ,N    ,2         ,"('N', 'WW')"
-329  ,grieken                  ,SPEC ,2         ,"('N', 'WW')"
-330  ,griet                    ,N    ,2         ,"('N', 'ADJ')"
-331  ,griet                    ,SPEC ,2         ,"('N', 'ADJ')"
-332  ,griet                    ,WW   ,2         ,"('N', 'ADJ')"
-333  ,grieten                  ,SPEC ,2         ,"('N', 'WW')"
-334  ,griezels                 ,SPEC ,2         ,"('N', 'WW')"
-335  ,grimes                   ,SPEC ,2         ,"('N', 'WW')"
-336  ,grondbeginselen          ,SPEC ,2         ,"('N', 'WW')"
-337  ,grover                   ,SPEC ,2         ,"('ADJ', 'VZ')"
-338  ,gulpen                   ,SPEC ,2         ,"('N', 'WW')"
-339  ,gynaecologen             ,SPEC ,3         ,"('N', 'WW', 'VZ')"
-340  ,hagen                    ,SPEC ,2         ,"('N', 'WW')"
-341  ,halfzeven                ,BW   ,2         ,"('N', 'WW')"
-342  ,hamerhaaien              ,SPEC ,2         ,"('N', 'WW')"
-343  ,hammen                   ,SPEC ,2         ,"('N', 'WW')"
-344  ,handgeschreven           ,ADJ  ,2         ,"('N', 'WW')"
-345  ,handgeschreven           ,BW   ,2         ,"('N', 'WW')"
-346  ,handgeschreven           ,N    ,2         ,"('N', 'WW')"
-347  ,handgesneden             ,ADJ  ,2         ,"('N', 'WW')"
-348  ,handgesneden             ,N    ,2         ,"('N', 'WW')"
-349  ,hardhouten               ,ADJ  ,3         ,"('N', 'ADJ', 'WW')"
-350  ,hardhouten               ,N    ,3         ,"('N', 'ADJ', 'WW')"
-351  ,harpen                   ,SPEC ,2         ,"('N', 'WW')"
-352  ,hazen                    ,SPEC ,2         ,"('N', 'WW')"
-353  ,headset                  ,N    ,2         ,"('N', 'ADJ')"
-354  ,headset                  ,WW   ,2         ,"('N', 'ADJ')"
-355  ,heers                    ,SPEC ,2         ,"('N', 'WW')"
-356  ,heerscharen              ,SPEC ,2         ,"('N', 'WW')"
-357  ,heesters                 ,SPEC ,2         ,"('N', 'WW')"
-358  ,heetste                  ,SPEC ,2         ,"('N', 'ADJ')"
-359  ,heiden                   ,ADJ  ,2         ,"('N', 'WW')"
-360  ,heiden                   ,N    ,2         ,"('N', 'WW')"
-361  ,helden                   ,SPEC ,2         ,"('N', 'WW')"
-362  ,herren                   ,SPEC ,2         ,"('N', 'WW')"
-363  ,herten                   ,SPEC ,2         ,"('N', 'WW')"
-364  ,hervormers               ,SPEC ,2         ,"('N', 'WW')"
-365  ,hetzelve                 ,VNW  ,2         ,"('ADJ', 'BW')"
-366  ,hierachter               ,BW   ,0         ,()
-367  ,hieronder                ,BW   ,0         ,()
-368  ,holden                   ,SPEC ,2         ,"('N', 'WW')"
-369  ,holten                   ,SPEC ,2         ,"('N', 'WW')"
-370  ,hoofden                  ,SPEC ,2         ,"('N', 'WW')"
-371  ,hope                     ,SPEC ,2         ,"('N', 'WW')"
-372  ,horens                   ,BW   ,0         ,()
-373  ,hot                      ,BW   ,2         ,"('N', 'ADJ')"
-374  ,hot                      ,SPEC ,2         ,"('N', 'ADJ')"
-375  ,hotels                   ,SPEC ,2         ,"('N', 'WW')"
-376  ,huisvrouwen              ,SPEC ,2         ,"('N', 'WW')"
-377  ,humane                   ,SPEC ,3         ,"('N', 'WW', 'VZ')"
-378  ,huwelijksvoorwaarden     ,ADJ  ,2         ,"('N', 'WW')"
-379  ,huwelijksvoorwaarden     ,N    ,2         ,"('N', 'WW')"
-380  ,hypocrieten              ,SPEC ,2         ,"('N', 'WW')"
-381  ,idealiter                ,BW   ,2         ,"('N', 'ADJ')"
-382  ,idem                     ,BW   ,2         ,"('N', 'ADJ')"
-383  ,idem                     ,SPEC ,2         ,"('N', 'ADJ')"
-384  ,idioten                  ,SPEC ,2         ,"('N', 'WW')"
-385  ,ijsvissen                ,SPEC ,2         ,"('N', 'WW')"
-386  ,ijswereld                ,N    ,2         ,"('N', 'ADJ')"
-387  ,ijswereld                ,WW   ,2         ,"('N', 'ADJ')"
-388  ,imperialist              ,N    ,2         ,"('N', 'ADJ')"
-389  ,imperialist              ,WW   ,2         ,"('N', 'ADJ')"
-390  ,inboorlingen             ,SPEC ,2         ,"('N', 'WW')"
-391  ,industries               ,SPEC ,2         ,"('N', 'WW')"
-392  ,infrastructuren          ,SPEC ,2         ,"('N', 'WW')"
-393  ,ingeval                  ,VG   ,2         ,"('N', 'WW')"
-394  ,items                    ,SPEC ,2         ,"('N', 'WW')"
-395  ,joints                   ,SPEC ,2         ,"('N', 'WW')"
-396  ,just                     ,SPEC ,0         ,()
-397  ,kaalkop                  ,N    ,2         ,"('N', 'ADJ')"
-398  ,kaalkop                  ,SPEC ,2         ,"('N', 'ADJ')"
-399  ,kaalkop                  ,WW   ,2         ,"('N', 'ADJ')"
-400  ,kades                    ,SPEC ,2         ,"('N', 'WW')"
-401  ,kalasjnikovs             ,SPEC ,2         ,"('N', 'WW')"
-402  ,kalmeringspillen         ,SPEC ,2         ,"('N', 'WW')"
-403  ,kamers                   ,SPEC ,2         ,"('N', 'WW')"
-404  ,kamt                     ,SPEC ,2         ,"('N', 'WW')"
-405  ,kannibalen               ,SPEC ,2         ,"('N', 'WW')"
-406  ,kantoren                 ,SPEC ,2         ,"('N', 'WW')"
-407  ,karakterschets           ,N    ,2         ,"('N', 'ADJ')"
-408  ,karakterschets           ,WW   ,2         ,"('N', 'ADJ')"
-409  ,karaktertrekken          ,SPEC ,2         ,"('N', 'WW')"
-410  ,kauwgomballen            ,SPEC ,2         ,"('N', 'WW')"
-411  ,kazernes                 ,SPEC ,2         ,"('N', 'WW')"
-412  ,kennels                  ,SPEC ,2         ,"('N', 'WW')"
-413  ,kerken                   ,SPEC ,2         ,"('N', 'WW')"
-414  ,kerstmannen              ,SPEC ,2         ,"('N', 'WW')"
-415  ,kerstsokken              ,SPEC ,2         ,"('N', 'WW')"
-416  ,kicks                    ,SPEC ,2         ,"('N', 'WW')"
-417  ,kille                    ,SPEC ,0         ,()
-418  ,kinderdagverblijven      ,SPEC ,2         ,"('N', 'WW')"
-419  ,klaagliederen            ,SPEC ,2         ,"('N', 'WW')"
-420  ,klamboes                 ,SPEC ,2         ,"('N', 'WW')"
-421  ,kleedkamers              ,SPEC ,2         ,"('N', 'WW')"
-422  ,kloosterlingen           ,SPEC ,2         ,"('N', 'WW')"
-423  ,klootviool               ,N    ,2         ,"('N', 'ADJ')"
-424  ,klootviool               ,WW   ,2         ,"('N', 'ADJ')"
-425  ,klootzakken              ,SPEC ,2         ,"('N', 'WW')"
-426  ,knickerbockers           ,SPEC ,2         ,"('N', 'WW')"
-427  ,knieën                   ,SPEC ,2         ,"('N', 'WW')"
-428  ,knijper                  ,N    ,2         ,"('N', 'ADJ')"
-429  ,knijper                  ,WW   ,2         ,"('N', 'ADJ')"
-430  ,koeien                   ,SPEC ,2         ,"('N', 'WW')"
-431  ,kolonialen               ,SPEC ,2         ,"('N', 'WW')"
-432  ,koninginnen              ,SPEC ,2         ,"('N', 'WW')"
-433  ,koninklijke              ,SPEC ,0         ,()
-434  ,koninklijken             ,SPEC ,2         ,"('N', 'WW')"
-435  ,kopieer                  ,SPEC ,0         ,()
-436  ,koppigaard               ,N    ,2         ,"('N', 'ADJ')"
-437  ,koppigaard               ,WW   ,2         ,"('N', 'ADJ')"
-438  ,kopstoten                ,SPEC ,2         ,"('N', 'WW')"
-439  ,koptelefoons             ,SPEC ,2         ,"('N', 'WW')"
-440  ,korsten                  ,ADJ  ,2         ,"('N', 'WW')"
-441  ,korsten                  ,N    ,2         ,"('N', 'WW')"
-442  ,kostuums                 ,SPEC ,2         ,"('N', 'WW')"
-443  ,kozakken                 ,SPEC ,2         ,"('N', 'WW')"
-444  ,kragen                   ,SPEC ,2         ,"('N', 'WW')"
-445  ,krankzinnigen            ,SPEC ,3         ,"('N', 'ADJ', 'WW')"
-446  ,kreeften                 ,SPEC ,2         ,"('N', 'WW')"
-447  ,kreken                   ,SPEC ,2         ,"('N', 'WW')"
-448  ,krijgers                 ,SPEC ,2         ,"('N', 'WW')"
-449  ,kristin                  ,SPEC ,2         ,"('N', 'WW')"
-450  ,krokodillen              ,SPEC ,2         ,"('N', 'WW')"
-451  ,kroonjuwelen             ,SPEC ,2         ,"('N', 'WW')"
-452  ,kruizen                  ,SPEC ,2         ,"('N', 'WW')"
-453  ,kuise                    ,SPEC ,2         ,"('N', 'VNW')"
-454  ,kutwijven                ,SPEC ,2         ,"('N', 'WW')"
-455  ,labs                     ,SPEC ,2         ,"('N', 'WW')"
-456  ,lafaards                 ,SPEC ,2         ,"('N', 'WW')"
-457  ,lakeien                  ,SPEC ,2         ,"('N', 'WW')"
-458  ,lande                    ,SPEC ,2         ,"('N', 'VZ')"
-459  ,landgenoten              ,SPEC ,2         ,"('N', 'WW')"
-460  ,langzaamaan              ,BW   ,0         ,()
-461  ,lansen                   ,SPEC ,2         ,"('N', 'WW')"
-462  ,laude                    ,SPEC ,0         ,()
-463  ,lay-outs                 ,SPEC ,2         ,"('N', 'WW')"
-464  ,lederen                  ,ADJ  ,3         ,"('N', 'WW', 'TW')"
-465  ,lederen                  ,N    ,3         ,"('N', 'WW', 'TW')"
-466  ,leeghoofden              ,SPEC ,2         ,"('N', 'WW')"
-467  ,leesproblemen            ,SPEC ,2         ,"('N', 'WW')"
-468  ,lege                     ,SPEC ,2         ,"('N', 'ADJ')"
-469  ,legend                   ,SPEC ,2         ,"('ADJ', 'VNW')"
-470  ,legenden                 ,SPEC ,2         ,"('N', 'WW')"
-471  ,legendes                 ,SPEC ,2         ,"('N', 'WW')"
-472  ,legionairs               ,SPEC ,2         ,"('N', 'WW')"
-473  ,lekkende                 ,SPEC ,0         ,()
-474  ,lelietjes-van-dalen      ,SPEC ,2         ,"('N', 'WW')"
-475  ,letters                  ,SPEC ,2         ,"('N', 'WW')"
-476  ,leun                     ,SPEC ,0         ,()
-477  ,levels                   ,SPEC ,2         ,"('N', 'WW')"
-478  ,levenslange              ,SPEC ,0         ,()
-479  ,libellen                 ,SPEC ,2         ,"('N', 'WW')"
-480  ,lichtgeraakt             ,ADJ  ,0         ,()
-481  ,lichtgeraakt             ,WW   ,0         ,()
-482  ,lichtsignalen            ,SPEC ,2         ,"('N', 'WW')"
-483  ,liefdesbrieven           ,SPEC ,2         ,"('N', 'WW')"
-484  ,liefdesgedichten         ,SPEC ,2         ,"('N', 'WW')"
-485  ,liftschacht              ,N    ,2         ,"('N', 'ADJ')"
-486  ,liftschacht              ,WW   ,2         ,"('N', 'ADJ')"
-487  ,limousines               ,SPEC ,2         ,"('N', 'WW')"
-488  ,linksboven               ,BW   ,2         ,"('ADJ', 'WW')"
-489  ,linnen                   ,ADJ  ,2         ,"('N', 'WW')"
-490  ,linnen                   ,N    ,2         ,"('N', 'WW')"
-491  ,linnen                   ,SPEC ,2         ,"('N', 'WW')"
-492  ,lives                    ,SPEC ,2         ,"('N', 'WW')"
-493  ,loeven                   ,SPEC ,2         ,"('N', 'WW')"
-494  ,loges                    ,SPEC ,2         ,"('N', 'WW')"
-495  ,lomper                   ,SPEC ,2         ,"('N', 'ADJ')"
-496  ,loopjongen               ,ADJ  ,2         ,"('N', 'WW')"
-497  ,loopjongen               ,N    ,2         ,"('N', 'WW')"
-498  ,loopjongens              ,SPEC ,2         ,"('N', 'WW')"
-499  ,lords                    ,SPEC ,0         ,()
-500  ,luchtaanvallen           ,SPEC ,2         ,"('N', 'WW')"
-501  ,luchtbellen              ,SPEC ,2         ,"('N', 'WW')"
-502  ,luchtkastelen            ,SPEC ,2         ,"('N', 'WW')"
-503  ,luchtwegen               ,SPEC ,2         ,"('N', 'WW')"
-504  ,luitenants               ,SPEC ,2         ,"('N', 'WW')"
-505  ,lustra                   ,SPEC ,2         ,"('N', 'WW')"
-506  ,machinegeweren           ,SPEC ,2         ,"('N', 'WW')"
-507  ,maffe                    ,SPEC ,0         ,()
-508  ,magnums                  ,SPEC ,0         ,()
-509  ,majesteiten              ,SPEC ,2         ,"('N', 'WW')"
-510  ,malden                   ,SPEC ,2         ,"('N', 'WW')"
-511  ,malle                    ,SPEC ,2         ,"('N', 'ADJ')"
-512  ,mariniers                ,SPEC ,2         ,"('N', 'WW')"
-513  ,marken                   ,SPEC ,2         ,"('N', 'WW')"
-514  ,martel                   ,SPEC ,2         ,"('N', 'ADJ')"
-515  ,maten                    ,SPEC ,2         ,"('N', 'WW')"
-516  ,mats                     ,SPEC ,0         ,()
-517  ,maxima                   ,SPEC ,2         ,"('N', 'WW')"
-518  ,meden                    ,SPEC ,2         ,"('N', 'WW')"
-519  ,medici                   ,SPEC ,2         ,"('N', 'WW')"
-520  ,medicijnen               ,SPEC ,2         ,"('N', 'WW')"
-521  ,medicijnmannen           ,SPEC ,2         ,"('N', 'WW')"
-522  ,meeste                   ,VNW  ,0         ,()
-523  ,mennonieten              ,SPEC ,2         ,"('N', 'WW')"
-524  ,mensenrechten            ,ADJ  ,2         ,"('N', 'WW')"
-525  ,mensenrechten            ,N    ,2         ,"('N', 'WW')"
-526  ,mensenrechten            ,SPEC ,2         ,"('N', 'WW')"
-527  ,mesdames                 ,SPEC ,2         ,"('N', 'WW')"
-528  ,metaforen                ,SPEC ,2         ,"('N', 'WW')"
-529  ,microben                 ,SPEC ,2         ,"('N', 'WW')"
-530  ,microgolven              ,SPEC ,2         ,"('N', 'WW')"
-531  ,middenin                 ,BW   ,2         ,"('ADJ', 'VZ')"
-532  ,mijnerzijds              ,BW   ,2         ,"('N', 'WW')"
-533  ,militaire                ,SPEC ,0         ,()
-534  ,military                 ,SPEC ,2         ,"('N', 'WW')"
-535  ,miljoenen                ,ADJ  ,2         ,"('N', 'WW')"
-536  ,miljoenen                ,N    ,2         ,"('N', 'WW')"
-537  ,miljoenen                ,TW   ,2         ,"('N', 'WW')"
-538  ,minkukel                 ,N    ,2         ,"('N', 'ADJ')"
-539  ,minkukel                 ,SPEC ,2         ,"('N', 'ADJ')"
-540  ,minkukel                 ,WW   ,2         ,"('N', 'ADJ')"
-541  ,minstreel                ,N    ,2         ,"('N', 'ADJ')"
-542  ,minstreel                ,WW   ,2         ,"('N', 'ADJ')"
-543  ,misdrijven               ,SPEC ,2         ,"('N', 'WW')"
-544  ,mixed                    ,SPEC ,0         ,()
-545  ,modellen                 ,SPEC ,2         ,"('N', 'WW')"
-546  ,moffen                   ,SPEC ,2         ,"('N', 'WW')"
-547  ,mogelijkerwijs           ,BW   ,0         ,()
-548  ,mohammedanen             ,SPEC ,2         ,"('N', 'WW')"
-549  ,moleculen                ,SPEC ,2         ,"('N', 'WW')"
-550  ,momenten                 ,SPEC ,2         ,"('N', 'WW')"
-551  ,mongolen                 ,SPEC ,2         ,"('N', 'WW')"
-552  ,monocle                  ,ADJ  ,0         ,()
-553  ,monocle                  ,SPEC ,0         ,()
-554  ,monocle                  ,WW   ,0         ,()
-555  ,moordwapen               ,ADJ  ,2         ,"('N', 'WW')"
-556  ,moordwapen               ,N    ,2         ,"('N', 'WW')"
-557  ,moordzaken               ,SPEC ,2         ,"('N', 'WW')"
-558  ,morden                   ,SPEC ,2         ,"('N', 'WW')"
-559  ,moren                    ,SPEC ,2         ,"('N', 'WW')"
-560  ,mormonen                 ,SPEC ,2         ,"('N', 'WW')"
-561  ,mottenballen             ,SPEC ,2         ,"('N', 'WW')"
-562  ,muffins                  ,SPEC ,2         ,"('N', 'WW')"
-563  ,multinationals           ,SPEC ,2         ,"('N', 'WW')"
-564  ,music                    ,SPEC ,0         ,()
-565  ,musketten                ,SPEC ,2         ,"('N', 'WW')"
-566  ,mussen                   ,SPEC ,2         ,"('N', 'WW')"
-567  ,mustangs                 ,SPEC ,2         ,"('N', 'ADJ')"
-568  ,mysteriën                ,SPEC ,2         ,"('N', 'WW')"
-569  ,naakte                   ,SPEC ,0         ,()
-570  ,naalden                  ,SPEC ,2         ,"('N', 'WW')"
-571  ,naargelang               ,VG   ,2         ,"('ADJ', 'VZ')"
-572  ,nachtdieren              ,SPEC ,2         ,"('N', 'WW')"
-573  ,nachten                  ,SPEC ,2         ,"('N', 'WW')"
-574  ,namen                    ,SPEC ,2         ,"('N', 'WW')"
-575  ,narcissen                ,SPEC ,2         ,"('N', 'WW')"
-576  ,naties                   ,SPEC ,2         ,"('N', 'WW')"
-577  ,nationalisten            ,SPEC ,2         ,"('N', 'WW')"
-578  ,neanderthalers           ,SPEC ,2         ,"('N', 'WW')"
-579  ,netkousen                ,SPEC ,2         ,"('N', 'WW')"
-580  ,neustussenschot          ,N    ,2         ,"('N', 'ADJ')"
-581  ,neustussenschot          ,SPEC ,2         ,"('N', 'ADJ')"
-582  ,neustussenschot          ,WW   ,2         ,"('N', 'ADJ')"
-583  ,niemands                 ,SPEC ,2         ,"('N', 'WW')"
-584  ,nietsvermoedend          ,ADJ  ,0         ,()
-585  ,nietsvermoedend          ,WW   ,0         ,()
-586  ,niettegenstaande         ,VG   ,0         ,()
-587  ,niettegenstaande         ,VZ   ,0         ,()
-588  ,nieuwgeboren             ,ADJ  ,2         ,"('ADJ', 'WW')"
-589  ,nieuwgeboren             ,N    ,2         ,"('ADJ', 'WW')"
-590  ,nieuwgeboren             ,TW   ,2         ,"('ADJ', 'WW')"
-591  ,nonnen                   ,SPEC ,2         ,"('N', 'WW')"
-592  ,noodgeneratoren          ,SPEC ,2         ,"('ADJ', 'WW')"
-593  ,noodgevallen             ,SPEC ,2         ,"('N', 'WW')"
-594  ,noppes                   ,VNW  ,0         ,()
-595  ,not                      ,SPEC ,0         ,()
-596  ,notabelen                ,SPEC ,2         ,"('N', 'WW')"
-597  ,nous                     ,SPEC ,0         ,()
-598  ,nudisten                 ,SPEC ,2         ,"('N', 'WW')"
-599  ,nullen                   ,SPEC ,2         ,"('N', 'WW')"
-600  ,obscure                  ,SPEC ,0         ,()
-601  ,occasions                ,SPEC ,2         ,"('N', 'WW')"
-602  ,oceanen                  ,SPEC ,2         ,"('N', 'WW')"
-603  ,oden                     ,SPEC ,2         ,"('N', 'WW')"
-604  ,oetlullen                ,SPEC ,2         ,"('N', 'WW')"
-605  ,ofschoon                 ,VG   ,0         ,()
-606  ,oliedruk                 ,N    ,2         ,"('N', 'ADJ')"
-607  ,oliedruk                 ,WW   ,2         ,"('N', 'ADJ')"
-608  ,olympische               ,SPEC ,0         ,()
-609  ,omzeil                   ,SPEC ,3         ,"('N', 'WW', 'TW')"
-610  ,onaangetast              ,ADJ  ,0         ,()
-611  ,onaangetast              ,WW   ,0         ,()
-612  ,onafhankelijke           ,SPEC ,0         ,()
-613  ,onafhankelijken          ,SPEC ,3         ,"('N', 'ADJ', 'WW')"
-614  ,onbeheerd                ,ADJ  ,0         ,()
-615  ,onbeheerd                ,WW   ,0         ,()
-616  ,onbehouwen               ,ADJ  ,2         ,"('N', 'WW')"
-617  ,onbehouwen               ,N    ,2         ,"('N', 'WW')"
-618  ,onbeperkt                ,ADJ  ,0         ,()
-619  ,onbeperkt                ,SPEC ,0         ,()
-620  ,onbeperkt                ,WW   ,0         ,()
-621  ,onbeschadigd             ,ADJ  ,0         ,()
-622  ,onbeschadigd             ,BW   ,0         ,()
-623  ,onbeschadigd             ,WW   ,0         ,()
-624  ,onbesmet                 ,N    ,2         ,"('ADJ', 'VZ')"
-625  ,onbesmet                 ,WW   ,2         ,"('ADJ', 'VZ')"
-626  ,onbetaald                ,ADJ  ,0         ,()
-627  ,onbetaald                ,WW   ,0         ,()
-628  ,onbetrouwbare            ,SPEC ,0         ,()
-629  ,onbevooroordeeld         ,ADJ  ,0         ,()
-630  ,onbevooroordeeld         ,WW   ,0         ,()
-631  ,onbewerkt                ,ADJ  ,0         ,()
-632  ,onbewerkt                ,WW   ,0         ,()
-633  ,onderaan                 ,BW   ,2         ,"('ADJ', 'VZ')"
-634  ,onderaan                 ,SPEC ,2         ,"('ADJ', 'VZ')"
-635  ,onderga                  ,SPEC ,2         ,"('N', 'WW')"
-636  ,ondergedoken             ,SPEC ,0         ,()
-637  ,onderlangs               ,BW   ,2         ,"('ADJ', 'VZ')"
-638  ,onderteken               ,SPEC ,2         ,"('N', 'WW')"
-639  ,ondertiteld              ,SPEC ,0         ,()
-640  ,ondervroeg               ,SPEC ,0         ,()
-641  ,ongedwongen              ,ADJ  ,3         ,"('ADJ', 'WW', 'VZ')"
-642  ,ongedwongen              ,N    ,3         ,"('ADJ', 'WW', 'VZ')"
-643  ,ongehinderd              ,ADJ  ,0         ,()
-644  ,ongehinderd              ,WW   ,0         ,()
-645  ,ongelimiteerd            ,ADJ  ,0         ,()
-646  ,ongelimiteerd            ,WW   ,0         ,()
-647  ,ongelukken               ,SPEC ,2         ,"('N', 'WW')"
-648  ,ongerechtvaardigd        ,ADJ  ,0         ,()
-649  ,ongerechtvaardigd        ,WW   ,0         ,()
-650  ,ongeschonden             ,ADJ  ,0         ,()
-651  ,ongeschonden             ,WW   ,0         ,()
-652  ,ongezouten               ,ADJ  ,2         ,"('N', 'WW')"
-653  ,ongezouten               ,N    ,2         ,"('N', 'WW')"
-654  ,ongeëvenaarde            ,SPEC ,0         ,()
-655  ,onnozele                 ,SPEC ,0         ,()
-656  ,onopgemaakt              ,ADJ  ,0         ,()
-657  ,onopgemaakt              ,WW   ,0         ,()
-658  ,ontdoe                   ,SPEC ,0         ,()
-659  ,ontembare                ,SPEC ,0         ,()
-660  ,ontmasker                ,SPEC ,0         ,()
-661  ,ontwaak                  ,SPEC ,2         ,"('N', 'ADJ')"
-662  ,ontwaakt                 ,SPEC ,0         ,()
-663  ,ontzeg                   ,SPEC ,0         ,()
-664  ,onverklaard              ,ADJ  ,0         ,()
-665  ,onverklaard              ,WW   ,0         ,()
-666  ,onverlaat                ,N    ,2         ,"('N', 'ADJ')"
-667  ,onverlaat                ,WW   ,2         ,"('N', 'ADJ')"
-668  ,onvervuld                ,ADJ  ,2         ,"('N', 'WW')"
-669  ,onvervuld                ,WW   ,2         ,"('N', 'WW')"
-670  ,onwelriekend             ,ADJ  ,3         ,"('N', 'WW', 'VZ')"
-671  ,onwelriekend             ,WW   ,3         ,"('N', 'WW', 'VZ')"
-672  ,oogkassen                ,SPEC ,2         ,"('N', 'WW')"
-673  ,ooievaars                ,SPEC ,2         ,"('N', 'ADJ')"
-674  ,oorlogsmisdaden          ,SPEC ,2         ,"('N', 'WW')"
-675  ,oosterlengte             ,N    ,2         ,"('N', 'ADJ')"
-676  ,oosterlengte             ,WW   ,2         ,"('N', 'ADJ')"
-677  ,op-en-top                ,BW   ,2         ,"('N', 'TW')"
-678  ,openbare                 ,SPEC ,0         ,()
-679  ,opinion                  ,SPEC ,2         ,"('N', 'WW')"
-680  ,opperste                 ,SPEC ,2         ,"('N', 'ADJ')"
-681  ,opportunisten            ,SPEC ,2         ,"('N', 'WW')"
-682  ,opsporingen              ,SPEC ,2         ,"('N', 'WW')"
-683  ,or                       ,SPEC ,0         ,()
-684  ,orden                    ,SPEC ,2         ,"('N', 'WW')"
-685  ,orders                   ,SPEC ,2         ,"('N', 'WW')"
-686  ,orgaandonoren            ,SPEC ,2         ,"('N', 'WW')"
-687  ,organisaties             ,SPEC ,2         ,"('N', 'WW')"
-688  ,oud-militair             ,N    ,2         ,"('N', 'ADJ')"
-689  ,oud-militair             ,WW   ,2         ,"('N', 'ADJ')"
-690  ,oudbakken                ,ADJ  ,2         ,"('N', 'WW')"
-691  ,oudbakken                ,N    ,2         ,"('N', 'WW')"
-692  ,oudejaarsfeest           ,N    ,2         ,"('N', 'ADJ')"
-693  ,oudejaarsfeest           ,WW   ,2         ,"('N', 'ADJ')"
-694  ,oudsten                  ,ADJ  ,2         ,"('N', 'WW')"
-695  ,oudsten                  ,N    ,2         ,"('N', 'WW')"
-696  ,outlaws                  ,SPEC ,2         ,"('N', 'WW')"
-697  ,ouwe                     ,SPEC ,0         ,()
-698  ,overheids                ,SPEC ,2         ,"('N', 'VZ')"
-699  ,overheidsgebouwen        ,SPEC ,2         ,"('N', 'WW')"
-700  ,overlevenden             ,SPEC ,2         ,"('N', 'WW')"
-701  ,oversteek                ,N    ,2         ,"('N', 'ADJ')"
-702  ,oversteek                ,WW   ,2         ,"('N', 'ADJ')"
-703  ,oversten                 ,SPEC ,2         ,"('N', 'WW')"
-704  ,overtreders              ,SPEC ,2         ,"('N', 'WW')"
-705  ,oververmoeid             ,ADJ  ,0         ,()
-706  ,oververmoeid             ,WW   ,0         ,()
-707  ,padvinders               ,SPEC ,2         ,"('N', 'WW')"
-708  ,pages                    ,SPEC ,2         ,"('N', 'WW')"
-709  ,pakistanen               ,SPEC ,2         ,"('N', 'WW')"
-710  ,pakketten                ,SPEC ,2         ,"('N', 'WW')"
-711  ,paletten                 ,SPEC ,2         ,"('N', 'WW')"
-712  ,panters                  ,SPEC ,2         ,"('N', 'WW')"
-713  ,pantry                   ,SPEC ,0         ,()
-714  ,papers                   ,SPEC ,2         ,"('N', 'WW')"
-715  ,pappies                  ,SPEC ,2         ,"('N', 'WW')"
-716  ,paringsrituelen          ,SPEC ,2         ,"('N', 'WW')"
-717  ,passages                 ,SPEC ,2         ,"('N', 'WW')"
-718  ,pastels                  ,SPEC ,2         ,"('N', 'WW')"
-719  ,patches                  ,SPEC ,2         ,"('N', 'WW')"
-720  ,pathologen               ,SPEC ,3         ,"('N', 'ADJ', 'WW')"
-721  ,patronen                 ,SPEC ,2         ,"('N', 'WW')"
-722  ,pauken                   ,SPEC ,2         ,"('N', 'WW')"
-723  ,pausgezinde              ,SPEC ,2         ,"('N', 'WW')"
-724  ,pelgrims                 ,SPEC ,2         ,"('N', 'WW')"
-725  ,pelsen                   ,ADJ  ,2         ,"('N', 'WW')"
-726  ,pelsen                   ,N    ,2         ,"('N', 'WW')"
-727  ,perrons                  ,SPEC ,2         ,"('N', 'WW')"
-728  ,persmuskiet              ,N    ,2         ,"('N', 'ADJ')"
-729  ,persmuskiet              ,WW   ,2         ,"('N', 'ADJ')"
-730  ,persoonlijkheden         ,SPEC ,2         ,"('N', 'WW')"
-731  ,persoonlijkheidsstoornis ,N    ,2         ,"('N', 'ADJ')"
-732  ,persoonlijkheidsstoornis ,WW   ,2         ,"('N', 'ADJ')"
-733  ,peters                   ,SPEC ,2         ,"('N', 'WW')"
-734  ,petit                    ,SPEC ,0         ,()
-735  ,petten                   ,SPEC ,2         ,"('N', 'WW')"
-736  ,peuken                   ,SPEC ,2         ,"('N', 'WW')"
-737  ,piepers                  ,SPEC ,2         ,"('N', 'WW')"
-738  ,pieten                   ,SPEC ,2         ,"('N', 'WW')"
-739  ,pijnstillers             ,SPEC ,2         ,"('N', 'WW')"
-740  ,pin-ups                  ,SPEC ,2         ,"('N', 'WW')"
-741  ,piramiden                ,SPEC ,2         ,"('N', 'WW')"
-742  ,pistolen                 ,SPEC ,2         ,"('N', 'WW')"
-743  ,places                   ,SPEC ,2         ,"('N', 'WW')"
-744  ,planters                 ,SPEC ,2         ,"('N', 'WW')"
-745  ,plastics                 ,SPEC ,2         ,"('N', 'WW')"
-746  ,platvoet                 ,N    ,2         ,"('N', 'ADJ')"
-747  ,platvoet                 ,SPEC ,2         ,"('N', 'ADJ')"
-748  ,platvoet                 ,WW   ,2         ,"('N', 'ADJ')"
-749  ,play-offs                ,SPEC ,2         ,"('N', 'WW')"
-750  ,playboys                 ,SPEC ,2         ,"('N', 'WW')"
-751  ,pleidooien               ,SPEC ,2         ,"('N', 'WW')"
-752  ,plonsen                  ,SPEC ,2         ,"('N', 'WW')"
-753  ,plusminus                ,BW   ,0         ,()
-754  ,poedelnaakt              ,ADJ  ,0         ,()
-755  ,poedelnaakt              ,WW   ,0         ,()
-756  ,poezen                   ,SPEC ,2         ,"('N', 'WW')"
-757  ,polakken                 ,SPEC ,2         ,"('N', 'WW')"
-758  ,politieofficieren        ,SPEC ,2         ,"('N', 'WW')"
-759  ,pooiers                  ,SPEC ,2         ,"('N', 'WW')"
-760  ,poolgebieden             ,SPEC ,2         ,"('N', 'WW')"
-761  ,pottenbakken             ,SPEC ,2         ,"('N', 'WW')"
-762  ,potters                  ,SPEC ,2         ,"('N', 'WW')"
-763  ,practical                ,SPEC ,0         ,()
-764  ,predik                   ,SPEC ,2         ,"('N', 'ADJ')"
-765  ,presidentiële            ,SPEC ,2         ,"('ADJ', 'WW')"
-766  ,printers                 ,SPEC ,2         ,"('N', 'WW')"
-767  ,probleemgebieden         ,SPEC ,2         ,"('N', 'WW')"
-768  ,profs                    ,SPEC ,2         ,"('N', 'WW')"
-769  ,programmeurs             ,SPEC ,2         ,"('N', 'WW')"
-770  ,prooien                  ,SPEC ,2         ,"('N', 'WW')"
-771  ,propos                   ,SPEC ,0         ,()
-772  ,présence                 ,SPEC ,0         ,()
-773  ,public                   ,SPEC ,0         ,()
-774  ,puisten                  ,SPEC ,2         ,"('N', 'WW')"
-775  ,pumps                    ,SPEC ,0         ,()
-776  ,puntgaaf                 ,N    ,2         ,"('N', 'ADJ')"
-777  ,puntgaaf                 ,WW   ,2         ,"('N', 'ADJ')"
-778  ,push                     ,SPEC ,0         ,()
-779  ,pygmeeën                 ,SPEC ,2         ,"('N', 'WW')"
-780  ,qui                      ,SPEC ,0         ,()
-781  ,raap                     ,N    ,2         ,"('N', 'ADJ')"
-782  ,raap                     ,WW   ,2         ,"('N', 'ADJ')"
-783  ,rabat                    ,SPEC ,2         ,"('N', 'ADJ')"
-784  ,races                    ,SPEC ,2         ,"('N', 'WW')"
-785  ,rackets                  ,SPEC ,2         ,"('N', 'WW')"
-786  ,radicalen                ,SPEC ,2         ,"('N', 'WW')"
-787  ,raiders                  ,SPEC ,2         ,"('N', 'WW')"
-788  ,rampen                   ,SPEC ,2         ,"('N', 'WW')"
-789  ,randfiguren              ,SPEC ,2         ,"('N', 'WW')"
-790  ,rassen                   ,SPEC ,2         ,"('N', 'WW')"
-791  ,rationalisten            ,SPEC ,2         ,"('N', 'WW')"
-792  ,raven                    ,SPEC ,2         ,"('N', 'WW')"
-793  ,reactionairen            ,SPEC ,2         ,"('N', 'WW')"
-794  ,ready                    ,SPEC ,0         ,()
-795  ,rechtaan                 ,BW   ,2         ,"('N', 'WW')"
-796  ,rechtdoor                ,BW   ,0         ,()
-797  ,rechtszaken              ,SPEC ,2         ,"('N', 'WW')"
-798  ,reddingsploeg            ,N    ,2         ,"('N', 'ADJ')"
-799  ,reddingsploeg            ,SPEC ,2         ,"('N', 'ADJ')"
-800  ,reddingsploeg            ,WW   ,2         ,"('N', 'ADJ')"
-801  ,regeringsgebouwen        ,SPEC ,2         ,"('N', 'WW')"
-802  ,regeringstroepen         ,ADJ  ,2         ,"('N', 'WW')"
-803  ,regeringstroepen         ,N    ,2         ,"('N', 'WW')"
-804  ,regulators               ,SPEC ,2         ,"('N', 'WW')"
-805  ,reinigingsmiddelen       ,SPEC ,2         ,"('N', 'WW')"
-806  ,relations                ,SPEC ,2         ,"('N', 'WW')"
-807  ,reuzenslang              ,N    ,2         ,"('N', 'ADJ')"
-808  ,reuzenslang              ,WW   ,2         ,"('N', 'ADJ')"
-809  ,revolverhelden           ,SPEC ,2         ,"('N', 'WW')"
-810  ,riders                   ,SPEC ,2         ,"('N', 'WW')"
-811  ,riffen                   ,SPEC ,2         ,"('N', 'WW')"
-812  ,rijpe                    ,SPEC ,2         ,"('N', 'ADJ')"
-813  ,risk                     ,SPEC ,0         ,()
-814  ,rivieren                 ,SPEC ,2         ,"('N', 'WW')"
-815  ,robijnen                 ,SPEC ,2         ,"('N', 'WW')"
-816  ,robots                   ,SPEC ,2         ,"('N', 'WW')"
-817  ,rollers                  ,SPEC ,2         ,"('N', 'WW')"
-818  ,roodgloeiend             ,ADJ  ,0         ,()
-819  ,roodgloeiend             ,WW   ,0         ,()
-820  ,root                     ,N    ,2         ,"('N', 'ADJ')"
-821  ,root                     ,SPEC ,2         ,"('N', 'ADJ')"
-822  ,root                     ,WW   ,2         ,"('N', 'ADJ')"
-823  ,rotdingen                ,SPEC ,2         ,"('N', 'WW')"
-824  ,rotsen                   ,SPEC ,2         ,"('N', 'WW')"
-825  ,ruggen                   ,SPEC ,2         ,"('N', 'WW')"
-826  ,russen                   ,SPEC ,2         ,"('N', 'WW')"
-827  ,ruste                    ,SPEC ,2         ,"('N', 'WW')"
-828  ,saluut                   ,N    ,2         ,"('N', 'ADJ')"
-829  ,saluut                   ,SPEC ,2         ,"('N', 'ADJ')"
-830  ,saluut                   ,WW   ,2         ,"('N', 'ADJ')"
-831  ,samaritanen              ,SPEC ,2         ,"('N', 'WW')"
-832  ,sandwich                 ,N    ,2         ,"('N', 'ADJ')"
-833  ,sandwich                 ,SPEC ,2         ,"('N', 'ADJ')"
-834  ,sandwich                 ,WW   ,2         ,"('N', 'ADJ')"
-835  ,sapiens                  ,SPEC ,2         ,"('N', 'WW')"
-836  ,satellieten              ,SPEC ,2         ,"('N', 'WW')"
-837  ,scanners                 ,SPEC ,2         ,"('N', 'WW')"
-838  ,scheldwoorden            ,SPEC ,2         ,"('N', 'WW')"
-839  ,schikgodinnen            ,SPEC ,2         ,"('N', 'WW')"
-840  ,schone                   ,SPEC ,2         ,"('N', 'WW')"
-841  ,schoten                  ,SPEC ,2         ,"('N', 'WW')"
-842  ,schotten                 ,SPEC ,2         ,"('N', 'WW')"
-843  ,sclerose                 ,SPEC ,0         ,()
-844  ,scoops                   ,SPEC ,0         ,()
-845  ,scratch                  ,SPEC ,0         ,()
-846  ,se                       ,SPEC ,0         ,()
-847  ,senioren                 ,SPEC ,2         ,"('N', 'WW')"
-848  ,servetten                ,SPEC ,2         ,"('N', 'WW')"
-849  ,sheriffs                 ,SPEC ,2         ,"('N', 'WW')"
-850  ,shooters                 ,SPEC ,2         ,"('N', 'WW')"
-851  ,shots                    ,SPEC ,2         ,"('N', 'WW')"
-852  ,shredder                 ,N    ,2         ,"('N', 'ADJ')"
-853  ,shredder                 ,SPEC ,2         ,"('N', 'ADJ')"
-854  ,shredder                 ,WW   ,2         ,"('N', 'ADJ')"
-855  ,shutters                 ,SPEC ,2         ,"('N', 'WW')"
-856  ,skin                     ,SPEC ,0         ,()
-857  ,skipper                  ,N    ,2         ,"('N', 'ADJ')"
-858  ,skipper                  ,SPEC ,2         ,"('N', 'ADJ')"
-859  ,skipper                  ,WW   ,2         ,"('N', 'ADJ')"
-860  ,slagtanden               ,SPEC ,2         ,"('N', 'WW')"
-861  ,slangen                  ,SPEC ,2         ,"('N', 'WW')"
-862  ,slangenmens              ,N    ,2         ,"('N', 'ADJ')"
-863  ,slangenmens              ,WW   ,2         ,"('N', 'ADJ')"
-864  ,slechteriken             ,SPEC ,2         ,"('N', 'WW')"
-865  ,slims                    ,SPEC ,2         ,"('N', 'WW')"
-866  ,slips                    ,SPEC ,2         ,"('N', 'WW')"
-867  ,sluwe                    ,SPEC ,0         ,()
-868  ,smarten                  ,SPEC ,2         ,"('N', 'WW')"
-869  ,smerissen                ,SPEC ,2         ,"('N', 'WW')"
-870  ,sneeuwschuivers          ,SPEC ,2         ,"('N', 'WW')"
-871  ,snelwegen                ,SPEC ,2         ,"('N', 'WW')"
-872  ,snorharen                ,SPEC ,2         ,"('N', 'WW')"
-873  ,snorkels                 ,SPEC ,2         ,"('N', 'WW')"
-874  ,sociale                  ,SPEC ,0         ,()
-875  ,society                  ,SPEC ,0         ,()
-876  ,soit                     ,SPEC ,0         ,()
-877  ,sonnetten                ,SPEC ,2         ,"('N', 'WW')"
-878  ,sounds                   ,SPEC ,2         ,"('N', 'WW')"
-879  ,spanjolen                ,SPEC ,2         ,"('N', 'WW')"
-880  ,speakers                 ,SPEC ,2         ,"('N', 'WW')"
-881  ,specerijen               ,SPEC ,2         ,"('N', 'WW')"
-882  ,speciaals                ,SPEC ,0         ,()
-883  ,speekseltest             ,N    ,2         ,"('N', 'ADJ')"
-884  ,speekseltest             ,WW   ,2         ,"('N', 'ADJ')"
-885  ,spiercellen              ,SPEC ,2         ,"('N', 'WW')"
-886  ,spirituele               ,SPEC ,0         ,()
-887  ,splinters                ,SPEC ,2         ,"('N', 'WW')"
-888  ,spoedgevallen            ,SPEC ,2         ,"('N', 'WW')"
-889  ,sportartikelen           ,SPEC ,2         ,"('N', 'WW')"
-890  ,spots                    ,SPEC ,2         ,"('N', 'ADJ')"
-891  ,springers                ,SPEC ,2         ,"('N', 'WW')"
-892  ,sprints                  ,SPEC ,2         ,"('N', 'WW')"
-893  ,sprookjesfiguren         ,SPEC ,2         ,"('N', 'WW')"
-894  ,spuitbussen              ,SPEC ,2         ,"('N', 'WW')"
-895  ,spuw                     ,SPEC ,0         ,()
-896  ,squares                  ,SPEC ,2         ,"('N', 'WW')"
-897  ,staalfabrieken           ,SPEC ,2         ,"('N', 'WW')"
-898  ,staatsgeheimen           ,SPEC ,2         ,"('N', 'WW')"
-899  ,stadia                   ,SPEC ,2         ,"('N', 'WW')"
-900  ,stafylokokken            ,ADJ  ,2         ,"('N', 'WW')"
-901  ,stafylokokken            ,N    ,2         ,"('N', 'WW')"
-902  ,staten                   ,SPEC ,2         ,"('N', 'WW')"
-903  ,steaks                   ,SPEC ,2         ,"('N', 'ADJ')"
-904  ,steels                   ,ADJ  ,0         ,()
-905  ,steels                   ,WW   ,0         ,()
-906  ,steenpuisten             ,SPEC ,2         ,"('N', 'WW')"
-907  ,stelten                  ,SPEC ,2         ,"('N', 'WW')"
-908  ,sterfgevallen            ,SPEC ,2         ,"('N', 'WW')"
-909  ,stervenden               ,SPEC ,2         ,"('ADJ', 'WW')"
-910  ,stierenvechten           ,ADJ  ,2         ,"('N', 'WW')"
-911  ,stierenvechten           ,N    ,2         ,"('N', 'WW')"
-912  ,stinkdieren              ,SPEC ,2         ,"('N', 'WW')"
-913  ,stoelriemen              ,SPEC ,2         ,"('N', 'WW')"
-914  ,stomvervelend            ,ADJ  ,0         ,()
-915  ,stomvervelend            ,WW   ,0         ,()
-916  ,stoppels                 ,SPEC ,2         ,"('N', 'WW')"
-917  ,stoppers                 ,SPEC ,2         ,"('N', 'WW')"
-918  ,stouterd                 ,N    ,2         ,"('ADJ', 'TW')"
-919  ,stouterd                 ,WW   ,2         ,"('ADJ', 'TW')"
-920  ,strafzaken               ,SPEC ,2         ,"('N', 'WW')"
-921  ,strakjes                 ,BW   ,2         ,"('N', 'ADJ')"
-922  ,strikes                  ,SPEC ,2         ,"('N', 'WW')"
-923  ,studiebollen             ,SPEC ,2         ,"('N', 'WW')"
-924  ,stukadoors               ,SPEC ,2         ,"('N', 'WW')"
-925  ,stuntelende              ,SPEC ,0         ,()
-926  ,suis                     ,SPEC ,0         ,()
-927  ,syndromen                ,SPEC ,2         ,"('N', 'WW')"
-928  ,taarten                  ,SPEC ,2         ,"('N', 'WW')"
-929  ,taferelen                ,SPEC ,2         ,"('N', 'WW')"
-930  ,tandafdruk               ,N    ,2         ,"('N', 'ADJ')"
-931  ,tandafdruk               ,WW   ,2         ,"('N', 'ADJ')"
-932  ,tarotkaarten             ,SPEC ,2         ,"('N', 'WW')"
-933  ,tatoeages                ,SPEC ,2         ,"('N', 'WW')"
-934  ,tbs                      ,SPEC ,2         ,"('N', 'VNW')"
-935  ,teams                    ,SPEC ,2         ,"('N', 'WW')"
-936  ,tegenmaatregelen         ,SPEC ,2         ,"('N', 'WW')"
-937  ,tekens                   ,SPEC ,2         ,"('N', 'WW')"
-938  ,tellers                  ,SPEC ,2         ,"('N', 'WW')"
-939  ,teloor                   ,BW   ,2         ,"('ADJ', 'VZ')"
-940  ,teneinde                 ,VG   ,0         ,()
-941  ,tennislessen             ,SPEC ,2         ,"('N', 'WW')"
-942  ,tennisschoen             ,ADJ  ,2         ,"('N', 'WW')"
-943  ,tennisschoen             ,N    ,2         ,"('N', 'WW')"
-944  ,tenoren                  ,SPEC ,2         ,"('N', 'WW')"
-945  ,terroristen              ,SPEC ,2         ,"('N', 'WW')"
-946  ,tetten                   ,SPEC ,2         ,"('N', 'WW')"
-947  ,teven                    ,SPEC ,2         ,"('N', 'WW')"
-948  ,tieten                   ,SPEC ,2         ,"('N', 'WW')"
-949  ,tijden                   ,SPEC ,2         ,"('N', 'WW')"
-950  ,toegepaste               ,SPEC ,0         ,()
-951  ,tofste                   ,SPEC ,2         ,"('N', 'ADJ')"
-952  ,tomahawks                ,SPEC ,2         ,"('N', 'ADJ')"
-953  ,tops                     ,SPEC ,2         ,"('N', 'WW')"
-954  ,torsten                  ,SPEC ,2         ,"('N', 'WW')"
-955  ,tout                     ,SPEC ,0         ,()
-956  ,tover                    ,SPEC ,0         ,()
-957  ,tramps                   ,SPEC ,0         ,()
-958  ,trees                    ,SPEC ,2         ,"('N', 'WW')"
-959  ,trekvogels               ,SPEC ,2         ,"('N', 'WW')"
-960  ,trends                   ,SPEC ,2         ,"('N', 'WW')"
-961  ,trial                    ,SPEC ,0         ,()
-962  ,trollen                  ,SPEC ,2         ,"('N', 'WW')"
-963  ,trouwerijen              ,SPEC ,2         ,"('N', 'WW')"
-964  ,turn                     ,SPEC ,0         ,()
-965  ,turners                  ,SPEC ,2         ,"('N', 'WW')"
-966  ,uilen                    ,SPEC ,2         ,"('N', 'WW')"
-967  ,uitverkorenen            ,SPEC ,2         ,"('N', 'WW')"
-968  ,uitvinders               ,SPEC ,2         ,"('N', 'WW')"
-969  ,unionisten               ,SPEC ,2         ,"('N', 'WW')"
-970  ,units                    ,SPEC ,2         ,"('N', 'WW')"
-971  ,vampieren                ,SPEC ,2         ,"('N', 'WW')"
-972  ,vanachter                ,BW   ,2         ,"('N', 'VZ')"
-973  ,varkens                  ,SPEC ,2         ,"('N', 'VZ')"
-974  ,vecht                    ,SPEC ,0         ,()
-975  ,vechtjassen              ,SPEC ,2         ,"('N', 'WW')"
-976  ,vechtsporten             ,SPEC ,2         ,"('N', 'WW')"
-977  ,veeboeren                ,SPEC ,2         ,"('N', 'WW')"
-978  ,vegetariërs              ,SPEC ,2         ,"('WW', 'TW')"
-979  ,veiligheidscontroles     ,SPEC ,2         ,"('N', 'WW')"
-980  ,veiligheidsdiensten      ,SPEC ,2         ,"('N', 'WW')"
-981  ,velden                   ,SPEC ,2         ,"('N', 'WW')"
-982  ,verban                   ,SPEC ,2         ,"('N', 'WW')"
-983  ,verbied                  ,SPEC ,2         ,"('N', 'WW')"
-984  ,verdampers               ,SPEC ,2         ,"('N', 'WW')"
-985  ,verdwijningen            ,SPEC ,2         ,"('N', 'WW')"
-986  ,verhuizingen             ,SPEC ,2         ,"('N', 'WW')"
-987  ,verkleed                 ,SPEC ,2         ,"('N', 'WW')"
-988  ,verkozene                ,SPEC ,2         ,"('N', 'WW')"
-989  ,verlaag                  ,SPEC ,0         ,()
-990  ,verlorenen               ,SPEC ,2         ,"('N', 'WW')"
-991  ,vermink                  ,SPEC ,2         ,"('N', 'WW')"
-992  ,vermom                   ,SPEC ,2         ,"('N', 'ADJ')"
-993  ,vernietig                ,SPEC ,2         ,"('ADJ', 'TW')"
-994  ,verras                   ,SPEC ,2         ,"('N', 'WW')"
-995  ,verre                    ,BW   ,0         ,()
-996  ,verre                    ,SPEC ,0         ,()
-997  ,verschaf                 ,SPEC ,0         ,()
-998  ,verscholen               ,ADJ  ,2         ,"('N', 'WW')"
-999  ,verscholen               ,N    ,2         ,"('N', 'WW')"
-1000 ,verschoon                ,SPEC ,2         ,"('N', 'WW')"
-1001 ,verschrikkelijke         ,SPEC ,2         ,"('ADJ', 'WW')"
-1002 ,verstijfde               ,SPEC ,0         ,()
-1003 ,verstoot                 ,SPEC ,2         ,"('N', 'WW')"
-1004 ,vervoeg                  ,SPEC ,2         ,"('N', 'WW')"
-1005 ,vervoersbewijzen         ,SPEC ,2         ,"('N', 'WW')"
-1006 ,verwarden                ,SPEC ,2         ,"('N', 'WW')"
-1007 ,verzekeringen            ,SPEC ,2         ,"('N', 'WW')"
-1008 ,vesten                   ,SPEC ,2         ,"('N', 'WW')"
-1009 ,vestig                   ,SPEC ,0         ,()
-1010 ,vetcellen                ,SPEC ,2         ,"('N', 'WW')"
-1011 ,veteranen                ,SPEC ,2         ,"('N', 'WW')"
-1012 ,vetzakken                ,SPEC ,2         ,"('N', 'WW')"
-1013 ,vice                     ,SPEC ,0         ,()
-1014 ,vietnamezen              ,SPEC ,2         ,"('N', 'WW')"
-1015 ,vilders                  ,SPEC ,2         ,"('N', 'WW')"
-1016 ,vingerafdrukken          ,SPEC ,2         ,"('N', 'WW')"
-1017 ,virtual                  ,SPEC ,2         ,"('N', 'WW')"
-1018 ,vitae                    ,SPEC ,2         ,"('N', 'WW')"
-1019 ,vitale                   ,SPEC ,0         ,()
-1020 ,vodden                   ,SPEC ,2         ,"('N', 'WW')"
-1021 ,voetbalvandalen          ,SPEC ,2         ,"('N', 'WW')"
-1022 ,voetstappen              ,SPEC ,2         ,"('N', 'WW')"
-1023 ,volbloeden               ,SPEC ,2         ,"('N', 'WW')"
-1024 ,vooreerst                ,BW   ,0         ,()
-1025 ,voorgevoelens            ,SPEC ,3         ,"('N', 'ADJ', 'WW')"
-1026 ,voorvaderen              ,SPEC ,2         ,"('N', 'WW')"
-1027 ,vossen                   ,SPEC ,2         ,"('N', 'WW')"
-1028 ,vredestichters           ,SPEC ,2         ,"('N', 'WW')"
-1029 ,vrijgevochten            ,ADJ  ,2         ,"('N', 'WW')"
-1030 ,vrijgevochten            ,N    ,2         ,"('N', 'WW')"
-1031 ,vruchten                 ,SPEC ,2         ,"('N', 'WW')"
-1032 ,vuurgevechten            ,SPEC ,2         ,"('N', 'WW')"
-1033 ,vuurwapens               ,SPEC ,2         ,"('N', 'WW')"
-1034 ,waanbeeld                ,N    ,2         ,"('N', 'ADJ')"
-1035 ,waanbeeld                ,SPEC ,2         ,"('N', 'ADJ')"
-1036 ,waanbeeld                ,WW   ,2         ,"('N', 'ADJ')"
-1037 ,waarschuwingsschoten     ,SPEC ,2         ,"('N', 'WW')"
-1038 ,walden                   ,SPEC ,2         ,"('WW', 'TW')"
-1039 ,walkers                  ,SPEC ,2         ,"('N', 'WW')"
-1040 ,walvissen                ,SPEC ,2         ,"('N', 'WW')"
-1041 ,wapenbezitters           ,SPEC ,2         ,"('N', 'WW')"
-1042 ,warden                   ,SPEC ,2         ,"('N', 'WW')"
-1043 ,watermannen              ,SPEC ,2         ,"('N', 'WW')"
-1044 ,waters                   ,SPEC ,2         ,"('N', 'WW')"
-1045 ,watertanks               ,SPEC ,2         ,"('N', 'ADJ')"
-1046 ,weersta                  ,SPEC ,2         ,"('ADJ', 'WW')"
-1047 ,weeskinderen             ,SPEC ,2         ,"('N', 'WW')"
-1048 ,wegpiraten               ,SPEC ,2         ,"('N', 'WW')"
-1049 ,weiger                   ,SPEC ,2         ,"('N', 'ADJ')"
-1050 ,welke                    ,VNW  ,0         ,()
-1051 ,wellingtons              ,SPEC ,3         ,"('N', 'ADJ', 'WW')"
-1052 ,welpen                   ,SPEC ,2         ,"('N', 'WW')"
-1053 ,weners                   ,SPEC ,2         ,"('N', 'WW')"
-1054 ,wenskaarten              ,SPEC ,2         ,"('N', 'WW')"
-1055 ,wereldwonderen           ,SPEC ,2         ,"('N', 'WW')"
-1056 ,werkzoekenden            ,SPEC ,2         ,"('N', 'WW')"
-1057 ,westelijke               ,SPEC ,0         ,()
-1058 ,westerlingen             ,SPEC ,2         ,"('N', 'WW')"
-1059 ,wielen                   ,SPEC ,2         ,"('N', 'WW')"
-1060 ,wille                    ,SPEC ,0         ,()
-1061 ,willens                  ,BW   ,2         ,"('N', 'WW')"
-1062 ,willies                  ,SPEC ,2         ,"('N', 'WW')"
-1063 ,winkelcentra             ,SPEC ,2         ,"('N', 'WW')"
-1064 ,woestijnratten           ,SPEC ,2         ,"('N', 'WW')"
-1065 ,wolken                   ,SPEC ,2         ,"('N', 'WW')"
-1066 ,wolven                   ,SPEC ,2         ,"('N', 'WW')"
-1067 ,wonderbaarlijke          ,SPEC ,0         ,()
-1068 ,wonderwel                ,BW   ,0         ,()
-1069 ,woonwagens               ,SPEC ,2         ,"('N', 'WW')"
-1070 ,woonwijken               ,SPEC ,2         ,"('N', 'WW')"
-1071 ,woorden                  ,SPEC ,2         ,"('N', 'WW')"
-1072 ,worstelkampioen          ,ADJ  ,2         ,"('N', 'WW')"
-1073 ,worstelkampioen          ,N    ,2         ,"('N', 'WW')"
-1074 ,wratten                  ,SPEC ,2         ,"('N', 'WW')"
-1075 ,xtc-pillen               ,SPEC ,2         ,"('N', 'WW')"
-1076 ,yards                    ,SPEC ,2         ,"('N', 'WW')"
-1077 ,yes                      ,SPEC ,0         ,()
-1078 ,zakkig                   ,ADJ  ,0         ,()
-1079 ,zakkig                   ,WW   ,0         ,()
-1080 ,zangeressen              ,SPEC ,2         ,"('N', 'WW')"
-1081 ,zedenzaken               ,SPEC ,2         ,"('N', 'WW')"
-1082 ,zekers                   ,BW   ,2         ,"('N', 'WW')"
-1083 ,zelfverwijt              ,N    ,2         ,"('N', 'ADJ')"
-1084 ,zelfverwijt              ,WW   ,2         ,"('N', 'ADJ')"
-1085 ,zelfvoldaan              ,ADJ  ,0         ,()
-1086 ,zelfvoldaan              ,BW   ,0         ,()
-1087 ,zelfvoldaan              ,SPEC ,0         ,()
-1088 ,zelfvoldaan              ,WW   ,0         ,()
-1089 ,zeloten                  ,SPEC ,2         ,"('N', 'WW')"
-1090 ,zevens                   ,SPEC ,2         ,"('WW', 'TW')"
-1091 ,ziekenhuizen             ,SPEC ,2         ,"('N', 'WW')"
-1092 ,zogeheten                ,ADJ  ,2         ,"('N', 'WW')"
-1093 ,zogeheten                ,N    ,2         ,"('N', 'WW')"
-1094 ,zombies                  ,SPEC ,2         ,"('N', 'WW')"
-1095 ,zonet                    ,BW   ,0         ,()
-1096 ,zorgverzekeraars         ,SPEC ,3         ,"('N', 'ADJ', 'WW')"
-1097 ,zuidwesten               ,ADJ  ,2         ,"('N', 'WW')"
-1098 ,zuidwesten               ,N    ,2         ,"('N', 'WW')"
-1099 ,zuivere                  ,SPEC ,0         ,()
-1100 ,zwaarbeveiligd           ,ADJ  ,2         ,"('N', 'WW')"
-1101 ,zwaarbeveiligd           ,WW   ,2         ,"('N', 'WW')"
-1102 ,zwaardvissen             ,SPEC ,2         ,"('N', 'WW')"
-1103 ,zwart-op-wit             ,N    ,2         ,"('N', 'ADJ')"
-1104 ,zwart-op-wit             ,WW   ,2         ,"('N', 'ADJ')"
+,word,POS,amnt_cats,cats
+0,achtergestelde,SPEC,0,()
+1,ad,SPEC,0,()
+2,aldoor,BW,0,()
+3,alla,SPEC,0,()
+4,allerliefst,ADJ,0,()
+5,allerliefst,BW,0,()
+6,allerliefst,TW,0,()
+7,allerliefst,WW,0,()
+8,allesomvattend,ADJ,0,()
+9,allesomvattend,WW,0,()
+10,almachtige,SPEC,0,()
+11,alvorens,VG,0,()
+12,analyses,SPEC,0,()
+13,arctische,SPEC,0,()
+14,art,SPEC,0,()
+15,beate,SPEC,0,()
+16,bemerk,SPEC,0,()
+17,berooid,ADJ,0,()
+18,berooid,WW,0,()
+19,bevende,SPEC,0,()
+20,binnenin,BW,0,()
+21,binnenlandse,SPEC,0,()
+22,bloody,SPEC,0,()
+23,buitenaardse,SPEC,0,()
+24,buitenaf,BW,0,()
+25,capella,SPEC,0,()
+26,carabinieri,SPEC,0,()
+27,cetera,SPEC,0,()
+28,choice,SPEC,0,()
+29,collect,SPEC,0,()
+30,comme,SPEC,0,()
+31,common,SPEC,0,()
+32,con,SPEC,0,()
+33,contradictio,SPEC,0,()
+34,cross-country,SPEC,0,()
+35,culturele,SPEC,0,()
+36,cum,SPEC,0,()
+37,daarginds,BW,0,()
+38,daarjuist,BW,0,()
+39,de,LID,0,()
+40,death,SPEC,0,()
+41,deer,SPEC,0,()
+42,deux,SPEC,0,()
+43,dim,SPEC,0,()
+44,doodvermoeiend,ADJ,0,()
+45,doodvermoeiend,WW,0,()
+46,drukbezette,SPEC,0,()
+47,dwaze,SPEC,0,()
+48,een,LID,0,()
+49,ene,BW,0,()
+50,ene,TW,0,()
+51,ene,VNW,0,()
+52,ertegen,BW,0,()
+53,escape,SPEC,0,()
+54,escorts,SPEC,0,()
+55,esprit,SPEC,0,()
+56,ever,SPEC,0,()
+57,exit,SPEC,0,()
+58,extreme,SPEC,0,()
+59,facto,SPEC,0,()
+60,fancy,SPEC,0,()
+61,fatale,SPEC,0,()
+62,faut,SPEC,0,()
+63,fiction,SPEC,0,()
+64,figaro,SPEC,0,()
+65,fine,SPEC,0,()
+66,first,SPEC,0,()
+67,flapperende,SPEC,0,()
+68,force,SPEC,0,()
+69,francs,SPEC,0,()
+70,fusion,SPEC,0,()
+71,gaandeweg,BW,0,()
+72,gap,SPEC,0,()
+73,geen,VNW,0,()
+74,geketend,SPEC,0,()
+75,gemeentelijke,SPEC,0,()
+76,getaand,SPEC,0,()
+77,gevlekt,ADJ,0,()
+78,gevlekt,WW,0,()
+79,gewetenloos,ADJ,0,()
+80,gewetenloos,SPEC,0,()
+81,gewetenloos,WW,0,()
+82,glanzend,ADJ,0,()
+83,glanzend,WW,0,()
+84,hierachter,BW,0,()
+85,hieronder,BW,0,()
+86,horens,BW,0,()
+87,just,SPEC,0,()
+88,kille,SPEC,0,()
+89,koninklijke,SPEC,0,()
+90,kopieer,SPEC,0,()
+91,langzaamaan,BW,0,()
+92,laude,SPEC,0,()
+93,lekkende,SPEC,0,()
+94,leun,SPEC,0,()
+95,levenslange,SPEC,0,()
+96,lichtgeraakt,ADJ,0,()
+97,lichtgeraakt,WW,0,()
+98,lords,SPEC,0,()
+99,maffe,SPEC,0,()
+100,magnums,SPEC,0,()
+101,mats,SPEC,0,()
+102,meeste,VNW,0,()
+103,militaire,SPEC,0,()
+104,mixed,SPEC,0,()
+105,mogelijkerwijs,BW,0,()
+106,monocle,ADJ,0,()
+107,monocle,SPEC,0,()
+108,monocle,WW,0,()
+109,music,SPEC,0,()
+110,naakte,SPEC,0,()
+111,nietsvermoedend,ADJ,0,()
+112,nietsvermoedend,WW,0,()
+113,niettegenstaande,VG,0,()
+114,niettegenstaande,VZ,0,()
+115,noppes,VNW,0,()
+116,not,SPEC,0,()
+117,nous,SPEC,0,()
+118,obscure,SPEC,0,()
+119,ofschoon,VG,0,()
+120,olympische,SPEC,0,()
+121,onaangetast,ADJ,0,()
+122,onaangetast,WW,0,()
+123,onafhankelijke,SPEC,0,()
+124,onbeheerd,ADJ,0,()
+125,onbeheerd,WW,0,()
+126,onbeperkt,ADJ,0,()
+127,onbeperkt,SPEC,0,()
+128,onbeperkt,WW,0,()
+129,onbeschadigd,ADJ,0,()
+130,onbeschadigd,BW,0,()
+131,onbeschadigd,WW,0,()
+132,onbetaald,ADJ,0,()
+133,onbetaald,WW,0,()
+134,onbetrouwbare,SPEC,0,()
+135,onbevooroordeeld,ADJ,0,()
+136,onbevooroordeeld,WW,0,()
+137,onbewerkt,ADJ,0,()
+138,onbewerkt,WW,0,()
+139,ondergedoken,SPEC,0,()
+140,ondertiteld,SPEC,0,()
+141,ondervroeg,SPEC,0,()
+142,ongehinderd,ADJ,0,()
+143,ongehinderd,WW,0,()
+144,ongelimiteerd,ADJ,0,()
+145,ongelimiteerd,WW,0,()
+146,ongerechtvaardigd,ADJ,0,()
+147,ongerechtvaardigd,WW,0,()
+148,ongeschonden,ADJ,0,()
+149,ongeschonden,WW,0,()
+150,ongeëvenaarde,SPEC,0,()
+151,onnozele,SPEC,0,()
+152,onopgemaakt,ADJ,0,()
+153,onopgemaakt,WW,0,()
+154,ontdoe,SPEC,0,()
+155,ontembare,SPEC,0,()
+156,ontmasker,SPEC,0,()
+157,ontwaakt,SPEC,0,()
+158,ontzeg,SPEC,0,()
+159,onverklaard,ADJ,0,()
+160,onverklaard,WW,0,()
+161,openbare,SPEC,0,()
+162,or,SPEC,0,()
+163,ouwe,SPEC,0,()
+164,oververmoeid,ADJ,0,()
+165,oververmoeid,WW,0,()
+166,pantry,SPEC,0,()
+167,petit,SPEC,0,()
+168,plusminus,BW,0,()
+169,poedelnaakt,ADJ,0,()
+170,poedelnaakt,WW,0,()
+171,practical,SPEC,0,()
+172,propos,SPEC,0,()
+173,présence,SPEC,0,()
+174,public,SPEC,0,()
+175,pumps,SPEC,0,()
+176,push,SPEC,0,()
+177,qui,SPEC,0,()
+178,ready,SPEC,0,()
+179,rechtdoor,BW,0,()
+180,risk,SPEC,0,()
+181,roodgloeiend,ADJ,0,()
+182,roodgloeiend,WW,0,()
+183,sclerose,SPEC,0,()
+184,scoops,SPEC,0,()
+185,scratch,SPEC,0,()
+186,se,SPEC,0,()
+187,skin,SPEC,0,()
+188,sluwe,SPEC,0,()
+189,sociale,SPEC,0,()
+190,society,SPEC,0,()
+191,soit,SPEC,0,()
+192,speciaals,SPEC,0,()
+193,spirituele,SPEC,0,()
+194,spuw,SPEC,0,()
+195,steels,ADJ,0,()
+196,steels,WW,0,()
+197,stomvervelend,ADJ,0,()
+198,stomvervelend,WW,0,()
+199,stuntelende,SPEC,0,()
+200,suis,SPEC,0,()
+201,teneinde,VG,0,()
+202,toegepaste,SPEC,0,()
+203,tout,SPEC,0,()
+204,tover,SPEC,0,()
+205,tramps,SPEC,0,()
+206,trial,SPEC,0,()
+207,turn,SPEC,0,()
+208,vecht,SPEC,0,()
+209,vegetariërs,SPEC,2,"('WW', 'TW')"
+210,verlaag,SPEC,0,()
+211,verre,BW,0,()
+212,verre,SPEC,0,()
+213,verschaf,SPEC,0,()
+214,verstijfde,SPEC,0,()
+215,vestig,SPEC,0,()
+216,vice,SPEC,0,()
+217,vitale,SPEC,0,()
+218,vooreerst,BW,0,()
+219,walden,SPEC,2,"('WW', 'TW')"
+220,welke,VNW,0,()
+221,westelijke,SPEC,0,()
+222,wille,SPEC,0,()
+223,wonderbaarlijke,SPEC,0,()
+224,wonderwel,BW,0,()
+225,yes,SPEC,0,()
+226,zakkig,ADJ,0,()
+227,zakkig,WW,0,()
+228,zelfvoldaan,ADJ,0,()
+229,zelfvoldaan,BW,0,()
+230,zelfvoldaan,SPEC,0,()
+231,zelfvoldaan,WW,0,()
+232,zevens,SPEC,2,"('WW', 'TW')"
+233,zonet,BW,0,()
+234,zuivere,SPEC,0,()
