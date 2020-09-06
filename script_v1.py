@@ -371,17 +371,40 @@ for word,part_of_speech in remaining_words:
             conflicts['cats'].append(tuple(all_cats))
 
 # %% Dealing with conflicts
-
+# translating words to find Pos using pydictionary
 translated_words = dict(zip(conflicts['word'], translate_txt(conflicts['word'], project_number, batch=True)))
 conflicts['en_translation'] = [translated_words[x] for x in conflicts['word']]
 conflicts['pydictionary_en_pos'] = []
 
+# appending pos from pydictionary meaning
 for word in conflicts['en_translation']:
     try:
-        conflicts['pydictionary_en_pos'].append(list(dictionary.meaning(word).keys()))
+        conflicts['pydictionary_en_pos'].append(tuple(dictionary.meaning(word).keys()))
     except:
-        conflicts['pydictionary_en_pos'].append([])
+        conflicts['pydictionary_en_pos'].append(())
 
+# iterating over words and pydictionary pos
+conflicts_df = pd.DataFrame(conflicts)[['word','pydictionary_en_pos']].drop_duplicates()
+conflicts_etc = []
+for word, pos in conflicts_df.values:
+    if 'Noun' in pos:
+        kept_words_per_pos['N'].append(word)
+    elif 'Adjective' in pos:
+        kept_words_per_pos['ADJ'].append(word)
+    elif 'Adverb' in pos:
+        kept_words_per_pos['BW'].append(word)
+    elif 'Verb' in pos and 'Adjective' not in pos and 'Adverb' not in pos and 'Noun' not in pos:
+        kept_words_per_pos['WW'].append(word)
+    else:
+        conflicts_etc.append(word)
+
+# keeping remaining adverbs as these certainly are correctly labeled
+conflicts_etc = set(conflicts_etc)
+for word in conflicts_etc:
+    if word in etc_words[etc_words['POS'] == 'BW']['Lemma']:
+        kept_words_per_pos['BW'].append(word)
+    else:
+        conflicts_etc = conflicts_etc - {word}
 
 
 # %% Finalizing each PoS dataframe
