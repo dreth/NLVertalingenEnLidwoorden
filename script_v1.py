@@ -399,21 +399,14 @@ for word, pos in conflicts_df.values:
         conflicts_etc.append(word)
 
 # keeping remaining adverbs as these certainly are correctly labeled
-conflicts_etc = set(conflicts_etc)
+conflicts_etc, kept_adverbs = set(conflicts_etc), []
 for word in conflicts_etc:
     if word in etc_words[etc_words['POS'] == 'BW']['Lemma']:
         kept_words_per_pos['BW'].append(word)
-    else:
-        conflicts_etc = conflicts_etc - {word}
-
+        kept_adverbs.append(word)
+conflicts_etc = conflicts_etc -
 
 # %% Finalizing each PoS dataframe
-
-# zelfstandige naamwoorden, bijvoeglijk naamwoorden and verben
-# defined in lines 276, 281 and 286 respectively
-
-# Lidwoorden
-# defined in line 179
 
 
 # joining all word types
