@@ -399,12 +399,11 @@ for word, pos in conflicts_df.values:
         conflicts_etc.append(word)
 
 # keeping remaining adverbs as these certainly are correctly labeled
-conflicts_etc, kept_adverbs = set(conflicts_etc), []
+conflicts_etc = set(conflicts_etc)
 for word in conflicts_etc:
-    if word in etc_words[etc_words['POS'] == 'BW']['Lemma']:
+    if word in etc_words[etc_words['POS'] == 'BW']['Lemma'].values:
         kept_words_per_pos['BW'].append(word)
-        kept_adverbs.append(word)
-conflicts_etc = conflicts_etc -
+conflicts_etc = conflicts_etc - set(kept_words_per_pos['BW'])
 
 # %% Finalizing each PoS dataframe
 
