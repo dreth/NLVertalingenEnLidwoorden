@@ -9,6 +9,7 @@ from nltk.corpus import wordnet as wn
 import spacy
 from PyDictionary import PyDictionary
 from collections import Counter
+from itertools import combinations
 
 # %% Basic things
 # creating dictionary instance
@@ -405,7 +406,22 @@ for word in conflicts_etc:
         kept_words_per_pos['BW'].append(word)
 conflicts_etc = conflicts_etc - set(kept_words_per_pos['BW'])
 
+# finalizing conflicts and removiing remaining SPEC
+conflicts_df = pd.DataFrame(conflicts)
+conflicts_df = conflicts_df[(~conflicts_df['POS'].isin(['SPEC','WW','LID'])) & (conflicts_df['word'].isin(conflicts_etc))]
+for word, pos in conflicts_df[['word','POS']].values:
+    kept_words_per_pos[pos].append(word)
+
+# making every word group in kept words a set
+for pos in kept_words_per_pos.keys():
+    kept_words_per_pos[pos] = set(kept_words_per_pos[pos])
+
+#
+
 # %% Finalizing each PoS dataframe
+kept_words_df = {'word':[], 'POS':[]}
+for pos in kept_words_per_pos.keys():
+    for word in kept_words_per_pos[pos]:
 
 
 # joining all word types
