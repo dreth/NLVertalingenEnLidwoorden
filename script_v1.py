@@ -27,7 +27,7 @@ with open('api-key.json') as apikey:
 # using google api
 
 
-def translate_txt(text, project_id, batch=False, source="nl", target="en-US"):
+def translate_txt(text, project_id, batch=False, source="nl", target="en"):
     """
     Translating Text using google API
     if batch=True, text must be a list with max 1024 elements
@@ -137,7 +137,7 @@ classif2 = pd.read_csv(
 classif = pd.concat([classif1, classif2])[['Lemma', 'POS']]
 classif = classif[(classif['Lemma'] != '@') & (
     classif['Lemma'].isin(data['word']))].drop_duplicates()
-classif['meaning_en'] = np.nan
+classif['EN_translation'] = np.nan
 
 # %% Part of speech classsification for reference purposes
 Part_of_speech = {'N': 'Noun',
@@ -161,25 +161,25 @@ classif.loc[classif['POS'] == 'LID'] = classif[(
 
 # de
 classif.loc[(classif['Lemma'] == 'de') & (classif['POS'] == 'LID'),
-            'meaning_en'] = 'the (definite article, for de-woorden)'
+            'EN_translation'] = 'the (definite article, for de-woorden)'
 
 # een
 classif.loc[(classif['Lemma'] == 'een') & (classif['POS'] == 'LID'),
-            'meaning_en'] = 'a/an (indefinite article)'
+            'EN_translation'] = 'a/an (indefinite article)'
 
 # het (also as pronoun)
 classif.loc[(classif['Lemma'] == 'het') & (classif['POS'] == 'LID'),
-            'meaning_en'] = 'the (definite article, for het-woorden)'
+            'EN_translation'] = 'the (definite article, for het-woorden)'
 classif.loc[(classif['Lemma'] == 'het') & (
-    classif['POS'] == 'VNW'), 'meaning_en'] = 'it'
+    classif['POS'] == 'VNW'), 'EN_translation'] = 'it'
 
 # finally, replacing entries labeled as lidwoord
 classif.loc[classif['Lemma'].isin(
-    lidwoorden)] = classif[~classif['meaning_en'].isna()]
+    lidwoorden)] = classif[~classif['EN_translation'].isna()]
 
 # cleaning up removed things
 classif = classif[~(classif['POS'].isna())]
-lidwoorden = classif[~classif['meaning_en'].isna()]
+lidwoorden = classif[~classif['EN_translation'].isna()]
 
 # %% Filtering 1 letter words
 classif = classif[classif['Lemma'].isin(
@@ -194,12 +194,12 @@ two_letter_words = list(
 low_length_eval = {'word': two_letter_words,
                    'translation': translate_txt(two_letter_words, project_number, batch=True)}
 # finding english meanings
-low_length_eval['meaning_en'] = [dictionary.meaning(
+low_length_eval['EN_translation'] = [dictionary.meaning(
     word) for word in low_length_eval['translation']]
 # converting to df and filtering words that do NOT have a meaning from pydictionary and those that are
 # equal to the translation in order to make a list to remove those elements
 low_length_eval = pd.DataFrame(low_length_eval)
-low_length_eval_remove = low_length_eval[(low_length_eval['meaning_en'].isna())
+low_length_eval_remove = low_length_eval[(low_length_eval['EN_translation'].isna())
                                          & (low_length_eval['word'] == low_length_eval['translation'])]
 # removing elements by filtering these out
 classif = classif[~classif['Lemma'].isin(low_length_eval_remove['word'])]
@@ -406,23 +406,61 @@ for word in conflicts_etc:
         kept_words_per_pos['BW'].append(word)
 conflicts_etc = conflicts_etc - set(kept_words_per_pos['BW'])
 
-# finalizing conflicts and removiing remaining SPEC
+# finalizing conflicts and removing remaining SPEC
 conflicts_df = pd.DataFrame(conflicts)
 conflicts_df = conflicts_df[(~conflicts_df['POS'].isin(['SPEC','WW','LID'])) & (conflicts_df['word'].isin(conflicts_etc))]
 for word, pos in conflicts_df[['word','POS']].values:
     kept_words_per_pos[pos].append(word)
 
+# including previously filtered nouns, verbs and adjectives in the kept words list
+tag_wl_gen = zip(['N', 'WW', 'ADJ'], [zelfstandige_nmw['Lemma'], verben['Lemma'], bijvoeglijk_nmw['Lemma']])
+for tag, wordlist in tag_wl_gen:
+    for word in wordlist.values:
+        kept_words_per_pos[tag].append(word)
+
 # making every word group in kept words a set
 for pos in kept_words_per_pos.keys():
     kept_words_per_pos[pos] = set(kept_words_per_pos[pos])
 
-#
+# deleting the SPEC and LID tag
+del kept_words_per_pos['SPEC']
+del kept_words_per_pos['LID']
 
-# %% Finalizing each PoS dataframe
-kept_words_df = {'word':[], 'POS':[]}
+# checking duplicity of words in 2 pos tags
+words_pos_duplicity = {}
+for pos1, pos2 in combinations(kept_words_per_pos.keys(), 2):
+    words_pos_duplicity[(pos1,pos2)] = kept_words_per_pos[pos1] & kept_words_per_pos[pos2]
+    if pos1 in ('BW','TW','VZ','VNW','VG'): 
+        kept_words_per_pos[pos2] = kept_words_per_pos[pos2] - words_pos_duplicity[(pos1,pos2)]
+        words_pos_duplicity[(pos1,pos2)] = set()
+    elif pos2 in ('BW','TW','VZ','VNW','VG'):
+        kept_words_per_pos[pos1] = kept_words_per_pos[pos1] - words_pos_duplicity[(pos1,pos2)]
+        words_pos_duplicity[(pos1,pos2)] = set()
+
+# add zijn because it was lost when cleaning up pronouns, given that zijn can be a pronoun
+kept_words_per_pos['WW'] = kept_words_per_pos['WW'] | {'zijn'}
+
+# remove het as it is already in the dataframe
+kept_words_per_pos['VNW'] = kept_words_per_pos['VNW'] - {'het'}
+
+# %% Finalizing the complete dataframe
+main = {'word':[], 'POS':[]}
 for pos in kept_words_per_pos.keys():
     for word in kept_words_per_pos[pos]:
+        main['word'].append(word)
+        main['POS'].append(pos)
 
+# %% Translations
+# translating all the words to target language (default is EN)
+main['EN_translation'] = translate_txt(main['word'], project_number, batch=True, source='nl', target='en')
+
+# converting to df
+main = pd.DataFrame(main)
 
 # joining all word types
-woorden = pd.concat([woorden, lidwoorden])
+lidwoorden = lidwoorden.reset_index(drop=True)
+lidwoorden = lidwoorden.rename(columns={'Lemma':'word'})
+
+# finalizing the full df and outputting a csv
+woorden = pd.concat([lidwoorden.reset_index(drop=True), main])
+woorden.to_csv('woorden.csv')
