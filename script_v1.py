@@ -127,7 +127,6 @@ wordlexnl = wordlexnl[['word', 'rel_freq_wl']]
 data = pd.merge(subtlexnl, wordlexnl, how='inner', on='word')
 data['rel_freq'] = data['rel_freq_sl'] + data['rel_freq_wl']
 data = data[['word', 'rel_freq']].sort_values('rel_freq', ascending=False)
-data = data.reset_index()[['word']]
 
 # %% Tagging part of speech
 # adding tag to determine type of word in order to add articles to nouns
@@ -461,6 +460,13 @@ main = pd.DataFrame(main)
 lidwoorden = lidwoorden.reset_index(drop=True)
 lidwoorden = lidwoorden.rename(columns={'Lemma':'word'})
 
-# finalizing the full df and outputting a csv
+# finalizing the full df
 woorden = pd.concat([lidwoorden.reset_index(drop=True), main])
+
+# setting the order of the words using rel freq and then removing the rel freq col
+woorden = woorden.join(data, on='word', how='inner')
+woorden = woorden.sort_values('rel_freq', ascending=False)
+woorden = woorden.drop('rel_freq', axis=1).reset_index(drop=True)
+
+# outputting to a csv file
 woorden.to_csv('woorden.csv')
