@@ -10,6 +10,7 @@ import spacy
 from PyDictionary import PyDictionary
 from collections import Counter
 from itertools import combinations
+import requests
 
 # %% Basic things
 # creating dictionary instance
@@ -464,7 +465,7 @@ lidwoorden = lidwoorden.rename(columns={'Lemma':'word'})
 woorden = pd.concat([lidwoorden.reset_index(drop=True), main])
 
 # setting the order of the words using rel freq and then removing the rel freq col
-woorden = woorden.join(data, on='word', how='inner')
+woorden = pd.merge(left=woorden, right=data, on='word', how='inner')
 woorden = woorden.sort_values('rel_freq', ascending=False)
 woorden = woorden.drop('rel_freq', axis=1).reset_index(drop=True)
 
