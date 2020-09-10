@@ -11,6 +11,7 @@ from PyDictionary import PyDictionary
 from collections import Counter
 from itertools import combinations
 import requests
+from bs4 import BeautifulSoup
 
 # %% Basic things
 # creating dictionary instance
@@ -465,9 +466,24 @@ lidwoorden = lidwoorden.rename(columns={'Lemma':'word'})
 woorden = pd.concat([lidwoorden.reset_index(drop=True), main])
 
 # setting the order of the words using rel freq and then removing the rel freq col
-woorden = pd.merge(left=woorden, right=data, on='word', how='inner')
+woorden = woorden.join(data, on='word', how='inner')
 woorden = woorden.sort_values('rel_freq', ascending=False)
 woorden = woorden.drop('rel_freq', axis=1).reset_index(drop=True)
 
+# %% Adding articles to nouns
+# defining a function to scrape welklidwoord.nl
+def welklidwoordnl(woord):
+    page = requests.get(f'https://welklidwoord.nl/{woord}')
+    soup = BeautifulSoup(page.content, 'html.parser')
+    tag = soup.find('span').text
+    if tag not in ['De','Het','de','het']:
+        return 'err'
+    else:
+        return tag
+
+# creating the col
+woorden['lidwoord'] = np.nan
+woorden.loc[woorden['POS'] == 'N','lidwoord'] = woorden['word'].apply(lambda x: welklidwoordnl(x))
+
 # outputting to a csv file
-woorden.to_csv('woorden.csv')
+woorden.to_csv('woorden_wl.csv')
