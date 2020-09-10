@@ -475,9 +475,15 @@ woorden = woorden.drop('rel_freq', axis=1).reset_index(drop=True)
 def welklidwoordnl(woord):
     page = requests.get(f'https://welklidwoord.nl/{woord}')
     soup = BeautifulSoup(page.content, 'html.parser')
-    tag = soup.find('span').text
+    try:
+        tag = soup.find('span').text
+    except:
+        tag = np.nan
     if tag not in ['De','Het','de','het']:
-        return 'err'
+        if tag in ['De of het',np.nan]:
+            return np.nan
+        else:
+            return soup.find('title').text
     else:
         return tag
 
@@ -487,3 +493,4 @@ woorden.loc[woorden['POS'] == 'N','lidwoord'] = woorden['word'].apply(lambda x: 
 
 # outputting to a csv file
 woorden.to_csv('woorden_wl.csv')
+# %%
