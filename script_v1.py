@@ -87,6 +87,10 @@ subtlexnl = pd.read_csv(
 wordlexnl1 = pd.read_csv('data/wordlex-nl/Nl.Freq.2.txt', sep='\t')
 wordlexnl2 = pd.read_csv('data/wordlex-nl/Nl.Freq.3.Hun.txt', sep='\t')
 
+# importing opentaal list
+with open('data/opentaal-wordlists/werkwoorden.txt') as f:
+    ot_verben = f.read().splitlines()
+
 # %% Manipulating data
 # joining wordlexnl1 and wordlexnl2
 wordlexnl = pd.merge(wordlexnl1, wordlexnl2, how='inner', on=[
@@ -291,6 +295,10 @@ bijvoeglijk_nmw = nw_ww_adj[((nw_ww_adj['Lemma'].isin(bijvoeglijk_nmw)) |
 # joining the 3 main groups
 woorden = pd.concat([verben, zelfstandige_nmw, bijvoeglijk_nmw])
 
+# %% Filtering verbs by removing those that are NOT in the opentaal list
+# filtering in order to NOT have conjugated verbs, as these are all infinitive
+verben = verben[verben['Lemma'].isin(set(ot_verben))]
+
 # %% Classifying other word taggings
 # selecting subset of words per remaining PoS
 remaining_pos_taggings = ['TW', 'VZ', 'VG', 'TSW', 'VNW', 'BW']
@@ -443,6 +451,9 @@ kept_words_per_pos['WW'] = kept_words_per_pos['WW'] | {'zijn'}
 
 # remove het as it is already in the dataframe
 kept_words_per_pos['VNW'] = kept_words_per_pos['VNW'] - {'het'}
+
+# adding words from opentaal experimental werkwoorden list
+kept_words_per_pos['WW']
 
 # %% Finalizing the complete dataframe
 main = {'word':[], 'POS':[]}
