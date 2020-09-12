@@ -293,7 +293,7 @@ bijvoeglijk_nmw = nw_ww_adj[((nw_ww_adj['Lemma'].isin(bijvoeglijk_nmw)) |
                             & (nw_ww_adj['POS'] == 'ADJ')]
 
 # joining the 3 main groups
-woorden = pd.concat([verben, zelfstandige_nmw, bijvoeglijk_nmw])
+woorden = pd.concat([verben, bijvoeglijk_nmw])
 
 # %% Filtering verbs by removing those that are NOT in the opentaal list
 # filtering in order to NOT have conjugated verbs, as these are all infinitive
@@ -345,40 +345,45 @@ etc_words = classif[((~classif['Lemma'].isin(all_words)) | (
 
 # %% Analyzing the PoS of the rest of the words
 # iterating over words and doing the tests for every possible PoS tagging
-remaining_words = etc_words[['Lemma','POS']].values
-conflicts = {'word':[], 'POS':[], 'amnt_cats':[], 'cats':[]}
+remaining_words = etc_words[['Lemma','POS']].append(zelfstandige_nmw[['Lemma','POS']]).values
 
-# performing checks
-for word,part_of_speech in remaining_words:
-    checks = {'N': sp(f'{word} is rood')[0].pos_ in ['NOUN','PROPN'],
-              'SPEC': False,
-              'VG': sp(f'ik eet {word} loop')[2].pos_ in ['CCONJ', 'SCONJ', 'CONJ'],
-              'ADJ': sp(f'mijn huis is {word}')[3].pos_ == 'ADJ',
-              'WW': sp(f'ik ga {word}')[2].pos_ in ['VERB', 'AUX'],
-              'VZ': sp(f'ik ben {word} mijn huis')[2].pos_ == 'ADP',
-              'BW': sp(f'ik ga {word} eten')[2].pos_ == 'ADV',
-              'VNW': (sp(f'{word} eet')[0].pos_ == 'PRON') or (sp(f'{word} eten')[0].pos_ == 'PRON'),
-              'TW': (sp(f'ik heb {word} huizen')[2].pos_ == 'NUM') or (sp(f'{word}')[0].pos_ == 'NUM'),
-              'TSW': sp(f'{word}')[0].pos_ == 'INTJ',
-              'LID': False}
-    tags = list(checks.keys())
-    bools = list(checks.values())
-    amnt_true = Counter([x for x in checks.values()])[True]
-    if amnt_true == 1:
-        kept_words_per_pos[tags[bools.index(True)]].append(word)
-    else:
-        all_cats = [pos for pos,b in checks.items() if b==True]
-        if 'N' in all_cats:
-            kept_words_per_pos['N'].append(word)
-        elif 'ADJ' in all_cats:
-            kept_words_per_pos['ADJ'].append(word)
-        elif 'BW' in all_cats:
-            kept_words_per_pos['BW'].append(word)
+# performing checks function
+def performing_checks(word_list, word_kept_dict):
+    conflicts = {'word':[], 'POS':[], 'amnt_cats':[], 'cats':[]}
+    for word,part_of_speech in word_list:
+        checks = {'N': sp(f'{word} is rood')[0].pos_ in ['NOUN','PROPN'],
+                'SPEC': False,
+                'VG': sp(f'ik eet {word} loop')[2].pos_ in ['CCONJ', 'SCONJ', 'CONJ'],
+                'ADJ': sp(f'mijn huis is {word}')[3].pos_ == 'ADJ',
+                'WW': sp(f'ik ga {word}')[2].pos_ in ['VERB', 'AUX'],
+                'VZ': sp(f'ik ben {word} mijn huis')[2].pos_ == 'ADP',
+                'BW': sp(f'ik ga {word} eten')[2].pos_ == 'ADV',
+                'VNW': (sp(f'{word} eet')[0].pos_ == 'PRON') or (sp(f'{word} eten')[0].pos_ == 'PRON'),
+                'TW': (sp(f'ik heb {word} huizen')[2].pos_ == 'NUM') or (sp(f'{word}')[0].pos_ == 'NUM'),
+                'TSW': sp(f'{word}')[0].pos_ == 'INTJ',
+                'LID': False}
+        tags = list(checks.keys())
+        bools = list(checks.values())
+        amnt_true = Counter([x for x in checks.values()])[True]
+        if amnt_true == 1:
+            word_kept_dict[tags[bools.index(True)]].append(word)
         else:
-            conflicts['word'].append(word)
-            conflicts['POS'].append(part_of_speech)
-            conflicts['amnt_cats'].append(amnt_true)
-            conflicts['cats'].append(tuple(all_cats))
+            all_cats = [pos for pos,b in checks.items() if b==True]
+            if 'N' in all_cats:
+                word_kept_dict['N'].append(word)
+            elif 'ADJ' in all_cats:
+                word_kept_dict['ADJ'].append(word)
+            elif 'BW' in all_cats:
+                word_kept_dict['BW'].append(word)
+            else:
+                conflicts['word'].append(word)
+                conflicts['POS'].append(part_of_speech)
+                conflicts['amnt_cats'].append(amnt_true)
+                conflicts['cats'].append(tuple(all_cats))
+    return (conflicts, word_kept_dict)
+
+# creating conflicts
+conflicts, kept_words_per_pos = performing_checks(remaining_words, kept_words_per_pos)
 
 # %% Dealing with conflicts
 # translating words to find Pos using pydictionary
