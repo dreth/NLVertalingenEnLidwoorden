@@ -481,7 +481,7 @@ woorden = woorden.join(data, on='word', how='inner')
 woorden = woorden.sort_values('rel_freq', ascending=False)
 woorden = woorden.drop('rel_freq', axis=1).reset_index(drop=True)
 
-# %% Adding articles to nouns
+# %% functions for noun article finding
 # defining a function to scrape welklidwoord.nl
 def welklidwoordnl(woord):
     page = requests.get(f'https://welklidwoord.nl/{woord}')
@@ -498,10 +498,32 @@ def welklidwoordnl(woord):
     else:
         return tag
 
+# defining a function to scrape prisma.nl spelling search
+def prismanl(woord):
+    page = requests.get(f'https://spelling.prisma.nl/?unitsearch={woord}')
+    soup = BeautifulSoup(page.content, 'html.parser')
+    try:
+        lidwoord = soup.find('div', {'class':'lemma_ws'}).text.split(' ')[1]
+    except:
+        lidwoord = np.nan
+    print(lidwoord)
+    return lidwoord
+
+# %% removing conjugated verbs from noun list
+# cleaning up nouns by testing for verb function in sentence
+non_nouns = []
+for word in woorden[woorden['POS'] == 'N']['word'].values:
+    if sp(f'ik {word}')[1].pos_ not in ['NOUN','PROPN']:
+        non_nouns.append(word)
+
+# printing to test
+print(non_nouns)
+
+
+# %% applying the prismanl function to find articles
 # creating the col
 woorden['lidwoord'] = np.nan
-woorden.loc[woorden['POS'] == 'N','lidwoord'] = woorden['word'].apply(lambda x: welklidwoordnl(x))
+woorden.loc[woorden['POS'] == 'N','lidwoord'] = woorden['word'].apply(lambda x: prismanl(x))
 
 # outputting to a csv file
 woorden.to_csv('woorden_wl.csv')
-# %%
