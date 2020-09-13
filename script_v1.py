@@ -441,24 +441,49 @@ del kept_words_per_pos['SPEC']
 del kept_words_per_pos['LID']
 
 # checking duplicity of words in 2 pos tags
-words_pos_duplicity = {}
-for pos1, pos2 in combinations(kept_words_per_pos.keys(), 2):
-    words_pos_duplicity[(pos1,pos2)] = kept_words_per_pos[pos1] & kept_words_per_pos[pos2]
-    if pos1 in ('BW','TW','VZ','VNW','VG'): 
-        kept_words_per_pos[pos2] = kept_words_per_pos[pos2] - words_pos_duplicity[(pos1,pos2)]
-        words_pos_duplicity[(pos1,pos2)] = set()
-    elif pos2 in ('BW','TW','VZ','VNW','VG'):
-        kept_words_per_pos[pos1] = kept_words_per_pos[pos1] - words_pos_duplicity[(pos1,pos2)]
-        words_pos_duplicity[(pos1,pos2)] = set()
+def remove_duplicity_in_specified_groups(word_dict: dict, pos1_tuple: tuple, pos2_tuple: tuple):
+    words_pos_duplicity = {}
+    for pos1, pos2 in combinations(word_dict.keys(), 2):
+        words_pos_duplicity[(pos1,pos2)] = word_dict[pos1] & word_dict[pos2]
+        if pos1 in pos1_tuple: 
+            word_dict[pos2] = word_dict[pos2] - words_pos_duplicity[(pos1,pos2)]
+            words_pos_duplicity[(pos1,pos2)] = set()
+        elif pos2 in pos2_tuple:
+            word_dict[pos1] = word_dict[pos1] - words_pos_duplicity[(pos1,pos2)]
+            words_pos_duplicity[(pos1,pos2)] = set()
+    return (words_pos_duplicity, word_dict)
+
+# creating duplicity dict function
+def just_duplicity_dict(word_dict):
+    words_pos_duplicity = {}
+    for pos1, pos2 in combinations(word_dict.keys(), 2):
+        words_pos_duplicity[(pos1,pos2)] = word_dict[pos1] & word_dict[pos2]
+    return words_pos_duplicity
+
+# removing other types from general list
+params = {
+    'word_dict':kept_words_per_pos,
+    'pos1_tuple':('BW','TW','VZ','VNW','VG','TSW'),
+    'pos2_tuple':('BW','TW','VZ','VNW','VG','TSW')
+}
+words_pos_duplicity, kept_words_per_pos = remove_duplicity_in_specified_groups(**params)
+
+# ?????
+kept_words_per_pos['TSW'] = kept_words_per_pos['TSW'] - {'telefoonseks'}
+
+# removing duplicity for nouns added to remaining words
+kept_words_per_pos['WW'] = kept_words_per_pos['WW'] - words_pos_duplicity[('N','WW')]
+kept_words_per_pos['N'] = kept_words_per_pos['N'] - words_pos_duplicity[('N','WW')]
+kept_words_per_pos['N'] = kept_words_per_pos['N'] - words_pos_duplicity[('N','ADJ')] - words_pos_duplicity[('N','TSW')]
+
+# generating duplicity again
+words_pos_duplicity = just_duplicity_dict(kept_words_per_pos)
 
 # add zijn because it was lost when cleaning up pronouns, given that zijn can be a pronoun
 kept_words_per_pos['WW'] = kept_words_per_pos['WW'] | {'zijn'}
 
 # remove het as it is already in the dataframe
 kept_words_per_pos['VNW'] = kept_words_per_pos['VNW'] - {'het'}
-
-# adding words from opentaal experimental werkwoorden list
-kept_words_per_pos['WW']
 
 # %% Finalizing the complete dataframe
 main = {'word':[], 'POS':[]}
@@ -482,7 +507,7 @@ lidwoorden = lidwoorden.rename(columns={'Lemma':'word'})
 woorden = pd.concat([lidwoorden.reset_index(drop=True), main])
 
 # setting the order of the words using rel freq and then removing the rel freq col
-woorden = woorden.join(data, on='word', how='inner')
+woorden = woorden.merge(data, how='inner', on='word')
 woorden = woorden.sort_values('rel_freq', ascending=False)
 woorden = woorden.drop('rel_freq', axis=1).reset_index(drop=True)
 
@@ -516,13 +541,13 @@ def prismanl(woord):
 
 # %% removing conjugated verbs from noun list
 # cleaning up nouns by testing for verb function in sentence
-non_nouns = []
-for word in woorden[woorden['POS'] == 'N']['word'].values:
-    if sp(f'ik {word}')[1].pos_ not in ['NOUN','PROPN']:
-        non_nouns.append(word)
+# non_nouns = []
+# for word in woorden[woorden['POS'] == 'N']['word'].values:
+#     if sp(f'ik {word}')[1].pos_ not in ['NOUN','PROPN']:
+#         non_nouns.append(word)
 
-# printing to test
-print(non_nouns)
+# # printing to test
+# print(len(non_nouns)
 
 
 # %% applying the prismanl function to find articles
