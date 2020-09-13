@@ -539,17 +539,6 @@ def prismanl(woord):
     print(lidwoord)
     return lidwoord
 
-# %% removing conjugated verbs from noun list
-# cleaning up nouns by testing for verb function in sentence
-# non_nouns = []
-# for word in woorden[woorden['POS'] == 'N']['word'].values:
-#     if sp(f'ik {word}')[1].pos_ not in ['NOUN','PROPN']:
-#         non_nouns.append(word)
-
-# # printing to test
-# print(len(non_nouns)
-
-
 # %% applying the prismanl function to find articles
 # creating the col
 woorden['lidwoord'] = np.nan
