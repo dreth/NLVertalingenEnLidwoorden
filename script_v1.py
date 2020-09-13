@@ -536,7 +536,7 @@ def prismanl(woord):
         lidwoord = soup.find('div', {'class':'lemma_ws'}).text.split(' ')[1]
     except:
         lidwoord = np.nan
-    print(lidwoord)
+    print(f'{woord} - {lidwoord}')
     return lidwoord
 
 # %% applying the prismanl function to find articles
