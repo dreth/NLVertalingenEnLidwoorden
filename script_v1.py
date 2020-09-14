@@ -304,7 +304,7 @@ verben = verben[verben['Lemma'].isin(set(ot_verben))]
 remaining_pos_taggings = ['TW', 'VZ', 'VG', 'TSW', 'VNW', 'BW']
 other_taggings = {pos: classif[classif['POS'] == pos]
                   for pos in remaining_pos_taggings}
-kept_words_per_pos = {pos:[] for pos in Part_of_speech.keys()}
+kept_words_per_pos = {pos: [] for pos in Part_of_speech.keys()}
 etc_words = []
 
 # iterating over different remaining PoS selected above
@@ -345,30 +345,33 @@ etc_words = classif[((~classif['Lemma'].isin(all_words)) | (
 
 # %% Analyzing the PoS of the rest of the words
 # iterating over words and doing the tests for every possible PoS tagging
-remaining_words = etc_words[['Lemma','POS']].append(zelfstandige_nmw[['Lemma','POS']]).values
+remaining_words = etc_words[['Lemma', 'POS']].append(
+    zelfstandige_nmw[['Lemma', 'POS']]).values
 
 # performing checks function
+
+
 def performing_checks(word_list, word_kept_dict):
-    conflicts = {'word':[], 'POS':[], 'amnt_cats':[], 'cats':[]}
-    for word,part_of_speech in word_list:
-        checks = {'N': sp(f'{word} is rood')[0].pos_ in ['NOUN','PROPN'],
-                'SPEC': False,
-                'VG': sp(f'ik eet {word} loop')[2].pos_ in ['CCONJ', 'SCONJ', 'CONJ'],
-                'ADJ': sp(f'mijn huis is {word}')[3].pos_ == 'ADJ',
-                'WW': sp(f'ik ga {word}')[2].pos_ in ['VERB', 'AUX'],
-                'VZ': sp(f'ik ben {word} mijn huis')[2].pos_ == 'ADP',
-                'BW': sp(f'ik ga {word} eten')[2].pos_ == 'ADV',
-                'VNW': (sp(f'{word} eet')[0].pos_ == 'PRON') or (sp(f'{word} eten')[0].pos_ == 'PRON'),
-                'TW': (sp(f'ik heb {word} huizen')[2].pos_ == 'NUM') or (sp(f'{word}')[0].pos_ == 'NUM'),
-                'TSW': sp(f'{word}')[0].pos_ == 'INTJ',
-                'LID': False}
+    conflicts = {'word': [], 'POS': [], 'amnt_cats': [], 'cats': []}
+    for word, part_of_speech in word_list:
+        checks = {'N': sp(f'{word} is rood')[0].pos_ in ['NOUN', 'PROPN'],
+                  'SPEC': False,
+                  'VG': sp(f'ik eet {word} loop')[2].pos_ in ['CCONJ', 'SCONJ', 'CONJ'],
+                  'ADJ': sp(f'mijn huis is {word}')[3].pos_ == 'ADJ',
+                  'WW': sp(f'ik ga {word}')[2].pos_ in ['VERB', 'AUX'],
+                  'VZ': sp(f'ik ben {word} mijn huis')[2].pos_ == 'ADP',
+                  'BW': sp(f'ik ga {word} eten')[2].pos_ == 'ADV',
+                  'VNW': (sp(f'{word} eet')[0].pos_ == 'PRON') or (sp(f'{word} eten')[0].pos_ == 'PRON'),
+                  'TW': (sp(f'ik heb {word} huizen')[2].pos_ == 'NUM') or (sp(f'{word}')[0].pos_ == 'NUM'),
+                  'TSW': sp(f'{word}')[0].pos_ == 'INTJ',
+                  'LID': False}
         tags = list(checks.keys())
         bools = list(checks.values())
         amnt_true = Counter([x for x in checks.values()])[True]
         if amnt_true == 1:
             word_kept_dict[tags[bools.index(True)]].append(word)
         else:
-            all_cats = [pos for pos,b in checks.items() if b==True]
+            all_cats = [pos for pos, b in checks.items() if b == True]
             if 'N' in all_cats:
                 word_kept_dict['N'].append(word)
             elif 'ADJ' in all_cats:
@@ -382,24 +385,29 @@ def performing_checks(word_list, word_kept_dict):
                 conflicts['cats'].append(tuple(all_cats))
     return (conflicts, word_kept_dict)
 
+
 # creating conflicts
-conflicts, kept_words_per_pos = performing_checks(remaining_words, kept_words_per_pos)
+conflicts, kept_words_per_pos = performing_checks(
+    remaining_words, kept_words_per_pos)
 
 # %% Dealing with conflicts
 # translating words to find Pos using pydictionary
-translated_words = dict(zip(conflicts['word'], translate_txt(conflicts['word'], project_number, batch=True)))
+translated_words = dict(zip(conflicts['word'], translate_txt(
+    conflicts['word'], project_number, batch=True)))
 conflicts['en_translation'] = [translated_words[x] for x in conflicts['word']]
 conflicts['pydictionary_en_pos'] = []
 
 # appending pos from pydictionary meaning
 for word in conflicts['en_translation']:
     try:
-        conflicts['pydictionary_en_pos'].append(tuple(dictionary.meaning(word).keys()))
+        conflicts['pydictionary_en_pos'].append(
+            tuple(dictionary.meaning(word).keys()))
     except:
         conflicts['pydictionary_en_pos'].append(())
 
 # iterating over words and pydictionary pos
-conflicts_df = pd.DataFrame(conflicts)[['word','pydictionary_en_pos']].drop_duplicates()
+conflicts_df = pd.DataFrame(
+    conflicts)[['word', 'pydictionary_en_pos']].drop_duplicates()
 conflicts_etc = []
 for word, pos in conflicts_df.values:
     if 'Noun' in pos:
@@ -422,12 +430,14 @@ conflicts_etc = conflicts_etc - set(kept_words_per_pos['BW'])
 
 # finalizing conflicts and removing remaining SPEC
 conflicts_df = pd.DataFrame(conflicts)
-conflicts_df = conflicts_df[(~conflicts_df['POS'].isin(['SPEC','WW','LID'])) & (conflicts_df['word'].isin(conflicts_etc))]
-for word, pos in conflicts_df[['word','POS']].values:
+conflicts_df = conflicts_df[(~conflicts_df['POS'].isin(
+    ['SPEC', 'WW', 'LID'])) & (conflicts_df['word'].isin(conflicts_etc))]
+for word, pos in conflicts_df[['word', 'POS']].values:
     kept_words_per_pos[pos].append(word)
 
 # including previously filtered nouns, verbs and adjectives in the kept words list
-tag_wl_gen = zip(['N', 'WW', 'ADJ'], [zelfstandige_nmw['Lemma'], verben['Lemma'], bijvoeglijk_nmw['Lemma']])
+tag_wl_gen = zip(['N', 'WW', 'ADJ'], [zelfstandige_nmw['Lemma'],
+                                      verben['Lemma'], bijvoeglijk_nmw['Lemma']])
 for tag, wordlist in tag_wl_gen:
     for word in wordlist.values:
         kept_words_per_pos[tag].append(word)
@@ -441,40 +451,51 @@ del kept_words_per_pos['SPEC']
 del kept_words_per_pos['LID']
 
 # checking duplicity of words in 2 pos tags
+
+
 def remove_duplicity_in_specified_groups(word_dict: dict, pos1_tuple: tuple, pos2_tuple: tuple):
     words_pos_duplicity = {}
     for pos1, pos2 in combinations(word_dict.keys(), 2):
-        words_pos_duplicity[(pos1,pos2)] = word_dict[pos1] & word_dict[pos2]
-        if pos1 in pos1_tuple: 
-            word_dict[pos2] = word_dict[pos2] - words_pos_duplicity[(pos1,pos2)]
-            words_pos_duplicity[(pos1,pos2)] = set()
+        words_pos_duplicity[(pos1, pos2)] = word_dict[pos1] & word_dict[pos2]
+        if pos1 in pos1_tuple:
+            word_dict[pos2] = word_dict[pos2] - \
+                words_pos_duplicity[(pos1, pos2)]
+            words_pos_duplicity[(pos1, pos2)] = set()
         elif pos2 in pos2_tuple:
-            word_dict[pos1] = word_dict[pos1] - words_pos_duplicity[(pos1,pos2)]
-            words_pos_duplicity[(pos1,pos2)] = set()
+            word_dict[pos1] = word_dict[pos1] - \
+                words_pos_duplicity[(pos1, pos2)]
+            words_pos_duplicity[(pos1, pos2)] = set()
     return (words_pos_duplicity, word_dict)
 
 # creating duplicity dict function
+
+
 def just_duplicity_dict(word_dict):
     words_pos_duplicity = {}
     for pos1, pos2 in combinations(word_dict.keys(), 2):
-        words_pos_duplicity[(pos1,pos2)] = word_dict[pos1] & word_dict[pos2]
+        words_pos_duplicity[(pos1, pos2)] = word_dict[pos1] & word_dict[pos2]
     return words_pos_duplicity
+
 
 # removing other types from general list
 params = {
-    'word_dict':kept_words_per_pos,
-    'pos1_tuple':('BW','TW','VZ','VNW','VG','TSW'),
-    'pos2_tuple':('BW','TW','VZ','VNW','VG','TSW')
+    'word_dict': kept_words_per_pos,
+    'pos1_tuple': ('BW', 'TW', 'VZ', 'VNW', 'VG', 'TSW'),
+    'pos2_tuple': ('BW', 'TW', 'VZ', 'VNW', 'VG', 'TSW')
 }
-words_pos_duplicity, kept_words_per_pos = remove_duplicity_in_specified_groups(**params)
+words_pos_duplicity, kept_words_per_pos = remove_duplicity_in_specified_groups(
+    **params)
 
 # ?????
 kept_words_per_pos['TSW'] = kept_words_per_pos['TSW'] - {'telefoonseks'}
 
 # removing duplicity for nouns added to remaining words
-kept_words_per_pos['WW'] = kept_words_per_pos['WW'] - words_pos_duplicity[('N','WW')]
-kept_words_per_pos['N'] = kept_words_per_pos['N'] - words_pos_duplicity[('N','WW')]
-kept_words_per_pos['N'] = kept_words_per_pos['N'] - words_pos_duplicity[('N','ADJ')] - words_pos_duplicity[('N','TSW')]
+kept_words_per_pos['WW'] = kept_words_per_pos['WW'] - \
+    words_pos_duplicity[('N', 'WW')]
+kept_words_per_pos['N'] = kept_words_per_pos['N'] - \
+    words_pos_duplicity[('N', 'WW')]
+kept_words_per_pos['N'] = kept_words_per_pos['N'] - \
+    words_pos_duplicity[('N', 'ADJ')] - words_pos_duplicity[('N', 'TSW')]
 
 # generating duplicity again
 words_pos_duplicity = just_duplicity_dict(kept_words_per_pos)
@@ -486,7 +507,7 @@ kept_words_per_pos['WW'] = kept_words_per_pos['WW'] | {'zijn'}
 kept_words_per_pos['VNW'] = kept_words_per_pos['VNW'] - {'het'}
 
 # %% Finalizing the complete dataframe
-main = {'word':[], 'POS':[]}
+main = {'word': [], 'POS': []}
 for pos in kept_words_per_pos.keys():
     for word in kept_words_per_pos[pos]:
         main['word'].append(word)
@@ -494,14 +515,15 @@ for pos in kept_words_per_pos.keys():
 
 # %% Translations
 # translating all the words to target language (default is EN)
-main['EN_translation'] = translate_txt(main['word'], project_number, batch=True, source='nl', target='en')
+main['EN_translation'] = translate_txt(
+    main['word'], project_number, batch=True, source='nl', target='en')
 
 # converting to df
 main = pd.DataFrame(main)
 
 # joining all word types
 lidwoorden = lidwoorden.reset_index(drop=True)
-lidwoorden = lidwoorden.rename(columns={'Lemma':'word'})
+lidwoorden = lidwoorden.rename(columns={'Lemma': 'word'})
 
 # finalizing the full df
 woorden = pd.concat([lidwoorden.reset_index(drop=True), main])
@@ -510,6 +532,9 @@ woorden = pd.concat([lidwoorden.reset_index(drop=True), main])
 woorden = woorden.merge(data, how='inner', on='word')
 woorden = woorden.sort_values('rel_freq', ascending=False)
 woorden = woorden.drop('rel_freq', axis=1).reset_index(drop=True)
+
+# applying lower to translations
+woorden['EN_translation'] = woorden['EN_translation'].apply(lambda x: x.lower())
 
 # %% functions for noun article finding
 # defining a function to scrape welklidwoord.nl
@@ -520,12 +545,15 @@ def welklidwoordnl(woord):
         tag = soup.find('span').text
     except:
         tag = np.nan
-    if tag not in ['De','Het','de','het']:
-        if tag in ['De of het',np.nan]:
-            return np.nan
+    if tag not in ['De', 'Het', 'de', 'het']:
+        if tag in ['De of het', np.nan]:
+            print(f'{woord} - {tag}')
+            return 'de/het'
         else:
+            print(f'{woord} - {soup.find("title").text}')
             return soup.find('title').text
     else:
+        print(f'{woord} - {tag}')
         return tag
 
 # defining a function to scrape prisma.nl spelling search
@@ -533,7 +561,7 @@ def prismanl(woord):
     page = requests.get(f'https://spelling.prisma.nl/?unitsearch={woord}')
     soup = BeautifulSoup(page.content, 'html.parser')
     try:
-        lidwoord = soup.find('div', {'class':'lemma_ws'}).text.split(' ')[1]
+        lidwoord = soup.find('div', {'class': 'lemma_ws'}).text.split(' ')[1]
     except:
         lidwoord = np.nan
     print(f'{woord} - {lidwoord}')
@@ -542,7 +570,20 @@ def prismanl(woord):
 # %% applying the prismanl function to find articles
 # creating the col
 woorden['lidwoord'] = np.nan
-woorden.loc[woorden['POS'] == 'N','lidwoord'] = woorden['word'].apply(lambda x: prismanl(x))
+woorden.loc[woorden['POS'] == 'N', 'lidwoord'] = woorden['word'].apply(
+    lambda x: prismanl(x))
 
-# outputting to a csv file
+# %% applying the welklidwoordnl function to find articles that prismanl didn't label accurately or didn't understand
+woorden.loc[(woorden['POS'] == 'N') & ((woorden['lidwoord'].isna()) | (~woorden['lidwoord'].isin(['de', 'het', 'de/het'])))
+            ] = woorden.loc[(woorden['POS'] == 'N') & ((woorden['lidwoord'].isna()) | (~woorden['lidwoord'].isin(['de', 'het', 'de/het'])))]['word'].apply(lambda x: welklidwoordnl(x))
+
+# applying lower to the column
+woorden.loc[woorden['POS'] == 'N', 'lidwoord'] = woorden.loc[woorden['POS'] == 'N', 'lidwoord'].apply(lambda x: x.lower())
+
+# %% doing some final checks on nouns that have ambiguous articles
+en_tx_art = woorden.loc[woorden['lidwoord'] == 'de/het','EN_translation'].apply(lambda x: f'the {x}')
+
+
+
+# %% outputting to a csv file
 woorden.to_csv('woorden_wl.csv')
