@@ -1,4 +1,7 @@
 # NLVertalingenEnLidwoorden
+
+🚧 this project is incomplete.
+
 Taking subtlex-nl and wordlex word frequency data, translating using a translator api and adding articles for nouns with the purpose of making an anki deck and a shareable dataset
 
 ## Citations
